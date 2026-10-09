@@ -48,8 +48,6 @@ def article(d):
     h.append("<section><h2>Meditation</h2>")
     if m:
         for para in m["paragraphs"]: h.append(f"<p>{esc(para)}</p>")
-        q = m["quote"]
-        h.append(f'<blockquote><p>\u201c{esc(q["text"])}\u201d</p><footer>\u2014 St Augustine</footer></blockquote>')
         if m.get("closing"): h.append(f'<p>{esc(m["closing"])}</p>')
     else:
         h.append('<p class="missing">The meditation for this day has not been prepared yet.</p>')
@@ -81,8 +79,10 @@ def main():
         if os.path.exists(cp):
             c = json.load(open(cp))
             if not verify_quote(c["quote"]): raise SystemExit(f"QUOTE NOT FOUND IN SOURCE for {date}")
-            d["meditation"] = {"paragraphs": c["paragraphs"], "quote": c["quote"], "closing": c.get("closing")}
-            wc = sum(len(p.split()) for p in c["paragraphs"]) + len(c["quote"]["text"].split()) + len((c.get("closing") or "").split())
+            paras_ = [x.replace("{{quote}}", c["quote"]["text"]) for x in c["paragraphs"]]
+            if not any("{{quote}}" in x for x in c["paragraphs"]): raise SystemExit(f"{date}: no {{{{quote}}}} placeholder in paragraphs")
+            d["meditation"] = {"paragraphs": paras_, "quote": c["quote"], "closing": c.get("closing")}
+            wc = sum(len(x.split()) for x in paras_) + len((c.get("closing") or "").split())
             print(date, "meditation words:", wc, "quote verified")
         json.dump(d, open(f, "w"), indent=1, ensure_ascii=False)
         os.makedirs(f"{ROOT}/public/d/{date}", exist_ok=True)
