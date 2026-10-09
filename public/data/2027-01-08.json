@@ -1,0 +1,46 @@
+{
+ "date": "2027-01-08",
+ "title": "Friday after Epiphany",
+ "source": "https://bible.usccb.org/bible/readings/010827.cfm",
+ "readings": [
+  {
+   "label": "Reading I",
+   "ref": "1 John 5:5-13",
+   "passages": [
+    {
+     "ref": "1 John 5:5-13",
+     "text": "Who is he that overcometh the world, but he that believeth that Jesus is the Son of God? This is he that came by water and blood, even Jesus Christ; not by water only, but by water and blood. And it is the Spirit that beareth witness, because the Spirit is truth. For there are three that bear record in heaven, the Father, the Word, and the Holy Ghost: and these three are one. And there are three that bear witness in earth, the spirit, and the water, and the blood: and these three agree in one. If we receive the witness of men, the witness of God is greater: for this is the witness of God which he hath testified of his Son. He that believeth on the Son of God hath the witness in himself: he that believeth not God hath made him a liar; because he believeth not the record that God gave of his Son. And this is the record, that God hath given to us eternal life, and this life is in his Son. He that hath the Son hath life; and he that hath not the Son of God hath not life. These things have I written unto you that believe on the name of the Son of God; that ye may know that ye have eternal life, and that ye may believe on the name of the Son of God.",
+     "score": 0.55,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 147:12-13, 14-15, 19-20",
+   "passages": [
+    {
+     "ref": "Psalm 147:12-13, 14-15, 19-20",
+     "text": "Praise the LORD, O Jerusalem; praise thy God, O Zion.\nFor he hath strengthened the bars of thy gates; he hath blessed thy children within thee.\nHe maketh peace in thy borders, and filleth thee with the finest of the wheat.\nHe sendeth forth his commandment upon earth: his word runneth very swiftly.\n\nHe sheweth his word unto Jacob, his statutes and his judgments unto Israel.\nHe hath not dealt so with any nation: and as for his judgments, they have not known them. Praise ye the LORD.",
+     "score": 0.67,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Luke 5:12-16",
+   "passages": [
+    {
+     "ref": "Luke 5:12-16",
+     "text": "And it came to pass, when he was in a certain city, behold a man full of leprosy: who seeing Jesus fell on his face, and besought him, saying, Lord, if thou wilt, thou canst make me clean. And he put forth his hand, and touched him, saying, I will: be thou clean. And immediately the leprosy departed from him. And he charged him to tell no man: but go, and shew thyself to the priest, and offer for thy cleansing, according as Moses commanded, for a testimony unto them. But so much the more went there a fame abroad of him: and great multitudes came together to hear, and to be healed by him of their infirmities. And he withdrew himself into the wilderness, and prayed.",
+     "score": 0.43,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

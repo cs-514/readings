@@ -1,0 +1,46 @@
+{
+ "date": "2026-12-05",
+ "title": "Saturday of the First Week of Advent",
+ "source": "https://bible.usccb.org/bible/readings/120526.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Isaiah 30:19-21, 23-26",
+   "passages": [
+    {
+     "ref": "Isaiah 30:19-21, 23-26",
+     "text": "For the people shall dwell in Zion at Jerusalem: thou shalt weep no more: he will be very gracious unto thee at the voice of thy cry; when he shall hear it, he will answer thee. And though the Lord give you the bread of adversity, and the water of affliction, yet shall not thy teachers be removed into a corner any more, but thine eyes shall see thy teachers: And thine ears shall hear a word behind thee, saying, This is the way, walk ye in it, when ye turn to the right hand, and when ye turn to the left.\n\nThen shall he give the rain of thy seed, that thou shalt sow the ground withal; and bread of the increase of the earth, and it shall be fat and plenteous: in that day shall thy cattle feed in large pastures. The oxen likewise and the young asses that ear the ground shall eat clean provender, which hath been winnowed with the shovel and with the fan. And there shall be upon every high mountain, and upon every high hill, rivers and streams of waters in the day of the great slaughter, when the towers fall. Moreover the light of the moon shall be as the light of the sun, and the light of the sun shall be sevenfold, as the light of seven days, in the day that the LORD bindeth up the breach of his people, and healeth the stroke of their wound.",
+     "score": 0.58,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 147:1-2, 3-4, 5-6",
+   "passages": [
+    {
+     "ref": "Psalm 147:1-2, 3-4, 5-6",
+     "text": "Praise ye the LORD: for it is good to sing praises unto our God; for it is pleasant; and praise is comely.\nThe LORD doth build up Jerusalem: he gathereth together the outcasts of Israel.\nHe healeth the broken in heart, and bindeth up their wounds.\nHe telleth the number of the stars; he calleth them all by their names.\nGreat is our Lord, and of great power: his understanding is infinite.\nThe LORD lifteth up the meek: he casteth the wicked down to the ground.",
+     "score": 0.65,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Matthew 9:35–10:1, 5a, 6-8",
+   "passages": [
+    {
+     "ref": "Matthew 9:35–10:1, 5a, 6-8",
+     "text": "And Jesus went about all the cities and villages, teaching in their synagogues, and preaching the gospel of the kingdom, and healing every sickness and every disease among the people. But when he saw the multitudes, he was moved with compassion on them, because they fainted, and were scattered abroad, as sheep having no shepherd. Then saith he unto his disciples, The harvest truly is plenteous, but the labourers are few; Pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest.\n\nAnd when he had called unto him his twelve disciples, he gave them power against unclean spirits, to cast them out, and to heal all manner of sickness and all manner of disease.\n\nThese twelve Jesus sent forth, and commanded them, saying, Go not into the way of the Gentiles, and into any city of the Samaritans enter ye not: But go rather to the lost sheep of the house of Israel. And as ye go, preach, saying, The kingdom of heaven is at hand. Heal the sick, cleanse the lepers, raise the dead, cast out devils: freely ye have received, freely give.",
+     "score": 0.54,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

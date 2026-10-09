@@ -1,0 +1,46 @@
+{
+ "date": "2027-02-05",
+ "title": "Memorial of Saint Agatha, Virgin and Martyr",
+ "source": "https://bible.usccb.org/bible/readings/020527.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Hebrews 13:1-8",
+   "passages": [
+    {
+     "ref": "Hebrews 13:1-8",
+     "text": "Let brotherly love continue. Be not forgetful to entertain strangers: for thereby some have entertained angels unawares. Remember them that are in bonds, as bound with them; and them which suffer adversity, as being yourselves also in the body. Marriage is honourable in all, and the bed undefiled: but whoremongers and adulterers God will judge. Let your conversation be without covetousness; and be content with such things as ye have: for he hath said, I will never leave thee, nor forsake thee. So that we may boldly say, The Lord is my helper, and I will not fear what man shall do unto me. Remember them which have the rule over you, who have spoken unto you the word of God: whose faith follow, considering the end of their conversation. Jesus Christ the same yesterday, and to day, and for ever.",
+     "score": 0.48,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 27:1, 3, 5, 8b-9abc",
+   "passages": [
+    {
+     "ref": "Psalm 27:1, 3, 5, 8b-9abc",
+     "text": "The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life; of whom shall I be afraid?\n\nThough an host should encamp against me, my heart shall not fear: though war should rise against me, in this will I be confident.\n\nFor in the time of trouble he shall hide me in his pavilion: in the secret of his tabernacle shall he hide me; he shall set me up upon a rock.\n\nWhen thou saidst, Seek ye my face; my heart said unto thee, Thy face, LORD, will I seek.\nHide not thy face far from me; put not thy servant away in anger: thou hast been my help; leave me not, neither forsake me, O God of my salvation.",
+     "score": 0.55,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Mark 6:14-29",
+   "passages": [
+    {
+     "ref": "Mark 6:14-29",
+     "text": "And king Herod heard of him; (for his name was spread abroad:) and he said, That John the Baptist was risen from the dead, and therefore mighty works do shew forth themselves in him. Others said, That it is Elias. And others said, That it is a prophet, or as one of the prophets. But when Herod heard thereof, he said, It is John, whom I beheaded: he is risen from the dead. For Herod himself had sent forth and laid hold upon John, and bound him in prison for Herodias' sake, his brother Philip's wife: for he had married her. For John had said unto Herod, It is not lawful for thee to have thy brother's wife. Therefore Herodias had a quarrel against him, and would have killed him; but she could not: For Herod feared John, knowing that he was a just man and an holy, and observed him; and when he heard him, he did many things, and heard him gladly. And when a convenient day was come, that Herod on his birthday made a supper to his lords, high captains, and chief estates of Galilee; And when the daughter of the said Herodias came in, and danced, and pleased Herod and them that sat with him, the king said unto the damsel, Ask of me whatsoever thou wilt, and I will give it thee. And he sware unto her, Whatsoever thou shalt ask of me, I will give it thee, unto the half of my kingdom. And she went forth, and said unto her mother, What shall I ask? And she said, The head of John the Baptist. And she came in straightway with haste unto the king, and asked, saying, I will that thou give me by and by in a charger the head of John the Baptist. And the king was exceeding sorry; yet for his oath's sake, and for their sakes which sat with him, he would not reject her. And immediately the king sent an executioner, and commanded his head to be brought: and he went and beheaded him in the prison, And brought his head in a charger, and gave it to the damsel: and the damsel gave it to her mother. And when his disciples heard of it, they came and took up his corpse, and laid it in a tomb.",
+     "score": 0.45,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

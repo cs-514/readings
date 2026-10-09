@@ -1,0 +1,46 @@
+{
+ "date": "2027-01-18",
+ "title": "Monday of the Second Week in Ordinary Time",
+ "source": "https://bible.usccb.org/bible/readings/011827.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Hebrews 5:1-10",
+   "passages": [
+    {
+     "ref": "Hebrews 5:1-10",
+     "text": "For every high priest taken from among men is ordained for men in things pertaining to God, that he may offer both gifts and sacrifices for sins: Who can have compassion on the ignorant, and on them that are out of the way; for that he himself also is compassed with infirmity. And by reason hereof he ought, as for the people, so also for himself, to offer for sins. And no man taketh this honour unto himself, but he that is called of God, as was Aaron. So also Christ glorified not himself to be made an high priest; but he that said unto him, Thou art my Son, to day have I begotten thee. As he saith also in another place, Thou art a priest for ever after the order of Melchisedec. Who in the days of his flesh, when he had offered up prayers and supplications with strong crying and tears unto him that was able to save him from death, and was heard in that he feared; Though he were a Son, yet learned he obedience by the things which he suffered; And being made perfect, he became the author of eternal salvation unto all them that obey him; Called of God an high priest after the order of Melchisedec.",
+     "score": 0.59,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 110:1, 2, 3, 4",
+   "passages": [
+    {
+     "ref": "Psalm 110:1, 2, 3, 4",
+     "text": "The LORD said unto my Lord, Sit thou at my right hand, until I make thine enemies thy footstool.\nThe LORD shall send the rod of thy strength out of Zion: rule thou in the midst of thine enemies.\nThy people shall be willing in the day of thy power, in the beauties of holiness from the womb of the morning: thou hast the dew of thy youth.\nThe LORD hath sworn, and will not repent, Thou art a priest for ever after the order of Melchizedek.",
+     "score": 0.52,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Mark 2:18-22",
+   "passages": [
+    {
+     "ref": "Mark 2:18-22",
+     "text": "And the disciples of John and of the Pharisees used to fast: and they come and say unto him, Why do the disciples of John and of the Pharisees fast, but thy disciples fast not? And Jesus said unto them, Can the children of the bridechamber fast, while the bridegroom is with them? as long as they have the bridegroom with them, they cannot fast. But the days will come, when the bridegroom shall be taken away from them, and then shall they fast in those days. No man also seweth a piece of new cloth on an old garment: else the new piece that filled it up taketh away from the old, and the rent is made worse. And no man putteth new wine into old bottles: else the new wine doth burst the bottles, and the wine is spilled, and the bottles will be marred: but new wine must be put into new bottles.",
+     "score": 0.41,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

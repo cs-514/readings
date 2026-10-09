@@ -1,0 +1,59 @@
+{
+ "date": "2026-10-25",
+ "title": "Thirtieth Sunday in Ordinary Time",
+ "source": "https://bible.usccb.org/bible/readings/102526.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Exodus 22:20-26",
+   "passages": [
+    {
+     "ref": "Exodus 22:20-26",
+     "text": "He that sacrificeth unto any god, save unto the LORD only, he shall be utterly destroyed. Thou shalt neither vex a stranger, nor oppress him: for ye were strangers in the land of Egypt. Ye shall not afflict any widow, or fatherless child. If thou afflict them in any wise, and they cry at all unto me, I will surely hear their cry; And my wrath shall wax hot, and I will kill you with the sword; and your wives shall be widows, and your children fatherless. If thou lend money to any of my people that is poor by thee, thou shalt not be to him as an usurer, neither shalt thou lay upon him usury. If thou at all take thy neighbour's raiment to pledge, thou shalt deliver it unto him by that the sun goeth down:",
+     "score": 0.41,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 18:2-3, 3-4, 47, 51",
+   "passages": [
+    {
+     "ref": "Psalm 18:2-3, 3-4, 47, 51",
+     "text": "I will love thee, O LORD, my strength.\nThe LORD is my rock, and my fortress, and my deliverer; my God, my strength, in whom I will trust; my buckler, and the horn of my salvation, and my high tower.\nI will call upon the LORD, who is worthy to be praised: so shall I be saved from mine enemies.\n\nThe LORD liveth; and blessed be my rock; and let the God of my salvation be exalted.\n\nGreat deliverance giveth he to his king; and sheweth mercy to his anointed, to David, and to his seed for evermore.",
+     "score": 0.54,
+     "shift": -1,
+     "note": "Verse numbering differs between the USCCB (NABRE) and the King James Version; matched to the equivalent KJV verses."
+    }
+   ]
+  },
+  {
+   "label": "Reading 2",
+   "ref": "1 Thessalonians 1:5c-10",
+   "passages": [
+    {
+     "ref": "1 Thessalonians 1:5c-10",
+     "text": "For our gospel came not unto you in word only, but also in power, and in the Holy Ghost, and in much assurance; as ye know what manner of men we were among you for your sake. And ye became followers of us, and of the Lord, having received the word in much affliction, with joy of the Holy Ghost: So that ye were ensamples to all that believe in Macedonia and Achaia. For from you sounded out the word of the Lord not only in Macedonia and Achaia, but also in every place your faith to God-ward is spread abroad; so that we need not to speak any thing. For they themselves shew of us what manner of entering in we had unto you, and how ye turned to God from idols to serve the living and true God; And to wait for his Son from heaven, whom he raised from the dead, even Jesus, which delivered us from the wrath to come.",
+     "score": 0.63,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Matthew 22:34-40",
+   "passages": [
+    {
+     "ref": "Matthew 22:34-40",
+     "text": "But when the Pharisees had heard that he had put the Sadducees to silence, they were gathered together. Then one of them, which was a lawyer, asked him a question, tempting him, and saying, Master, which is the great commandment in the law? Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind. This is the first and great commandment. And the second is like unto it, Thou shalt love thy neighbour as thyself. On these two commandments hang all the law and the prophets.",
+     "score": 0.69,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

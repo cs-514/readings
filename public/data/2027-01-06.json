@@ -1,0 +1,46 @@
+{
+ "date": "2027-01-06",
+ "title": "Wednesday after Epiphany",
+ "source": "https://bible.usccb.org/bible/readings/010627.cfm",
+ "readings": [
+  {
+   "label": "Reading I",
+   "ref": "1 John 4:11-18",
+   "passages": [
+    {
+     "ref": "1 John 4:11-18",
+     "text": "Beloved, if God so loved us, we ought also to love one another. No man hath seen God at any time. If we love one another, God dwelleth in us, and his love is perfected in us. Hereby know we that we dwell in him, and he in us, because he hath given us of his Spirit. And we have seen and do testify that the Father sent the Son to be the Saviour of the world. Whosoever shall confess that Jesus is the Son of God, God dwelleth in him, and he in God. And we have known and believed the love that God hath to us. God is love; and he that dwelleth in love dwelleth in God, and God in him. Herein is our love made perfect, that we may have boldness in the day of judgment: because as he is, so are we in this world. There is no fear in love; but perfect love casteth out fear: because fear hath torment. He that feareth is not made perfect in love.",
+     "score": 0.55,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 72:1-2, 10, 12-13",
+   "passages": [
+    {
+     "ref": "Psalm 72:1-2, 10, 12-13",
+     "text": "Give the king thy judgments, O God, and thy righteousness unto the king's son.\nHe shall judge thy people with righteousness, and thy poor with judgment.\n\nThe kings of Tarshish and of the isles shall bring presents: the kings of Sheba and Seba shall offer gifts.\n\nFor he shall deliver the needy when he crieth; the poor also, and him that hath no helper.\nHe shall spare the poor and needy, and shall save the souls of the needy.",
+     "score": 0.46,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Mark 6:45-52",
+   "passages": [
+    {
+     "ref": "Mark 6:45-52",
+     "text": "And straightway he constrained his disciples to get into the ship, and to go to the other side before unto Bethsaida, while he sent away the people. And when he had sent them away, he departed into a mountain to pray. And when even was come, the ship was in the midst of the sea, and he alone on the land. And he saw them toiling in rowing; for the wind was contrary unto them: and about the fourth watch of the night he cometh unto them, walking upon the sea, and would have passed by them. But when they saw him walking upon the sea, they supposed it had been a spirit, and cried out: For they all saw him, and were troubled. And immediately he talked with them, and saith unto them, Be of good cheer: it is I; be not afraid. And he went up unto them into the ship; and the wind ceased: and they were sore amazed in themselves beyond measure, and wondered. For they considered not the miracle of the loaves: for their heart was hardened.",
+     "score": 0.4,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "date": "2026-10-16",
+ "title": "Friday of the Twenty-eighth Week in Ordinary Time",
+ "source": "https://bible.usccb.org/bible/readings/101626.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Ephesians 1:11-14",
+   "passages": [
+    {
+     "ref": "Ephesians 1:11-14",
+     "text": "In whom also we have obtained an inheritance, being predestinated according to the purpose of him who worketh all things after the counsel of his own will: That we should be to the praise of his glory, who first trusted in Christ. In whom ye also trusted, after that ye heard the word of truth, the gospel of your salvation: in whom also after that ye believed, ye were sealed with that holy Spirit of promise, Which is the earnest of our inheritance until the redemption of the purchased possession, unto the praise of his glory.",
+     "score": 0.65,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 33:1-2, 4-5, 12-13",
+   "passages": [
+    {
+     "ref": "Psalm 33:1-2, 4-5, 12-13",
+     "text": "Rejoice in the LORD, O ye righteous: for praise is comely for the upright.\nPraise the LORD with harp: sing unto him with the psaltery and an instrument of ten strings.\n\nFor the word of the LORD is right; and all his works are done in truth.\nHe loveth righteousness and judgment: the earth is full of the goodness of the LORD.\n\nBlessed is the nation whose God is the LORD: and the people whom he hath chosen for his own inheritance.\nThe LORD looketh from heaven; he beholdeth all the sons of men.",
+     "score": 0.55,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Luke 12:1-7",
+   "passages": [
+    {
+     "ref": "Luke 12:1-7",
+     "text": "In the mean time, when there were gathered together an innumerable multitude of people, insomuch that they trode one upon another, he began to say unto his disciples first of all, Beware ye of the leaven of the Pharisees, which is hypocrisy. For there is nothing covered, that shall not be revealed; neither hid, that shall not be known. Therefore whatsoever ye have spoken in darkness shall be heard in the light; and that which ye have spoken in the ear in closets shall be proclaimed upon the housetops. And I say unto you my friends, Be not afraid of them that kill the body, and after that have no more that they can do. But I will forewarn you whom ye shall fear: Fear him, which after he hath killed hath power to cast into hell; yea, I say unto you, Fear him. Are not five sparrows sold for two farthings, and not one of them is forgotten before God? But even the very hairs of your head are all numbered. Fear not therefore: ye are of more value than many sparrows.",
+     "score": 0.63,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

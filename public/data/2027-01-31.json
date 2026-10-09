@@ -1,0 +1,59 @@
+{
+ "date": "2027-01-31",
+ "title": "Fourth Sunday in Ordinary Time",
+ "source": "https://bible.usccb.org/bible/readings/013127.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Deuteronomy 18:15-20",
+   "passages": [
+    {
+     "ref": "Deuteronomy 18:15-20",
+     "text": "The LORD thy God will raise up unto thee a Prophet from the midst of thee, of thy brethren, like unto me; unto him ye shall hearken; According to all that thou desiredst of the LORD thy God in Horeb in the day of the assembly, saying, Let me not hear again the voice of the LORD my God, neither let me see this great fire any more, that I die not. And the LORD said unto me, They have well spoken that which they have spoken. I will raise them up a Prophet from among their brethren, like unto thee, and will put my words in his mouth; and he shall speak unto them all that I shall command him. And it shall come to pass, that whosoever will not hearken unto my words which he shall speak in my name, I will require it of him. But the prophet, which shall presume to speak a word in my name, which I have not commanded him to speak, or that shall speak in the name of other gods, even that prophet shall die.",
+     "score": 0.64,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 95:1-2, 6-7, 7-9",
+   "passages": [
+    {
+     "ref": "Psalm 95:1-2, 6-7, 7-9",
+     "text": "O come, let us sing unto the LORD: let us make a joyful noise to the rock of our salvation.\nLet us come before his presence with thanksgiving, and make a joyful noise unto him with psalms.\n\nO come, let us worship and bow down: let us kneel before the LORD our maker.\nFor he is our God; and we are the people of his pasture, and the sheep of his hand. To day if ye will hear his voice,\nHarden not your heart, as in the provocation, and as in the day of temptation in the wilderness:\nWhen your fathers tempted me, proved me, and saw my work.",
+     "score": 0.61,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Reading 2",
+   "ref": "1 Corinthians 7:32-35",
+   "passages": [
+    {
+     "ref": "1 Corinthians 7:32-35",
+     "text": "But I would have you without carefulness. He that is unmarried careth for the things that belong to the Lord, how he may please the Lord: But he that is married careth for the things that are of the world, how he may please his wife. There is difference also between a wife and a virgin. The unmarried woman careth for the things of the Lord, that she may be holy both in body and in spirit: but she that is married careth for the things of the world, how she may please her husband. And this I speak for your own profit; not that I may cast a snare upon you, but for that which is comely, and that ye may attend upon the Lord without distraction.",
+     "score": 0.5,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Mark 1:21-28",
+   "passages": [
+    {
+     "ref": "Mark 1:21-28",
+     "text": "And they went into Capernaum; and straightway on the sabbath day he entered into the synagogue, and taught. And they were astonished at his doctrine: for he taught them as one that had authority, and not as the scribes. And there was in their synagogue a man with an unclean spirit; and he cried out, Saying, Let us alone; what have we to do with thee, thou Jesus of Nazareth? art thou come to destroy us? I know thee who thou art, the Holy One of God. And Jesus rebuked him, saying, Hold thy peace, and come out of him. And when the unclean spirit had torn him, and cried with a loud voice, he came out of him. And they were all amazed, insomuch that they questioned among themselves, saying, What thing is this? what new doctrine is this? for with authority commandeth he even the unclean spirits, and they do obey him. And immediately his fame spread abroad throughout all the region round about Galilee.",
+     "score": 0.76,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

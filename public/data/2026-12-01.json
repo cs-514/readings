@@ -1,0 +1,46 @@
+{
+ "date": "2026-12-01",
+ "title": "Tuesday of the First Week of Advent",
+ "source": "https://bible.usccb.org/bible/readings/120126.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Isaiah 11:1-10",
+   "passages": [
+    {
+     "ref": "Isaiah 11:1-10",
+     "text": "And there shall come forth a rod out of the stem of Jesse, and a Branch shall grow out of his roots: And the spirit of the LORD shall rest upon him, the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of the LORD; And shall make him of quick understanding in the fear of the LORD: and he shall not judge after the sight of his eyes, neither reprove after the hearing of his ears: But with righteousness shall he judge the poor, and reprove with equity for the meek of the earth: and he shall smite the earth with the rod of his mouth, and with the breath of his lips shall he slay the wicked. And righteousness shall be the girdle of his loins, and faithfulness the girdle of his reins. The wolf also shall dwell with the lamb, and the leopard shall lie down with the kid; and the calf and the young lion and the fatling together; and a little child shall lead them. And the cow and the bear shall feed; their young ones shall lie down together: and the lion shall eat straw like the ox. And the sucking child shall play on the hole of the asp, and the weaned child shall put his hand on the cockatrice' den. They shall not hurt nor destroy in all my holy mountain: for the earth shall be full of the knowledge of the LORD, as the waters cover the sea. And in that day there shall be a root of Jesse, which shall stand for an ensign of the people; to it shall the Gentiles seek: and his rest shall be glorious.",
+     "score": 0.55,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 72:1-2, 7-8, 12-13, 17",
+   "passages": [
+    {
+     "ref": "Psalm 72:1-2, 7-8, 12-13, 17",
+     "text": "Give the king thy judgments, O God, and thy righteousness unto the king's son.\nHe shall judge thy people with righteousness, and thy poor with judgment.\n\nIn his days shall the righteous flourish; and abundance of peace so long as the moon endureth.\nHe shall have dominion also from sea to sea, and from the river unto the ends of the earth.\n\nFor he shall deliver the needy when he crieth; the poor also, and him that hath no helper.\nHe shall spare the poor and needy, and shall save the souls of the needy.\n\nHis name shall endure for ever: his name shall be continued as long as the sun: and men shall be blessed in him: all nations shall call him blessed.",
+     "score": 0.42,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Luke 10:21-24",
+   "passages": [
+    {
+     "ref": "Luke 10:21-24",
+     "text": "In that hour Jesus rejoiced in spirit, and said, I thank thee, O Father, Lord of heaven and earth, that thou hast hid these things from the wise and prudent, and hast revealed them unto babes: even so, Father; for so it seemed good in thy sight. All things are delivered to me of my Father: and no man knoweth who the Son is, but the Father; and who the Father is, but the Son, and he to whom the Son will reveal him. And he turned him unto his disciples, and said privately, Blessed are the eyes which see the things that ye see: For I tell you, that many prophets and kings have desired to see those things which ye see, and have not seen them; and to hear those things which ye hear, and have not heard them.",
+     "score": 0.61,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

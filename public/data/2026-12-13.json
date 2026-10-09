@@ -1,0 +1,59 @@
+{
+ "date": "2026-12-13",
+ "title": "Third Sunday of Advent",
+ "source": "https://bible.usccb.org/bible/readings/121326.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Isaiah 61:1-2a, 10-11",
+   "passages": [
+    {
+     "ref": "Isaiah 61:1-2a, 10-11",
+     "text": "The Spirit of the Lord GOD is upon me; because the LORD hath anointed me to preach good tidings unto the meek; he hath sent me to bind up the brokenhearted, to proclaim liberty to the captives, and the opening of the prison to them that are bound; To proclaim the acceptable year of the LORD, and the day of vengeance of our God; to comfort all that mourn;\n\nI will greatly rejoice in the LORD, my soul shall be joyful in my God; for he hath clothed me with the garments of salvation, he hath covered me with the robe of righteousness, as a bridegroom decketh himself with ornaments, and as a bride adorneth herself with her jewels. For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations.",
+     "score": 0.6,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Luke 1:46-48, 49-50, 53-54",
+   "passages": [
+    {
+     "ref": "Luke 1:46-48, 49-50, 53-54",
+     "text": "And Mary said, My soul doth magnify the Lord, And my spirit hath rejoiced in God my Saviour. For he hath regarded the low estate of his handmaiden: for, behold, from henceforth all generations shall call me blessed. For he that is mighty hath done to me great things; and holy is his name. And his mercy is on them that fear him from generation to generation.\n\nHe hath filled the hungry with good things; and the rich he hath sent empty away. He hath holpen his servant Israel, in remembrance of his mercy;",
+     "score": 0.68,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Reading 2",
+   "ref": "1 Thessalonians 5:16-24",
+   "passages": [
+    {
+     "ref": "1 Thessalonians 5:16-24",
+     "text": "Rejoice evermore. Pray without ceasing. In every thing give thanks: for this is the will of God in Christ Jesus concerning you. Quench not the Spirit. Despise not prophesyings. Prove all things; hold fast that which is good. Abstain from all appearance of evil. And the very God of peace sanctify you wholly; and I pray God your whole spirit and soul and body be preserved blameless unto the coming of our Lord Jesus Christ. Faithful is he that calleth you, who also will do it.",
+     "score": 0.62,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "John 1:6-8, 19-28",
+   "passages": [
+    {
+     "ref": "John 1:6-8, 19-28",
+     "text": "There was a man sent from God, whose name was John. The same came for a witness, to bear witness of the Light, that all men through him might believe. He was not that Light, but was sent to bear witness of that Light.\n\nAnd this is the record of John, when the Jews sent priests and Levites from Jerusalem to ask him, Who art thou? And he confessed, and denied not; but confessed, I am not the Christ. And they asked him, What then? Art thou Elias? And he saith, I am not. Art thou that prophet? And he answered, No. Then said they unto him, Who art thou? that we may give an answer to them that sent us. What sayest thou of thyself? He said, I am the voice of one crying in the wilderness, Make straight the way of the Lord, as said the prophet Esaias. And they which were sent were of the Pharisees. And they asked him, and said unto him, Why baptizest thou then, if thou be not that Christ, nor Elias, neither that prophet? John answered them, saying, I baptize with water: but there standeth one among you, whom ye know not; He it is, who coming after me is preferred before me, whose shoe's latchet I am not worthy to unloose. These things were done in Bethabara beyond Jordan, where John was baptizing.",
+     "score": 0.63,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

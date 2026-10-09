@@ -1,0 +1,46 @@
+{
+ "date": "2026-10-27",
+ "title": "Tuesday of the Thirtieth Week in Ordinary Time",
+ "source": "https://bible.usccb.org/bible/readings/102726.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Ephesians 5:21-33",
+   "passages": [
+    {
+     "ref": "Ephesians 5:21-33",
+     "text": "Submitting yourselves one to another in the fear of God. Wives, submit yourselves unto your own husbands, as unto the Lord. For the husband is the head of the wife, even as Christ is the head of the church: and he is the saviour of the body. Therefore as the church is subject unto Christ, so let the wives be to their own husbands in every thing. Husbands, love your wives, even as Christ also loved the church, and gave himself for it; That he might sanctify and cleanse it with the washing of water by the word, That he might present it to himself a glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish. So ought men to love their wives as their own bodies. He that loveth his wife loveth himself. For no man ever yet hated his own flesh; but nourisheth and cherisheth it, even as the Lord the church: For we are members of his body, of his flesh, and of his bones. For this cause shall a man leave his father and mother, and shall be joined unto his wife, and they two shall be one flesh. This is a great mystery: but I speak concerning Christ and the church. Nevertheless let every one of you in particular so love his wife even as himself; and the wife see that she reverence her husband.",
+     "score": 0.68,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 128:1-2, 3, 4-5",
+   "passages": [
+    {
+     "ref": "Psalm 128:1-2, 3, 4-5",
+     "text": "Blessed is every one that feareth the LORD; that walketh in his ways.\nFor thou shalt eat the labour of thine hands: happy shalt thou be, and it shall be well with thee.\nThy wife shall be as a fruitful vine by the sides of thine house: thy children like olive plants round about thy table.\nBehold, that thus shall the man be blessed that feareth the LORD.\nThe LORD shall bless thee out of Zion: and thou shalt see the good of Jerusalem all the days of thy life.",
+     "score": 0.74,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Luke 13:18-21",
+   "passages": [
+    {
+     "ref": "Luke 13:18-21",
+     "text": "Then said he, Unto what is the kingdom of God like? and whereunto shall I resemble it? It is like a grain of mustard seed, which a man took, and cast into his garden; and it grew, and waxed a great tree; and the fowls of the air lodged in the branches of it. And again he said, Whereunto shall I liken the kingdom of God? It is like leaven, which a woman took and hid in three measures of meal, till the whole was leavened.",
+     "score": 0.43,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

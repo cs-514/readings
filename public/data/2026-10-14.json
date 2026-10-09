@@ -1,0 +1,46 @@
+{
+ "date": "2026-10-14",
+ "title": "Wednesday of the Twenty-eighth Week in Ordinary Time",
+ "source": "https://bible.usccb.org/bible/readings/101426.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Galatians 5:18-25",
+   "passages": [
+    {
+     "ref": "Galatians 5:18-25",
+     "text": "But if ye be led of the Spirit, ye are not under the law. Now the works of the flesh are manifest, which are these; Adultery, fornication, uncleanness, lasciviousness, Idolatry, witchcraft, hatred, variance, emulations, wrath, strife, seditions, heresies, Envyings, murders, drunkenness, revellings, and such like: of the which I tell you before, as I have also told you in time past, that they which do such things shall not inherit the kingdom of God. But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance: against such there is no law. And they that are Christ's have crucified the flesh with the affections and lusts. If we live in the Spirit, let us also walk in the Spirit.",
+     "score": 0.34,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 1:1-2, 3, 4, 6",
+   "passages": [
+    {
+     "ref": "Psalm 1:1-2, 3, 4, 6",
+     "text": "Blessed is the man that walketh not in the counsel of the ungodly, nor standeth in the way of sinners, nor sitteth in the seat of the scornful.\nBut his delight is in the law of the LORD; and in his law doth he meditate day and night.\nAnd he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper.\nThe ungodly are not so: but are like the chaff which the wind driveth away.\n\nFor the LORD knoweth the way of the righteous: but the way of the ungodly shall perish.",
+     "score": 0.54,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Luke 11:42-46",
+   "passages": [
+    {
+     "ref": "Luke 11:42-46",
+     "text": "But woe unto you, Pharisees! for ye tithe mint and rue and all manner of herbs, and pass over judgment and the love of God: these ought ye to have done, and not to leave the other undone. Woe unto you, Pharisees! for ye love the uppermost seats in the synagogues, and greetings in the markets. Woe unto you, scribes and Pharisees, hypocrites! for ye are as graves which appear not, and the men that walk over them are not aware of them. Then answered one of the lawyers, and said unto him, Master, thus saying thou reproachest us also. And he said, Woe unto you also, ye lawyers! for ye lade men with burdens grievous to be borne, and ye yourselves touch not the burdens with one of your fingers.",
+     "score": 0.47,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

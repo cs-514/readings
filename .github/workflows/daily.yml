@@ -1,0 +1,17 @@
+name: daily-build
+on: {schedule: [{cron: "15 4 * * *"}], workflow_dispatch: {}, push: {branches: [main]}}
+permissions: {pages: write, id-token: write, contents: read}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: mkdir -p cache/usccb cache/kjv cache/na public/data public/d
+      - run: python3 tools/build.py --days 45 && python3 tools/render.py
+      - uses: actions/upload-pages-artifact@v3
+        with: {path: public}
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: {name: github-pages}
+    steps: [{uses: actions/deploy-pages@v4}]

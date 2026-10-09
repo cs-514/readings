@@ -1,0 +1,46 @@
+{
+ "date": "2026-10-20",
+ "title": "Tuesday of the Twenty-ninth Week in Ordinary Time",
+ "source": "https://bible.usccb.org/bible/readings/102026.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Ephesians 2:12-22",
+   "passages": [
+    {
+     "ref": "Ephesians 2:12-22",
+     "text": "That at that time ye were without Christ, being aliens from the commonwealth of Israel, and strangers from the covenants of promise, having no hope, and without God in the world: But now in Christ Jesus ye who sometimes were far off are made nigh by the blood of Christ. For he is our peace, who hath made both one, and hath broken down the middle wall of partition between us; Having abolished in his flesh the enmity, even the law of commandments contained in ordinances; for to make in himself of twain one new man, so making peace; And that he might reconcile both unto God in one body by the cross, having slain the enmity thereby: And came and preached peace to you which were afar off, and to them that were nigh. For through him we both have access by one Spirit unto the Father. Now therefore ye are no more strangers and foreigners, but fellowcitizens with the saints, and of the household of God; And are built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner stone; In whom all the building fitly framed together groweth unto an holy temple in the Lord: In whom ye also are builded together for an habitation of God through the Spirit.",
+     "score": 0.58,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 85:9ab-10, 11-12, 13-14",
+   "passages": [
+    {
+     "ref": "Psalm 85:9ab-10, 11-12, 13-14",
+     "text": "Surely his salvation is nigh them that fear him; that glory may dwell in our land.\nMercy and truth are met together; righteousness and peace have kissed each other.\nTruth shall spring out of the earth; and righteousness shall look down from heaven.\nYea, the LORD shall give that which is good; and our land shall yield her increase.\nRighteousness shall go before him; and shall set us in the way of his steps.",
+     "score": 0.63,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Luke 12:35-38",
+   "passages": [
+    {
+     "ref": "Luke 12:35-38",
+     "text": "Let your loins be girded about, and your lights burning; And ye yourselves like unto men that wait for their lord, when he will return from the wedding; that when he cometh and knocketh, they may open unto him immediately. Blessed are those servants, whom the lord when he cometh shall find watching: verily I say unto you, that he shall gird himself, and make them to sit down to meat, and will come forth and serve them. And if he shall come in the second watch, or come in the third watch, and find them so, blessed are those servants.",
+     "score": 0.58,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

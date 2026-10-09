@@ -1,0 +1,46 @@
+{
+ "date": "2027-02-15",
+ "title": "Monday of the First Week of Lent",
+ "source": "https://bible.usccb.org/bible/readings/021527.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Leviticus 19:1-2, 11-18",
+   "passages": [
+    {
+     "ref": "Leviticus 19:1-2, 11-18",
+     "text": "And the LORD spake unto Moses, saying, Speak unto all the congregation of the children of Israel, and say unto them, Ye shall be holy: for I the LORD your God am holy.\n\nYe shall not steal, neither deal falsely, neither lie one to another. And ye shall not swear by my name falsely, neither shalt thou profane the name of thy God: I am the LORD. Thou shalt not defraud thy neighbour, neither rob him: the wages of him that is hired shall not abide with thee all night until the morning. Thou shalt not curse the deaf, nor put a stumblingblock before the blind, but shalt fear thy God: I am the LORD. Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honour the person of the mighty: but in righteousness shalt thou judge thy neighbour. Thou shalt not go up and down as a talebearer among thy people: neither shalt thou stand against the blood of thy neighbour: I am the LORD. Thou shalt not hate thy brother in thine heart: thou shalt in any wise rebuke thy neighbour, and not suffer sin upon him. Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I am the LORD.",
+     "score": 0.48,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 19:8, 9, 10, 15",
+   "passages": [
+    {
+     "ref": "Psalm 19:8, 9, 10, 15",
+     "text": "The law of the LORD is perfect, converting the soul: the testimony of the LORD is sure, making wise the simple.\nThe statutes of the LORD are right, rejoicing the heart: the commandment of the LORD is pure, enlightening the eyes.\nThe fear of the LORD is clean, enduring for ever: the judgments of the LORD are true and righteous altogether.\n\nLet the words of my mouth, and the meditation of my heart, be acceptable in thy sight, O LORD, my strength, and my redeemer.",
+     "score": 0.48,
+     "shift": -1,
+     "note": "Verse numbering differs between the USCCB (NABRE) and the King James Version; matched to the equivalent KJV verses."
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Matthew 25:31-46",
+   "passages": [
+    {
+     "ref": "Matthew 25:31-46",
+     "text": "When the Son of man shall come in his glory, and all the holy angels with him, then shall he sit upon the throne of his glory: And before him shall be gathered all nations: and he shall separate them one from another, as a shepherd divideth his sheep from the goats: And he shall set the sheep on his right hand, but the goats on the left. Then shall the King say unto them on his right hand, Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world: For I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink: I was a stranger, and ye took me in: Naked, and ye clothed me: I was sick, and ye visited me: I was in prison, and ye came unto me. Then shall the righteous answer him, saying, Lord, when saw we thee an hungred, and fed thee? or thirsty, and gave thee drink? When saw we thee a stranger, and took thee in? or naked, and clothed thee? Or when saw we thee sick, or in prison, and came unto thee? And the King shall answer and say unto them, Verily I say unto you, Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me. Then shall he say also unto them on the left hand, Depart from me, ye cursed, into everlasting fire, prepared for the devil and his angels: For I was an hungred, and ye gave me no meat: I was thirsty, and ye gave me no drink: I was a stranger, and ye took me not in: naked, and ye clothed me not: sick, and in prison, and ye visited me not. Then shall they also answer him, saying, Lord, when saw we thee an hungred, or athirst, or a stranger, or naked, or sick, or in prison, and did not minister unto thee? Then shall he answer them, saying, Verily I say unto you, Inasmuch as ye did it not to one of the least of these, ye did it not to me. And these shall go away into everlasting punishment: but the righteous into life eternal.",
+     "score": 0.67,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

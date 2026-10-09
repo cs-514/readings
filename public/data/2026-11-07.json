@@ -1,0 +1,46 @@
+{
+ "date": "2026-11-07",
+ "title": "Saturday of the Thirty-first Week in Ordinary Time",
+ "source": "https://bible.usccb.org/bible/readings/110726.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Philippians 4:10-19",
+   "passages": [
+    {
+     "ref": "Philippians 4:10-19",
+     "text": "But I rejoiced in the Lord greatly, that now at the last your care of me hath flourished again; wherein ye were also careful, but ye lacked opportunity. Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content. I know both how to be abased, and I know how to abound: every where and in all things I am instructed both to be full and to be hungry, both to abound and to suffer need. I can do all things through Christ which strengtheneth me. Notwithstanding ye have well done, that ye did communicate with my affliction. Now ye Philippians know also, that in the beginning of the gospel, when I departed from Macedonia, no church communicated with me as concerning giving and receiving, but ye only. For even in Thessalonica ye sent once and again unto my necessity. Not because I desire a gift: but I desire fruit that may abound to your account. But I have all, and abound: I am full, having received of Epaphroditus the things which were sent from you, an odour of a sweet smell, a sacrifice acceptable, wellpleasing to God. But my God shall supply all your need according to his riches in glory by Christ Jesus.",
+     "score": 0.47,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 112:1b-2, 5-6, 8a, 9",
+   "passages": [
+    {
+     "ref": "Psalm 112:1b-2, 5-6, 8a, 9",
+     "text": "Praise ye the LORD. Blessed is the man that feareth the LORD, that delighteth greatly in his commandments.\nHis seed shall be mighty upon earth: the generation of the upright shall be blessed.\n\nA good man sheweth favour, and lendeth: he will guide his affairs with discretion.\nSurely he shall not be moved for ever: the righteous shall be in everlasting remembrance.\n\nHis heart is established, he shall not be afraid, until he see his desire upon his enemies.\nHe hath dispersed, he hath given to the poor; his righteousness endureth for ever; his horn shall be exalted with honour.",
+     "score": 0.58,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Luke 16:9-15",
+   "passages": [
+    {
+     "ref": "Luke 16:9-15",
+     "text": "And I say unto you, Make to yourselves friends of the mammon of unrighteousness; that, when ye fail, they may receive you into everlasting habitations. He that is faithful in that which is least is faithful also in much: and he that is unjust in the least is unjust also in much. If therefore ye have not been faithful in the unrighteous mammon, who will commit to your trust the true riches? And if ye have not been faithful in that which is another man's, who shall give you that which is your own? No servant can serve two masters: for either he will hate the one, and love the other; or else he will hold to the one, and despise the other. Ye cannot serve God and mammon. And the Pharisees also, who were covetous, heard all these things: and they derided him. And he said unto them, Ye are they which justify yourselves before men; but God knoweth your hearts: for that which is highly esteemed among men is abomination in the sight of God.",
+     "score": 0.57,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

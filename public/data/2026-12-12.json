@@ -1,0 +1,46 @@
+{
+ "date": "2026-12-12",
+ "title": "Feast of Our Lady of Guadalupe",
+ "source": "https://bible.usccb.org/bible/readings/121226.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Zechariah 2:14-17",
+   "passages": [
+    {
+     "ref": "Zechariah 2:14-17",
+     "text": "Sing and rejoice, O daughter of Zion: for, lo, I come, and I will dwell in the midst of thee, saith the LORD. And many nations shall be joined to the LORD in that day, and shall be my people: and I will dwell in the midst of thee, and thou shalt know that the LORD of hosts hath sent me unto thee. And the LORD shall inherit Judah his portion in the holy land, and shall choose Jerusalem again. Be silent, O all flesh, before the LORD: for he is raised up out of his holy habitation.",
+     "score": 0.67,
+     "shift": -4,
+     "note": "Verse numbering differs between the USCCB (NABRE) and the King James Version; matched to the equivalent KJV verses."
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Judith 13:18bcde, 19",
+   "passages": [
+    {
+     "ref": "Judith 13:18bcde, 19",
+     "text": "Then said Ozias unto her, O daughter, blessed art thou of the most high God above all the women upon the earth; and blessed be the Lord God, which hath created the heavens and the earth, which hath directed thee to the cutting off of the head of the chief of our enemies. For this thy confidence shall not depart from the heart of men, which remember the power of God for ever.",
+     "score": 0.56,
+     "shift": 0,
+     "note": "Taken from the KJV 1611 Apocrypha."
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Luke 1:26-38",
+   "passages": [
+    {
+     "ref": "Luke 1:26-38",
+     "text": "And in the sixth month the angel Gabriel was sent from God unto a city of Galilee, named Nazareth, To a virgin espoused to a man whose name was Joseph, of the house of David; and the virgin's name was Mary. And the angel came in unto her, and said, Hail, thou that art highly favoured, the Lord is with thee: blessed art thou among women. And when she saw him, she was troubled at his saying, and cast in her mind what manner of salutation this should be. And the angel said unto her, Fear not, Mary: for thou hast found favour with God. And, behold, thou shalt conceive in thy womb, and bring forth a son, and shalt call his name JESUS. He shall be great, and shall be called the Son of the Highest: and the Lord God shall give unto him the throne of his father David: And he shall reign over the house of Jacob for ever; and of his kingdom there shall be no end. Then said Mary unto the angel, How shall this be, seeing I know not a man? And the angel answered and said unto her, The Holy Ghost shall come upon thee, and the power of the Highest shall overshadow thee: therefore also that holy thing which shall be born of thee shall be called the Son of God. And, behold, thy cousin Elisabeth, she hath also conceived a son in her old age: and this is the sixth month with her, who was called barren. For with God nothing shall be impossible. And Mary said, Behold the handmaid of the Lord; be it unto me according to thy word. And the angel departed from her.",
+     "score": 0.64,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

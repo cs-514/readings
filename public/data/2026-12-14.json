@@ -1,0 +1,46 @@
+{
+ "date": "2026-12-14",
+ "title": "Memorial of Saint John of the Cross, Priest and Doctor of the Church",
+ "source": "https://bible.usccb.org/bible/readings/121426.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Numbers 24:2-7, 15-17a",
+   "passages": [
+    {
+     "ref": "Numbers 24:2-7, 15-17a",
+     "text": "And Balaam lifted up his eyes, and he saw Israel abiding in his tents according to their tribes; and the spirit of God came upon him. And he took up his parable, and said, Balaam the son of Beor hath said, and the man whose eyes are open hath said: He hath said, which heard the words of God, which saw the vision of the Almighty, falling into a trance, but having his eyes open: How goodly are thy tents, O Jacob, and thy tabernacles, O Israel! As the valleys are they spread forth, as gardens by the river's side, as the trees of lign aloes which the LORD hath planted, and as cedar trees beside the waters. He shall pour the water out of his buckets, and his seed shall be in many waters, and his king shall be higher than Agag, and his kingdom shall be exalted.\n\nAnd he took up his parable, and said, Balaam the son of Beor hath said, and the man whose eyes are open hath said: He hath said, which heard the words of God, and knew the knowledge of the most High, which saw the vision of the Almighty, falling into a trance, but having his eyes open: I shall see him, but not now: I shall behold him, but not nigh: there shall come a Star out of Jacob, and a Sceptre shall rise out of Israel, and shall smite the corners of Moab, and destroy all the children of Sheth.",
+     "score": 0.48,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 25:4-5ab, 6 and 7bc, 8-9",
+   "passages": [
+    {
+     "ref": "Psalm 25:4-5ab, 6 and 7bc, 8-9",
+     "text": "Shew me thy ways, O LORD; teach me thy paths.\nLead me in thy truth, and teach me: for thou art the God of my salvation; on thee do I wait all the day.\nRemember, O LORD, thy tender mercies and thy lovingkindnesses; for they have been ever of old.\nRemember not the sins of my youth, nor my transgressions: according to thy mercy remember thou me for thy goodness' sake, O LORD.\nGood and upright is the LORD: therefore will he teach sinners in the way.\nThe meek will he guide in judgment: and the meek will he teach his way.",
+     "score": 0.55,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Matthew 21:23-27",
+   "passages": [
+    {
+     "ref": "Matthew 21:23-27",
+     "text": "And when he was come into the temple, the chief priests and the elders of the people came unto him as he was teaching, and said, By what authority doest thou these things? and who gave thee this authority? And Jesus answered and said unto them, I also will ask you one thing, which if ye tell me, I in like wise will tell you by what authority I do these things. The baptism of John, whence was it? from heaven, or of men? And they reasoned with themselves, saying, If we shall say, From heaven; he will say unto us, Why did ye not then believe him? But if we shall say, Of men; we fear the people; for all hold John as a prophet. And they answered Jesus, and said, We cannot tell. And he said unto them, Neither tell I you by what authority I do these things.",
+     "score": 0.59,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

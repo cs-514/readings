@@ -1,0 +1,46 @@
+{
+ "date": "2027-02-06",
+ "title": "Memorial of Saint Paul Miki and Companions, Martyrs",
+ "source": "https://bible.usccb.org/bible/readings/020627.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Hebrews 13:15-17, 20-21",
+   "passages": [
+    {
+     "ref": "Hebrews 13:15-17, 20-21",
+     "text": "By him therefore let us offer the sacrifice of praise to God continually, that is, the fruit of our lips giving thanks to his name. But to do good and to communicate forget not: for with such sacrifices God is well pleased. Obey them that have the rule over you, and submit yourselves: for they watch for your souls, as they that must give account, that they may do it with joy, and not with grief: for that is unprofitable for you.\n\nNow the God of peace, that brought again from the dead our Lord Jesus, that great shepherd of the sheep, through the blood of the everlasting covenant, Make you perfect in every good work to do his will, working in you that which is wellpleasing in his sight, through Jesus Christ; to whom be glory for ever and ever. Amen.",
+     "score": 0.62,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 23:1-3a, 3b-4, 5, 6",
+   "passages": [
+    {
+     "ref": "Psalm 23:1-3a, 3b-4, 5, 6",
+     "text": "The LORD is my shepherd; I shall not want.\nHe maketh me to lie down in green pastures: he leadeth me beside the still waters.\nHe restoreth my soul: he leadeth me in the paths of righteousness for his name's sake.\nYea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.\nThou preparest a table before me in the presence of mine enemies: thou anointest my head with oil; my cup runneth over.\nSurely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the LORD for ever.",
+     "score": 0.59,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Mark 6:30-34",
+   "passages": [
+    {
+     "ref": "Mark 6:30-34",
+     "text": "And the apostles gathered themselves together unto Jesus, and told him all things, both what they had done, and what they had taught. And he said unto them, Come ye yourselves apart into a desert place, and rest a while: for there were many coming and going, and they had no leisure so much as to eat. And they departed into a desert place by ship privately. And the people saw them departing, and many knew him, and ran afoot thither out of all cities, and outwent them, and came together unto him. And Jesus, when he came out, saw much people, and was moved with compassion toward them, because they were as sheep not having a shepherd: and he began to teach them many things.",
+     "score": 0.51,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

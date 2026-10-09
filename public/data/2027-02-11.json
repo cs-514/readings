@@ -1,0 +1,46 @@
+{
+ "date": "2027-02-11",
+ "title": "Thursday after Ash Wednesday",
+ "source": "https://bible.usccb.org/bible/readings/021127.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Deuteronomy 30:15-20",
+   "passages": [
+    {
+     "ref": "Deuteronomy 30:15-20",
+     "text": "See, I have set before thee this day life and good, and death and evil; In that I command thee this day to love the LORD thy God, to walk in his ways, and to keep his commandments and his statutes and his judgments, that thou mayest live and multiply: and the LORD thy God shall bless thee in the land whither thou goest to possess it. But if thine heart turn away, so that thou wilt not hear, but shalt be drawn away, and worship other gods, and serve them; I denounce unto you this day, that ye shall surely perish, and that ye shall not prolong your days upon the land, whither thou passest over Jordan to go to possess it. I call heaven and earth to record this day against you, that I have set before you life and death, blessing and cursing: therefore choose life, that both thou and thy seed may live: That thou mayest love the LORD thy God, and that thou mayest obey his voice, and that thou mayest cleave unto him: for he is thy life, and the length of thy days: that thou mayest dwell in the land which the LORD sware unto thy fathers, to Abraham, to Isaac, and to Jacob, to give them.",
+     "score": 0.56,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 1:1-2, 3, 4 and 6",
+   "passages": [
+    {
+     "ref": "Psalm 1:1-2, 3, 4 and 6",
+     "text": "Blessed is the man that walketh not in the counsel of the ungodly, nor standeth in the way of sinners, nor sitteth in the seat of the scornful.\nBut his delight is in the law of the LORD; and in his law doth he meditate day and night.\nAnd he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper.\nThe ungodly are not so: but are like the chaff which the wind driveth away.\n\nFor the LORD knoweth the way of the righteous: but the way of the ungodly shall perish.",
+     "score": 0.54,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Luke 9:22-25",
+   "passages": [
+    {
+     "ref": "Luke 9:22-25",
+     "text": "Saying, The Son of man must suffer many things, and be rejected of the elders and chief priests and scribes, and be slain, and be raised the third day. And he said to them all, If any man will come after me, let him deny himself, and take up his cross daily, and follow me. For whosoever will save his life shall lose it: but whosoever will lose his life for my sake, the same shall save it. For what is a man advantaged, if he gain the whole world, and lose himself, or be cast away?",
+     "score": 0.73,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

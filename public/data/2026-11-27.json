@@ -1,0 +1,46 @@
+{
+ "date": "2026-11-27",
+ "title": "Friday of the Thirty-fourth Week in Ordinary Time",
+ "source": "https://bible.usccb.org/bible/readings/112726.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Revelation 20:1-4, 11—21:2",
+   "passages": [
+    {
+     "ref": "Revelation 20:1-4, 11—21:2",
+     "text": "And I saw an angel come down from heaven, having the key of the bottomless pit and a great chain in his hand. And he laid hold on the dragon, that old serpent, which is the Devil, and Satan, and bound him a thousand years, And cast him into the bottomless pit, and shut him up, and set a seal upon him, that he should deceive the nations no more, till the thousand years should be fulfilled: and after that he must be loosed a little season. And I saw thrones, and they sat upon them, and judgment was given unto them: and I saw the souls of them that were beheaded for the witness of Jesus, and for the word of God, and which had not worshipped the beast, neither his image, neither had received his mark upon their foreheads, or in their hands; and they lived and reigned with Christ a thousand years.\n\nAnd I saw a great white throne, and him that sat on it, from whose face the earth and the heaven fled away; and there was found no place for them. And I saw the dead, small and great, stand before God; and the books were opened: and another book was opened, which is the book of life: and the dead were judged out of those things which were written in the books, according to their works. And the sea gave up the dead which were in it; and death and hell delivered up the dead which were in them: and they were judged every man according to their works. And death and hell were cast into the lake of fire. This is the second death. And whosoever was not found written in the book of life was cast into the lake of fire.\n\nAnd I saw a new heaven and a new earth: for the first heaven and the first earth were passed away; and there was no more sea. And I John saw the holy city, new Jerusalem, coming down from God out of heaven, prepared as a bride adorned for her husband.",
+     "score": 0.66,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 84:3, 4, 5-6a, 8a",
+   "passages": [
+    {
+     "ref": "Psalm 84:3, 4, 5-6a, 8a",
+     "text": "My soul longeth, yea, even fainteth for the courts of the LORD: my heart and my flesh crieth out for the living God.\nYea, the sparrow hath found an house, and the swallow a nest for herself, where she may lay her young, even thine altars, O LORD of hosts, my King, and my God.\nBlessed are they that dwell in thy house: they will be still praising thee. Selah.\nBlessed is the man whose strength is in thee; in whose heart are the ways of them.\n\nThey go from strength to strength, every one of them in Zion appeareth before God.",
+     "score": 0.76,
+     "shift": -1,
+     "note": "Verse numbering differs between the USCCB (NABRE) and the King James Version; matched to the equivalent KJV verses."
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Luke 21:29-33",
+   "passages": [
+    {
+     "ref": "Luke 21:29-33",
+     "text": "And he spake to them a parable; Behold the fig tree, and all the trees; When they now shoot forth, ye see and know of your own selves that summer is now nigh at hand. So likewise ye, when ye see these things come to pass, know ye that the kingdom of God is nigh at hand. Verily I say unto you, This generation shall not pass away, till all be fulfilled. Heaven and earth shall pass away: but my words shall not pass away.",
+     "score": 0.43,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

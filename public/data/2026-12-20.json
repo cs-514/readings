@@ -1,0 +1,59 @@
+{
+ "date": "2026-12-20",
+ "title": "Fourth Sunday of Advent",
+ "source": "https://bible.usccb.org/bible/readings/122026.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "2 Samuel 7:1-5, 8b-12, 14a, 16",
+   "passages": [
+    {
+     "ref": "2 Samuel 7:1-5, 8b-12, 14a, 16",
+     "text": "And it came to pass, when the king sat in his house, and the LORD had given him rest round about from all his enemies; That the king said unto Nathan the prophet, See now, I dwell in an house of cedar, but the ark of God dwelleth within curtains. And Nathan said to the king, Go, do all that is in thine heart; for the LORD is with thee. And it came to pass that night, that the word of the LORD came unto Nathan, saying, Go and tell my servant David, Thus saith the LORD, Shalt thou build me an house for me to dwell in?\n\nNow therefore so shalt thou say unto my servant David, Thus saith the LORD of hosts, I took thee from the sheepcote, from following the sheep, to be ruler over my people, over Israel: And I was with thee whithersoever thou wentest, and have cut off all thine enemies out of thy sight, and have made thee a great name, like unto the name of the great men that are in the earth. Moreover I will appoint a place for my people Israel, and will plant them, that they may dwell in a place of their own, and move no more; neither shall the children of wickedness afflict them any more, as beforetime, And as since the time that I commanded judges to be over my people Israel, and have caused thee to rest from all thine enemies. Also the LORD telleth thee that he will make thee an house. And when thy days be fulfilled, and thou shalt sleep with thy fathers, I will set up thy seed after thee, which shall proceed out of thy bowels, and I will establish his kingdom.\n\nI will be his father, and he shall be my son. If he commit iniquity, I will chasten him with the rod of men, and with the stripes of the children of men:\n\nAnd thine house and thy kingdom shall be established for ever before thee: thy throne shall be established for ever.",
+     "score": 0.5,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 89:2-3, 4-5, 27, 29",
+   "passages": [
+    {
+     "ref": "Psalm 89:2-3, 4-5, 27, 29",
+     "text": "I will sing of the mercies of the LORD for ever: with my mouth will I make known thy faithfulness to all generations.\nFor I have said, Mercy shall be built up for ever: thy faithfulness shalt thou establish in the very heavens.\nI have made a covenant with my chosen, I have sworn unto David my servant,\nThy seed will I establish for ever, and build up thy throne to all generations. Selah.\n\nHe shall cry unto me, Thou art my father, my God, and the rock of my salvation.\n\nMy mercy will I keep for him for evermore, and my covenant shall stand fast with him.",
+     "score": 0.61,
+     "shift": -1,
+     "note": "Verse numbering differs between the USCCB (NABRE) and the King James Version; matched to the equivalent KJV verses."
+    }
+   ]
+  },
+  {
+   "label": "Reading 2",
+   "ref": "Romans 16:25-27",
+   "passages": [
+    {
+     "ref": "Romans 16:25-27",
+     "text": "Now to him that is of power to stablish you according to my gospel, and the preaching of Jesus Christ, according to the revelation of the mystery, which was kept secret since the world began, But now is made manifest, and by the scriptures of the prophets, according to the commandment of the everlasting God, made known to all nations for the obedience of faith: To God only wise, be glory through Jesus Christ for ever. Amen.",
+     "score": 0.59,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Luke 1:26-38",
+   "passages": [
+    {
+     "ref": "Luke 1:26-38",
+     "text": "And in the sixth month the angel Gabriel was sent from God unto a city of Galilee, named Nazareth, To a virgin espoused to a man whose name was Joseph, of the house of David; and the virgin's name was Mary. And the angel came in unto her, and said, Hail, thou that art highly favoured, the Lord is with thee: blessed art thou among women. And when she saw him, she was troubled at his saying, and cast in her mind what manner of salutation this should be. And the angel said unto her, Fear not, Mary: for thou hast found favour with God. And, behold, thou shalt conceive in thy womb, and bring forth a son, and shalt call his name JESUS. He shall be great, and shall be called the Son of the Highest: and the Lord God shall give unto him the throne of his father David: And he shall reign over the house of Jacob for ever; and of his kingdom there shall be no end. Then said Mary unto the angel, How shall this be, seeing I know not a man? And the angel answered and said unto her, The Holy Ghost shall come upon thee, and the power of the Highest shall overshadow thee: therefore also that holy thing which shall be born of thee shall be called the Son of God. And, behold, thy cousin Elisabeth, she hath also conceived a son in her old age: and this is the sixth month with her, who was called barren. For with God nothing shall be impossible. And Mary said, Behold the handmaid of the Lord; be it unto me according to thy word. And the angel departed from her.",
+     "score": 0.64,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

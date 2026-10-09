@@ -1,0 +1,46 @@
+{
+ "date": "2026-11-21",
+ "title": "Memorial of the Presentation of the Blessed Virgin Mary",
+ "source": "https://bible.usccb.org/bible/readings/112126.cfm",
+ "readings": [
+  {
+   "label": "Reading",
+   "ref": "Revelation 11:4-12",
+   "passages": [
+    {
+     "ref": "Revelation 11:4-12",
+     "text": "These are the two olive trees, and the two candlesticks standing before the God of the earth. And if any man will hurt them, fire proceedeth out of their mouth, and devoureth their enemies: and if any man will hurt them, he must in this manner be killed. These have power to shut heaven, that it rain not in the days of their prophecy: and have power over waters to turn them to blood, and to smite the earth with all plagues, as often as they will. And when they shall have finished their testimony, the beast that ascendeth out of the bottomless pit shall make war against them, and shall overcome them, and kill them. And their dead bodies shall lie in the street of the great city, which spiritually is called Sodom and Egypt, where also our Lord was crucified. And they of the people and kindreds and tongues and nations shall see their dead bodies three days and an half, and shall not suffer their dead bodies to be put in graves. And they that dwell upon the earth shall rejoice over them, and make merry, and shall send gifts one to another; because these two prophets tormented them that dwelt on the earth. And after three days and an half the Spirit of life from God entered into them, and they stood upon their feet; and great fear fell upon them which saw them. And they heard a great voice from heaven saying unto them, Come up hither. And they ascended up to heaven in a cloud; and their enemies beheld them.",
+     "score": 0.56,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 144:1, 2, 9-10",
+   "passages": [
+    {
+     "ref": "Psalm 144:1, 2, 9-10",
+     "text": "Blessed be the LORD my strength, which teacheth my hands to war, and my fingers to fight:\nMy goodness, and my fortress; my high tower, and my deliverer; my shield, and he in whom I trust; who subdueth my people under me.\n\nI will sing a new song unto thee, O God: upon a psaltery and an instrument of ten strings will I sing praises unto thee.\nIt is he that giveth salvation unto kings: who delivereth David his servant from the hurtful sword.",
+     "score": 0.67,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Luke 20:27-40",
+   "passages": [
+    {
+     "ref": "Luke 20:27-40",
+     "text": "Then came to him certain of the Sadducees, which deny that there is any resurrection; and they asked him, Saying, Master, Moses wrote unto us, If any man's brother die, having a wife, and he die without children, that his brother should take his wife, and raise up seed unto his brother. There were therefore seven brethren: and the first took a wife, and died without children. And the second took her to wife, and he died childless. And the third took her; and in like manner the seven also: and they left no children, and died. Last of all the woman died also. Therefore in the resurrection whose wife of them is she? for seven had her to wife. And Jesus answering said unto them, The children of this world marry, and are given in marriage: But they which shall be accounted worthy to obtain that world, and the resurrection from the dead, neither marry, nor are given in marriage: Neither can they die any more: for they are equal unto the angels; and are the children of God, being the children of the resurrection. Now that the dead are raised, even Moses shewed at the bush, when he calleth the Lord the God of Abraham, and the God of Isaac, and the God of Jacob. For he is not a God of the dead, but of the living: for all live unto him. Then certain of the scribes answering said, Master, thou hast well said. And after that they durst not ask him any question at all.",
+     "score": 0.61,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

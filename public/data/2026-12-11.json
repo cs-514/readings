@@ -1,0 +1,46 @@
+{
+ "date": "2026-12-11",
+ "title": "Friday of the Second Week of Advent",
+ "source": "https://bible.usccb.org/bible/readings/121126.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Isaiah 48:17-19",
+   "passages": [
+    {
+     "ref": "Isaiah 48:17-19",
+     "text": "Thus saith the LORD, thy Redeemer, the Holy One of Israel; I am the LORD thy God which teacheth thee to profit, which leadeth thee by the way that thou shouldest go. O that thou hadst hearkened to my commandments! then had thy peace been as a river, and thy righteousness as the waves of the sea: Thy seed also had been as the sand, and the offspring of thy bowels like the gravel thereof; his name should not have been cut off nor destroyed from before me.",
+     "score": 0.56,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 1:1-2, 3, 4 and 6",
+   "passages": [
+    {
+     "ref": "Psalm 1:1-2, 3, 4 and 6",
+     "text": "Blessed is the man that walketh not in the counsel of the ungodly, nor standeth in the way of sinners, nor sitteth in the seat of the scornful.\nBut his delight is in the law of the LORD; and in his law doth he meditate day and night.\nAnd he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper.\nThe ungodly are not so: but are like the chaff which the wind driveth away.\n\nFor the LORD knoweth the way of the righteous: but the way of the ungodly shall perish.",
+     "score": 0.54,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Matthew 11:16-19",
+   "passages": [
+    {
+     "ref": "Matthew 11:16-19",
+     "text": "But whereunto shall I liken this generation? It is like unto children sitting in the markets, and calling unto their fellows, And saying, We have piped unto you, and ye have not danced; we have mourned unto you, and ye have not lamented. For John came neither eating nor drinking, and they say, He hath a devil. The Son of man came eating and drinking, and they say, Behold a man gluttonous, and a winebibber, a friend of publicans and sinners. But wisdom is justified of her children.",
+     "score": 0.45,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

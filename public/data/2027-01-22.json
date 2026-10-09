@@ -1,0 +1,46 @@
+{
+ "date": "2027-01-22",
+ "title": "Day of Prayer for the Legal Protection of Unborn Children",
+ "source": "https://bible.usccb.org/bible/readings/012227.cfm",
+ "readings": [
+  {
+   "label": "Reading I",
+   "ref": "Hebrews 8:6-13",
+   "passages": [
+    {
+     "ref": "Hebrews 8:6-13",
+     "text": "But now hath he obtained a more excellent ministry, by how much also he is the mediator of a better covenant, which was established upon better promises. For if that first covenant had been faultless, then should no place have been sought for the second. For finding fault with them, he saith, Behold, the days come, saith the Lord, when I will make a new covenant with the house of Israel and with the house of Judah: Not according to the covenant that I made with their fathers in the day when I took them by the hand to lead them out of the land of Egypt; because they continued not in my covenant, and I regarded them not, saith the Lord. For this is the covenant that I will make with the house of Israel after those days, saith the Lord; I will put my laws into their mind, and write them in their hearts: and I will be to them a God, and they shall be to me a people: And they shall not teach every man his neighbour, and every man his brother, saying, Know the Lord: for all shall know me, from the least to the greatest. For I will be merciful to their unrighteousness, and their sins and their iniquities will I remember no more. In that he saith, A new covenant, he hath made the first old. Now that which decayeth and waxeth old is ready to vanish away.",
+     "score": 0.66,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 85:8 and 10, 11-12, 13-14",
+   "passages": [
+    {
+     "ref": "Psalm 85:8 and 10, 11-12, 13-14",
+     "text": "Shew us thy mercy, O LORD, and grant us thy salvation.\n\nSurely his salvation is nigh them that fear him; that glory may dwell in our land.\nMercy and truth are met together; righteousness and peace have kissed each other.\nTruth shall spring out of the earth; and righteousness shall look down from heaven.\nYea, the LORD shall give that which is good; and our land shall yield her increase.\nRighteousness shall go before him; and shall set us in the way of his steps.",
+     "score": 0.68,
+     "shift": -1,
+     "note": "Verse numbering differs between the USCCB (NABRE) and the King James Version; matched to the equivalent KJV verses."
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Mark 3:13-19",
+   "passages": [
+    {
+     "ref": "Mark 3:13-19",
+     "text": "And he goeth up into a mountain, and calleth unto him whom he would: and they came unto him. And he ordained twelve, that they should be with him, and that he might send them forth to preach, And to have power to heal sicknesses, and to cast out devils: And Simon he surnamed Peter; And James the son of Zebedee, and John the brother of James; and he surnamed them Boanerges, which is, The sons of thunder: And Andrew, and Philip, and Bartholomew, and Matthew, and Thomas, and James the son of Alphaeus, and Thaddaeus, and Simon the Canaanite, And Judas Iscariot, which also betrayed him: and they went into an house.",
+     "score": 0.7,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

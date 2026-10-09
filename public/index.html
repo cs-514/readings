@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Daily Mass Readings (KJV)</title>
+<meta name="description" content="Today's Mass readings in the King James Version, with a short meditation.">
+<meta name="theme-color" content="#2b1b3d">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Readings">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <nav class="top" aria-label="Choose day">
+    <button id="prev" type="button" aria-label="Previous day">&larr;</button>
+    <input id="datepick" type="date" aria-label="Date">
+    <button id="today" type="button">Today</button>
+    <button id="next" type="button" aria-label="Next day">&rarr;</button>
+  </nav>
+  <div class="actions">
+    <button id="copytext" type="button">Copy full text</button>
+    <button id="copylink" type="button" class="alt">Copy page link</button>
+  </div>
+  <main id="view" aria-live="polite"><p>Loading&hellip;</p></main>
+</div>
+<div id="toast" role="status"></div>
+<noscript><div class="wrap"><p>JavaScript is needed for this page. A plain version of each day is available at <code>d/YYYY-MM-DD/</code>.</p></div></noscript>
+<script src="app.js"></script>
+</body>
+</html>

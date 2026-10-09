@@ -1,0 +1,46 @@
+{
+ "date": "2026-12-16",
+ "title": "Wednesday of the Third Week of Advent",
+ "source": "https://bible.usccb.org/bible/readings/121626.cfm",
+ "readings": [
+  {
+   "label": "Reading 1",
+   "ref": "Isaiah 45:6c-8, 18, 21c-25",
+   "passages": [
+    {
+     "ref": "Isaiah 45:6c-8, 18, 21c-25",
+     "text": "That they may know from the rising of the sun, and from the west, that there is none beside me. I am the LORD, and there is none else. I form the light, and create darkness: I make peace, and create evil: I the LORD do all these things. Drop down, ye heavens, from above, and let the skies pour down righteousness: let the earth open, and let them bring forth salvation, and let righteousness spring up together; I the LORD have created it.\n\nFor thus saith the LORD that created the heavens; God himself that formed the earth and made it; he hath established it, he created it not in vain, he formed it to be inhabited: I am the LORD; and there is none else.\n\nTell ye, and bring them near; yea, let them take counsel together: who hath declared this from ancient time? who hath told it from that time? have not I the LORD? and there is no God else beside me; a just God and a Saviour; there is none beside me. Look unto me, and be ye saved, all the ends of the earth: for I am God, and there is none else. I have sworn by myself, the word is gone out of my mouth in righteousness, and shall not return, That unto me every knee shall bow, every tongue shall swear. Surely, shall one say, in the LORD have I righteousness and strength: even to him shall men come; and all that are incensed against him shall be ashamed. In the LORD shall all the seed of Israel be justified, and shall glory.",
+     "score": 0.48,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  },
+  {
+   "label": "Responsorial Psalm",
+   "ref": "Psalm 85:9ab, 10, 11-12, 13-14",
+   "passages": [
+    {
+     "ref": "Psalm 85:9ab, 10, 11-12, 13-14",
+     "text": "I will hear what God the LORD will speak: for he will speak peace unto his people, and to his saints: but let them not turn again to folly.\nSurely his salvation is nigh them that fear him; that glory may dwell in our land.\nMercy and truth are met together; righteousness and peace have kissed each other.\nTruth shall spring out of the earth; and righteousness shall look down from heaven.\nYea, the LORD shall give that which is good; and our land shall yield her increase.\nRighteousness shall go before him; and shall set us in the way of his steps.",
+     "score": 0.68,
+     "shift": -1,
+     "note": "Verse numbering differs between the USCCB (NABRE) and the King James Version; matched to the equivalent KJV verses."
+    }
+   ]
+  },
+  {
+   "label": "Gospel",
+   "ref": "Luke 7:18b-23",
+   "passages": [
+    {
+     "ref": "Luke 7:18b-23",
+     "text": "And the disciples of John shewed him of all these things. And John calling unto him two of his disciples sent them to Jesus, saying, Art thou he that should come? or look we for another? When the men were come unto him, they said, John Baptist hath sent us unto thee, saying, Art thou he that should come? or look we for another? And in that same hour he cured many of their infirmities and plagues, and of evil spirits; and unto many that were blind he gave sight. Then Jesus answering said unto them, Go your way, and tell John what things ye have seen and heard; how that the blind see, the lame walk, the lepers are cleansed, the deaf hear, the dead are raised, to the poor the gospel is preached. And blessed is he, whosoever shall not be offended in me.",
+     "score": 0.66,
+     "shift": 0,
+     "note": null
+    }
+   ]
+  }
+ ]
+}
