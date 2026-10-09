@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Merge hand/LLM-authored content/DATE.json (meditation + verified Augustine quote) into public/data/DATE.json,
+"""(Meditation brief: see MEDITATION_PROMPT.md.) Merge hand/LLM-authored content/DATE.json (meditation + verified Augustine quote) into public/data/DATE.json,
 verify the quote against its source page, and prerender public/d/DATE/index.html (plain semantic HTML)."""
 import sys, os, re, json, glob, html, datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -49,13 +49,12 @@ def article(d):
     if m:
         for para in m["paragraphs"]: h.append(f"<p>{esc(para)}</p>")
         q = m["quote"]
-        h.append(f'<blockquote><p>\u201c{esc(q["text"])}\u201d</p><footer>\u2014 {esc(q["attribution"])}</footer></blockquote>')
+        h.append(f'<blockquote><p>\u201c{esc(q["text"])}\u201d</p><footer>\u2014 St Augustine</footer></blockquote>')
         if m.get("closing"): h.append(f'<p>{esc(m["closing"])}</p>')
     else:
         h.append('<p class="missing">The meditation for this day has not been prepared yet.</p>')
     h.append("</section>")
     src = f'<p class="src">Citations: <a href="{d["source"]}">USCCB daily readings</a>. Scripture text: King James Version (public domain) from bible-api.com; deuterocanonical books from the 1611 KJV Apocrypha.'
-    if m: src += f' Augustine translation: {esc(m["quote"]["translation"])} (public domain), <a href="{m["quote"]["url"]}">source</a>.'
     h.append(src + "</p></article>")
     return "\n".join(h)
 

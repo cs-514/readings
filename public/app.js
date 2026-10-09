@@ -26,7 +26,7 @@
     if (d.meditation) {
       d.meditation.paragraphs.forEach(function (p) { out.push(p); out.push(''); });
       out.push('\u201c' + d.meditation.quote.text + '\u201d');
-      out.push('\u2014 ' + d.meditation.quote.attribution);
+      out.push('\u2014 St Augustine');
       if (d.meditation.closing) { out.push(''); out.push(d.meditation.closing); }
     } else out.push('The meditation for this day has not been prepared yet.');
     out.push(''); out.push(pageLink(d.date));
