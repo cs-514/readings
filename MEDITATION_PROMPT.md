@@ -1,4 +1,4 @@
-# Brief for the daily "Old and New" excerpt (content/YYYY-MM-DD.json)
+# Brief for the daily "Meditation" excerpt (content/YYYY-MM-DD.json)
 
 The daily feature is no longer an original meditation. Each day shows a **verbatim excerpt of at most 200 words** from an approved source, chosen because, applied to that day's readings, it demonstrates **CCC 129**: *"The New Testament lies hidden in the Old and the Old Testament is unveiled in the New"* (Augustine, Quaestiones in Heptateuchum 2,73): typology, fulfilment, an Old Testament figure, sign or promise illuminated in the New, and the New foreshadowed in the Old. (Related: CCC 128–130, 117, 1094, 140.)
 

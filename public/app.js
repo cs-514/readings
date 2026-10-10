@@ -22,7 +22,7 @@
         out.push('');
       });
     });
-    out.push('The Old and the New');
+    out.push('Meditation');
     if (d.excerpt) {
       if (d.excerpt.lead_in) { out.push(d.excerpt.lead_in); out.push(''); }
       out.push('\u201c' + d.excerpt.text + '\u201d');

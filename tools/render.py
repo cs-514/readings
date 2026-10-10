@@ -63,7 +63,7 @@ def article(d):
             if p["text"] and p.get("note"): h.append(f'<p class="note">{esc(p["note"])}</p>')
         h.append("</section>")
     m = d.get("excerpt")
-    h.append("<section><h2>The Old and the New</h2>")
+    h.append("<section><h2>Meditation</h2>")
     if m:
         if m.get("lead_in"): h.append(f'<p class="lead"><em>{esc(m["lead_in"])}</em></p>')
         h.append("<blockquote>" + "".join(f"<p>{esc(x.replace(chr(10), ' '))}</p>" for x in m["text"].split("\n\n")))
