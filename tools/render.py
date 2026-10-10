@@ -15,7 +15,7 @@ def norm(t):
     return t.lower().strip()
 
 MAX_EXCERPT_WORDS = 200; MAX_LEAD_WORDS = 25; MAX_TOTAL_WORDS = 230
-OMIT = "[\u2026]"
+OMIT_RE = re.compile(r"\s+\. \. \.(?=\s|$)|\s*\[\u2026\]\s*")   # ". . ." (preferred, preceded by a space) or legacy "[\u2026]"
 def source_text(sid):
     p = f"{ROOT}/sources/{sid}.txt"
     if not os.path.exists(p): raise SystemExit(f"unknown source '{sid}' (no sources/{sid}.txt; run tools/fetch_sources.py)")
@@ -23,16 +23,19 @@ def source_text(sid):
     return head, body
 
 def verify_excerpt(date, ex):
-    """Every segment (split at the [\u2026] omission mark) must occur verbatim, and in order, in the cached source text."""
+    """The excerpt must occur verbatim in the source text. If the whole text matches contiguously (e.g. the source itself contains
+    a genuine ". . ."), it is accepted as is. Otherwise it is split at omission marks (". . ." or legacy "[\u2026]") and every
+    segment must occur verbatim, and in order, in the source."""
     head, body = source_text(ex["source"]); src = norm(body); pos = 0
-    segs = [x for x in re.split(r"\s*" + re.escape(OMIT) + r"\s*", ex["text"]) if x.strip()]
+    if norm(ex["text"]) in src: segs = [ex["text"]]
+    else: segs = [x for x in OMIT_RE.split(ex["text"]) if x.strip()]
     for sg in segs:
         n = norm(sg); i = src.find(n, pos)
         if i < 0: raise SystemExit(f"EXCERPT NOT FOUND VERBATIM IN SOURCE {ex['source']} for {date}: {sg[:80]!r}")
         pos = i + len(n)
         t = sg.strip()
         if not (t[0].isupper() or t[0] in "\u201c\"'(") or t[-1] not in ".?!\u201d\"'": raise SystemExit(f"{date}: excerpt segment must start and end at sentence boundaries: {t[:40]!r}...{t[-20:]!r}")
-    words = len(ex["text"].replace(OMIT, " ").split())
+    words = len([w for w in OMIT_RE.sub(" ", ex["text"]).split() if w != "."])
     if words > MAX_EXCERPT_WORDS: raise SystemExit(f"{date}: excerpt has {words} words (max {MAX_EXCERPT_WORDS})")
     return words, head
 

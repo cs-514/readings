@@ -11,15 +11,15 @@ Texts live in `sources/*.txt` (committed). Add more with `tools/fetch_sources.py
 ## JSON shape (content/YYYY-MM-DD.json)
 ```json
 {"lead_in": "One sentence (max ~25 words) saying which reading(s) it illuminates.",
- "excerpt": {"text": "Verbatim words. […] marks an omission. Separate paragraphs with a blank line.",
+ "excerpt": {"text": "Verbatim words. A spaced ellipsis \". . .\" marks an omission. Separate paragraphs with a blank line.",
              "source": "ccc | roman_catechism | aug_160340 | ce_15107a | newman_pps6_9 | benedict_… (a file in sources/)",
              "attribution": "Author, work, section/paragraph/page, enough to find it",
              "url": "optional; defaults to the URL in the source file's header"}}
 ```
 ## Hard rules (enforced by tools/render.py; the build aborts on violation)
-1. Every segment of `excerpt.text` (split at `[…]`) must occur verbatim, and in order, in `sources/<source>.txt`. Matching ignores case, whitespace, curly vs straight quotes, space before punctuation, footnote numbers glued to punctuation (CCC) and `{page}` / `[ Note n ]` markers (Newman Reader). Do not change a word.
-2. Excerpt ≤ 200 words (programmatic count, `[…]` excluded). Lead-in ≤ 25 words; excerpt + lead-in ≤ 230.
-3. Trim only at sentence boundaries: each segment must begin with a capital (or opening quote) and end with `.`, `?`, `!` or a closing quote. Mark every omission with `[…]`.
+1. Every segment of `excerpt.text` (split at `. . .`) must occur verbatim, and in order, in `sources/<source>.txt`. Matching ignores case, whitespace, curly vs straight quotes, space before punctuation, footnote numbers glued to punctuation (CCC) and `{page}` / `[ Note n ]` markers (Newman Reader). Do not change a word.
+2. Excerpt ≤ 200 words (programmatic count, ellipses excluded). Lead-in ≤ 25 words; excerpt + lead-in ≤ 230.
+3. Trim only at sentence boundaries: each segment must begin with a capital (or opening quote) and end with `.`, `?`, `!` or a closing quote. Mark every omission with a spaced ellipsis `. . .` (period-space-period-space-period) with NO brackets: when modifying a quotation, use `. . .`, never `[…]`. Put a space before it when it follows a sentence end (`garment? . . . You are`). The verifier also still tolerates legacy `[…]`, and accepts a genuine `. . .` already present in a source if the whole excerpt matches contiguously.
 4. Attribution is displayed (author, work, section/paragraph/page) and linked to the source URL. Give the section number or page so a reader can find it.
 5. The lead-in may say what the excerpt does for the readings, but must not put words in the author's mouth or add claims the excerpt does not make.
 
@@ -29,7 +29,7 @@ Texts live in `sources/*.txt` (committed). Add more with `tools/fetch_sources.py
    `python3 tools/index.py search "sign of Jonah three days type of Christ" -n 10 [--src ccc,roman,ce,aug,newman,benedict]`
    Also try the typology-explicit passages: `ccc §§128–130, 1094, 117`, `ce_15107a` (Types in Scripture).
 3. Prefer, in this order: a passage that names *both* sides of the pair and the relation between them; a short passage (50–120 words) that stands on its own; a source most closely tied to the day's Gospel (Augustine's sermon on that Gospel, the CCC paragraph on that figure).
-4. Open the candidate with `python3 tools/index.py show SOURCE_ID "starting phrase"`, copy the words exactly, cut at sentence boundaries, mark omissions with `[…]`.
+4. Open the candidate with `python3 tools/index.py show SOURCE_ID "starting phrase"`, copy the words exactly, cut at sentence boundaries, mark omissions with `. . .`.
 5. Run `python3 tools/render.py`. If it aborts, fix the text; never loosen the check. Then commit, push, and confirm the Pages deploy.
 
 ## Copyright
