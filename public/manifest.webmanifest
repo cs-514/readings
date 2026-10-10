@@ -1,7 +1,7 @@
 {
   "name": "Daily Mass Readings (KJV)",
   "short_name": "Readings",
-  "description": "Today's Mass readings in the King James Version, with a short meditation.",
+  "description": "Today's Mass readings in the King James Version, with an excerpt on how the Old and New Testaments illuminate each other.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

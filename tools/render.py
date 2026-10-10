@@ -1,22 +1,40 @@
 #!/usr/bin/env python3
-"""(Meditation brief: see MEDITATION_PROMPT.md.) Merge hand/LLM-authored content/DATE.json (meditation + verified Augustine quote) into public/data/DATE.json,
-verify the quote against its source page, and prerender public/d/DATE/index.html (plain semantic HTML)."""
+"""(Excerpt brief: see MEDITATION_PROMPT.md.) Merge content/DATE.json (verbatim excerpt <=200 words + lead-in) into public/data/DATE.json,
+verify the excerpt against sources/*.txt, and prerender public/d/DATE/index.html (plain semantic HTML)."""
 import sys, os, re, json, glob, html, datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lib import *
 
 def norm(t):
     t = html.unescape(re.sub(r"<[^>]+>", " ", t))
-    t = t.replace("\u2019", "'").replace("\u2018", "'").replace("\u201c", '"').replace("\u201d", '"')
+    t = re.sub(r"\{\d+\}|\[ ?Note \d+ ?\]", " ", t)          # page / note markers in Newman Reader texts
+    t = t.replace("\u2019", "'").replace("\u2018", "'").replace("\u201c", '"').replace("\u201d", '"').replace("\u2014", "-").replace("\u2013", "-")
+    t = re.sub(r"([.,;:!?)'\"])\d{1,3}(?=\s|$)", r"\1", t)         # footnote numbers glued to punctuation (CCC, Roman Catechism)
     t = re.sub(r"\s+", " ", t)
     t = re.sub(r"\s+([,.;:!?)])", r"\1", t); t = re.sub(r"\(\s+", "(", t)
     return t.lower().strip()
 
-def verify_quote(q):
-    p = f"{ROOT}/cache/src_{re.sub(r'[^a-z0-9]+', '_', q['url'].lower())}.html"
-    if not os.path.exists(p): open(p, "w").write(http(q["url"]))
-    page = norm(open(p).read())
-    return norm(q["text"]) in page
+MAX_EXCERPT_WORDS = 200; MAX_LEAD_WORDS = 25; MAX_TOTAL_WORDS = 230
+OMIT = "[\u2026]"
+def source_text(sid):
+    p = f"{ROOT}/sources/{sid}.txt"
+    if not os.path.exists(p): raise SystemExit(f"unknown source '{sid}' (no sources/{sid}.txt; run tools/fetch_sources.py)")
+    head, _, body = open(p).read().partition("\n\n")
+    return head, body
+
+def verify_excerpt(date, ex):
+    """Every segment (split at the [\u2026] omission mark) must occur verbatim, and in order, in the cached source text."""
+    head, body = source_text(ex["source"]); src = norm(body); pos = 0
+    segs = [x for x in re.split(r"\s*" + re.escape(OMIT) + r"\s*", ex["text"]) if x.strip()]
+    for sg in segs:
+        n = norm(sg); i = src.find(n, pos)
+        if i < 0: raise SystemExit(f"EXCERPT NOT FOUND VERBATIM IN SOURCE {ex['source']} for {date}: {sg[:80]!r}")
+        pos = i + len(n)
+        t = sg.strip()
+        if not (t[0].isupper() or t[0] in "\u201c\"'(") or t[-1] not in ".?!\u201d\"'": raise SystemExit(f"{date}: excerpt segment must start and end at sentence boundaries: {t[:40]!r}...{t[-20:]!r}")
+    words = len(ex["text"].replace(OMIT, " ").split())
+    if words > MAX_EXCERPT_WORDS: raise SystemExit(f"{date}: excerpt has {words} words (max {MAX_EXCERPT_WORDS})")
+    return words, head
 
 LABELS = {"Reading 1": "First Reading", "Reading 2": "Second Reading", "Responsorial Psalm": "Psalm"}
 esc = html.escape
@@ -44,13 +62,15 @@ def article(d):
             else: h.append(f'<p class="missing">{esc(p["note"])}</p>')
             if p["text"] and p.get("note"): h.append(f'<p class="note">{esc(p["note"])}</p>')
         h.append("</section>")
-    m = d.get("meditation")
-    h.append("<section><h2>Meditation</h2>")
+    m = d.get("excerpt")
+    h.append("<section><h2>The Old and the New</h2>")
     if m:
-        for para in m["paragraphs"]: h.append(f"<p>{esc(para)}</p>")
-        if m.get("closing"): h.append(f'<p>{esc(m["closing"])}</p>')
+        if m.get("lead_in"): h.append(f'<p class="lead"><em>{esc(m["lead_in"])}</em></p>')
+        h.append("<blockquote>" + "".join(f"<p>{esc(x.replace(chr(10), ' '))}</p>" for x in m["text"].split("\n\n")))
+        u = m.get("url"); at = esc(m["attribution"])
+        h.append(f'<footer>\u2014 {f"<a href=\"{esc(u)}\">{at}</a>" if u else at}</footer></blockquote>')
     else:
-        h.append('<p class="missing">The meditation for this day has not been prepared yet.</p>')
+        h.append('<p class="missing">No excerpt has been chosen for this day yet.</p>')
     h.append("</section>")
     src = f'<p class="src">Citations: <a href="{d["source"]}">USCCB daily readings</a>. Scripture text: King James Version (public domain) from bible-api.com; deuterocanonical books from the 1611 KJV Apocrypha.'
     h.append(src + "</p></article>")
@@ -60,7 +80,7 @@ PAGE = """<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{title} \u2013 Mass readings, {date}</title>
-<meta name="description" content="Mass readings for {date} in the King James Version, with a short meditation.">
+<meta name="description" content="Mass readings for {date} in the King James Version, with an excerpt showing how the Old and New Testaments illuminate each other.">
 <meta name="theme-color" content="#2b1b3d">
 <link rel="stylesheet" href="../../style.css">
 {data}</head><body><div class="wrap">
@@ -75,15 +95,16 @@ def main():
     for f in sorted(glob.glob(f"{ROOT}/public/data/????-??-??.json")):
         d = json.load(open(f)); date = d["date"]
         cp = f"{ROOT}/content/{date}.json"
-        d.pop("meditation", None)
+        d.pop("meditation", None); d.pop("excerpt", None)
         if os.path.exists(cp):
             c = json.load(open(cp))
-            if not verify_quote(c["quote"]): raise SystemExit(f"QUOTE NOT FOUND IN SOURCE for {date}")
-            paras_ = [x.replace("{{quote}}", c["quote"]["text"]) for x in c["paragraphs"]]
-            if not any("{{quote}}" in x for x in c["paragraphs"]): raise SystemExit(f"{date}: no {{{{quote}}}} placeholder in paragraphs")
-            d["meditation"] = {"paragraphs": paras_, "quote": c["quote"], "closing": c.get("closing")}
-            wc = sum(len(x.split()) for x in paras_) + len((c.get("closing") or "").split())
-            print(date, "meditation words:", wc, "quote verified")
+            ex = c["excerpt"]; lead = c.get("lead_in") or ""
+            words, head = verify_excerpt(date, ex)
+            lw = len(lead.split())
+            if lw > MAX_LEAD_WORDS or words + lw > MAX_TOTAL_WORDS: raise SystemExit(f"{date}: lead-in {lw} words / total {words + lw} too long")
+            d["excerpt"] = {"lead_in": lead, "text": ex["text"], "attribution": ex["attribution"], "source": ex["source"],
+                            "url": ex.get("url") or re.search(r"URL: (\S+)", head).group(1)}
+            print(date, "excerpt words:", words, "+ lead-in", lw, "- verified verbatim in", ex["source"])
         json.dump(d, open(f, "w"), indent=1, ensure_ascii=False)
         os.makedirs(f"{ROOT}/public/d/{date}", exist_ok=True)
         art = article(d)

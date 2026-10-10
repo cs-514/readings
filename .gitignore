@@ -2,3 +2,4 @@ refresh.log
 run.log
 u.html
 __pycache__/
+cache/index.json

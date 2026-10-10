@@ -27,3 +27,6 @@ blockquote footer{font-style:normal;font-size:.9rem;color:var(--muted);font-fami
 .src a{color:var(--accent)}
 #toast{position:fixed;left:50%;bottom:calc(1.2rem + env(safe-area-inset-bottom));transform:translateX(-50%);background:var(--fg);color:var(--bg);padding:.7rem 1.1rem;border-radius:999px;font:600 1rem -apple-system,system-ui,sans-serif;opacity:0;pointer-events:none;transition:opacity .2s}
 #toast.show{opacity:1}
+
+.lead{color:var(--muted)}
+#reading blockquote footer{font-family:-apple-system,system-ui,sans-serif;font-size:.9rem;color:var(--muted);margin-top:.5rem}#reading blockquote footer a{color:var(--accent)}

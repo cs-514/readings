@@ -22,11 +22,12 @@
         out.push('');
       });
     });
-    out.push('Meditation');
-    if (d.meditation) {
-      d.meditation.paragraphs.forEach(function (p) { out.push(p); out.push(''); });
-      if (d.meditation.closing) { out.push(''); out.push(d.meditation.closing); }
-    } else out.push('The meditation for this day has not been prepared yet.');
+    out.push('The Old and the New');
+    if (d.excerpt) {
+      if (d.excerpt.lead_in) { out.push(d.excerpt.lead_in); out.push(''); }
+      out.push('\u201c' + d.excerpt.text + '\u201d');
+      out.push(''); out.push('\u2014 ' + d.excerpt.attribution);
+    } else out.push('No excerpt has been chosen for this day yet.');
     out.push(''); out.push(pageLink(d.date));
     return out.join('\n').replace(/\n{3,}/g, '\n\n').trim() + '\n';
   }
