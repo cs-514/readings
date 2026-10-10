@@ -54,7 +54,7 @@ def article(d):
     nice = f"{dt:%A, %B} {dt.day}, {dt.year}"
     h = [f'<article lang="en" id="reading">', "<header>", f"<h1>{esc(d['title'])}</h1>",
          f'<p class="date"><time datetime="{d["date"]}">{nice}</time></p>',
-         '<p class="sub">Mass readings (USCCB lectionary), text of the King James Version</p>', "</header>"]
+         '<p class="sub">Mass readings (USCCB lectionary), King James Version</p>', "</header>"]
     for r in d["readings"]:
         lab = LABELS.get(r["label"], r["label"])
         h.append(f"<section><h2>{esc(lab)}</h2>")
