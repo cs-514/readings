@@ -14,6 +14,7 @@ def norm(t):
     t = re.sub(r"\s+([,.;:!?)])", r"\1", t); t = re.sub(r"\(\s+", "(", t)
     return t.lower().strip()
 
+MAX_SUMMARY_WORDS = 60; MAX_UNITY_WORDS = 50
 MAX_EXCERPT_WORDS = 200; MAX_LEAD_WORDS = 25; MAX_TOTAL_WORDS = 230
 OMIT_RE = re.compile(r"\s+\. \. \.(?=\s|$)|\s*\[\u2026\]\s*")   # ". . ." (preferred, preceded by a space) or legacy "[\u2026]"
 def source_text(sid):
@@ -75,6 +76,10 @@ def article(d):
         h.append("</section>")
     m = d.get("excerpt")
     h.append("<section><h2>Meditation</h2>")
+    if d.get("summaries"):
+        h.append('<div class="summaries">')
+        for x in d["summaries"]: h.append(f'<p><strong>{esc(x["label"])}.</strong> {esc(x["text"])}</p>')
+        h.append(f'<p class="unity">{esc(d["unity"])}</p></div>')
     if m:
         if m.get("lead_in"): h.append(f'<p class="lead"><em>{esc(m["lead_in"])}</em></p>')
         h.append("<blockquote>" + "".join(f"<p>{esc(x.replace(chr(10), ' '))}</p>" for x in m["text"].split("\n\n")))
@@ -108,9 +113,20 @@ def main():
     for f in sorted(glob.glob(f"{ROOT}/public/data/????-??-??.json")):
         d = json.load(open(f)); date = d["date"]
         cp = f"{ROOT}/content/{date}.json"
-        d.pop("meditation", None); d.pop("excerpt", None)
+        d.pop("meditation", None); d.pop("excerpt", None); d.pop("summaries", None); d.pop("unity", None)
         if os.path.exists(cp):
             c = json.load(open(cp))
+            sums = c.get("summaries"); unity = c.get("unity")
+            if bool(sums) != bool(unity): raise SystemExit(f"{date}: 'summaries' and 'unity' must be given together")
+            if sums:
+                want = [LABELS.get(r["label"], r["label"]) for r in d["readings"]]
+                got = [x["label"] for x in sums]
+                if got != want: raise SystemExit(f"{date}: summary labels {got} must match the day's readings {want}")
+                for x in sums:
+                    if len(x["text"].split()) > MAX_SUMMARY_WORDS: raise SystemExit(f"{date}: {x['label']} summary has {len(x['text'].split())} words (max {MAX_SUMMARY_WORDS})")
+                if len(unity.split()) > MAX_UNITY_WORDS: raise SystemExit(f"{date}: unity paragraph has {len(unity.split())} words (max {MAX_UNITY_WORDS})")
+                d["summaries"] = sums; d["unity"] = unity
+                print(date, "summaries:", [len(x["text"].split()) for x in sums], "unity:", len(unity.split()))
             ex = c["excerpt"]; lead = c.get("lead_in") or ""
             words, head = verify_excerpt(date, ex)
             lw = len(lead.split())

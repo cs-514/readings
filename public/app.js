@@ -26,6 +26,10 @@
       });
     });
     out.push('Meditation');
+    if (d.summaries) {
+      d.summaries.forEach(function (x) { out.push(x.label + '. ' + x.text); out.push(''); });
+      out.push(d.unity); out.push('');
+    }
     if (d.excerpt) {
       if (d.excerpt.lead_in) { out.push(d.excerpt.lead_in); out.push(''); }
       out.push('\u201c' + d.excerpt.text + '\u201d');
