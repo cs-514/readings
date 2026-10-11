@@ -8,6 +8,9 @@ No original prose is written, apart from the one-sentence lead-in below.
 Catechism of the Catholic Church; Roman Catechism (Catechism of Trent); Catholic Encyclopedia (newadvent.org/cathen); Augustine's sermons on the New Testament lessons (NPNF 1, vol. 6, newadvent.org/fathers/1603.htm); John Henry Newman (newmanreader.org); Benedict XVI / Ratzinger (vatican.va homilies and Angelus: fine); The Imitation of Christ; J.R.R. Tolkien and C.S. Lewis (in copyright: only if the text can actually be retrieved, and keep excerpts short; none are in the index at present).
 Texts live in `sources/*.txt` (committed). Add more with `tools/fetch_sources.py` (a dict of ids per source type) and re-run `python3 tools/index.py build`.
 
+## Source library and helper
+`tools/fetch_sources.py` also downloads: Augustine's Tractates on John (`augjn_*`) and Expositions on the Psalms (`augps_*`), all of Newman's Parochial and Plain Sermons (`newman_ppsV_N`), Benedict XVI Angelus / audiences / homilies (`benedict_*`), about 100 Catholic Encyclopedia articles (`ce_*`), and The Imitation of Christ (`imitation`, Gutenberg #1653). `tools/mk.py DATE SRC "attribution" "lead-in" "start phrase>>end phrase" ...` extracts verbatim segments (joined with `. . .`) straight from `sources/SRC.txt` and writes `content/DATE.json`, so wording is never retyped; `tools/render.py` still verifies. (Footnote-number stripping applies only to the CCC and Roman Catechism, so scripture references such as "Revelation 2:13" are never altered.)
+
 ## JSON shape (content/YYYY-MM-DD.json)
 ```json
 {"lead_in": "One sentence (max ~25 words) saying which reading(s) it illuminates.",

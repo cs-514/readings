@@ -5,11 +5,11 @@ Each segment runs from the first occurrence of 'start phrase' through the end of
 segments are joined with ' . . . '. Use 'start>>' alone is not allowed. Prints the result for review; render.py still verifies."""
 import sys, os, re, json, html
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-def disp(t):
+def disp(t, fn=True):
     t = html.unescape(re.sub(r"<[^>]+>", " ", t))
     t = re.sub(r"\{\d+\}|\[ ?Note \d+ ?\]", " ", t)
     t = t.replace("\u2019", "'").replace("\u2018", "'").replace("\u201c", '"').replace("\u201d", '"').replace("\u2014", "-").replace("\u2013", "-")
-    t = re.sub(r"([.,;:!?)'\"])\d{1,3}(?=\s|$)", r"\1", t)
+    if fn: t = re.sub(r"([.,;:!?)'\"])\d{1,3}(?=\s|$)", r"\1", t)
     t = re.sub(r"\s+", " ", t); t = re.sub(r"\s+([,.;:!?)])", r"\1", t); t = re.sub(r"\(\s+", "(", t)
     return t
 def curly(t):
@@ -18,9 +18,9 @@ def curly(t):
 def main():
     date, sid, attr, lead = sys.argv[1:5]; specs = sys.argv[5:]
     head, _, body = open(f"{ROOT}/sources/{sid}.txt").read().partition("\n\n")
-    d = disp(body); dl = d.lower(); out = []; pos = 0
+    FN = sid in ('ccc', 'roman_catechism'); d = disp(body, FN); dl = d.lower(); out = []; pos = 0
     for sp in specs:
-        a, _, b = sp.partition(">>"); a = disp(a).strip(); b = disp(b).strip().rstrip()
+        a, _, b = sp.partition(">>"); a = disp(a, FN).strip(); b = disp(b, FN).strip().rstrip()
         i = dl.find(a.lower(), pos)
         if i < 0: raise SystemExit(f"start not found: {a[:60]!r}")
         j = dl.find(b.lower(), i)

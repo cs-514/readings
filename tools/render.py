@@ -5,11 +5,11 @@ import sys, os, re, json, glob, html, datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lib import *
 
-def norm(t):
+def norm(t, fn=True):
     t = html.unescape(re.sub(r"<[^>]+>", " ", t))
     t = re.sub(r"\{\d+\}|\[ ?Note \d+ ?\]", " ", t)          # page / note markers in Newman Reader texts
     t = t.replace("\u2019", "'").replace("\u2018", "'").replace("\u201c", '"').replace("\u201d", '"').replace("\u2014", "-").replace("\u2013", "-")
-    t = re.sub(r"([.,;:!?)'\"])\d{1,3}(?=\s|$)", r"\1", t)         # footnote numbers glued to punctuation (CCC, Roman Catechism)
+    if fn: t = re.sub(r"([.,;:!?)'\"])\d{1,3}(?=\s|$)", r"\1", t)         # footnote numbers glued to punctuation (CCC, Roman Catechism)
     t = re.sub(r"\s+", " ", t)
     t = re.sub(r"\s+([,.;:!?)])", r"\1", t); t = re.sub(r"\(\s+", "(", t)
     return t.lower().strip()
@@ -26,11 +26,11 @@ def verify_excerpt(date, ex):
     """The excerpt must occur verbatim in the source text. If the whole text matches contiguously (e.g. the source itself contains
     a genuine ". . ."), it is accepted as is. Otherwise it is split at omission marks (". . ." or legacy "[\u2026]") and every
     segment must occur verbatim, and in order, in the source."""
-    head, body = source_text(ex["source"]); src = norm(body); pos = 0
-    if norm(ex["text"]) in src: segs = [ex["text"]]
+    head, body = source_text(ex["source"]); FN = ex["source"] in ("ccc", "roman_catechism"); src = norm(body, FN); pos = 0
+    if norm(ex["text"], FN) in src: segs = [ex["text"]]
     else: segs = [x for x in OMIT_RE.split(ex["text"]) if x.strip()]
     for sg in segs:
-        n = norm(sg); i = src.find(n, pos)
+        n = norm(sg, FN); i = src.find(n, pos)
         if i < 0: raise SystemExit(f"EXCERPT NOT FOUND VERBATIM IN SOURCE {ex['source']} for {date}: {sg[:80]!r}")
         pos = i + len(n)
         t = sg.strip()
