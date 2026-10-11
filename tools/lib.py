@@ -86,6 +86,7 @@ def kjv_chapter(bid, ch):
 
 def clean(t):
     t = t.replace("¶", "").replace("\u2019", "'")
+    t = re.sub(r"\bLORD'S\b", "LORD's", t)        # source data has "LORD'S"; the possessive s is lowercase ("LORD's")
     return re.sub(r"\s+", " ", t).strip()
 
 STOP = set("that this with from have they will were been shall their there which them then unto when what said also thou thee thy thine your yours into upon over such than these those would could should about because while where whom whose".split())
