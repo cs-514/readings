@@ -25,7 +25,8 @@ def main():
         if i < 0: raise SystemExit(f"start not found: {a[:60]!r}")
         j = dl.find(b.lower(), i)
         if j < 0: raise SystemExit(f"end not found: {b[:60]!r}")
-        seg = d[i:j + len(b)].strip(); pos = j + len(b)
+        seg = d[i:j + len(b)].strip(); contig = (out and not d[pos:i].strip()); pos = j + len(b)
+        if contig: out[-1] = out[-1] + " " + seg; continue
         if not (seg[0].isupper() or seg[0] in "\"'(") or seg[-1] not in ".?!\"'": print("WARNING: boundary:", repr(seg[:30]), repr(seg[-15:]))
         out.append(seg)
     text = " . . . ".join(out); text = curly(text); w = len([x for x in text.replace(" . . . ", " ").split()])
