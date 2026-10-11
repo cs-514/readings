@@ -12,7 +12,13 @@
      "text": "Who is a liar but he that denieth that Jesus is the Christ? He is antichrist, that denieth the Father and the Son. Whosoever denieth the Son, the same hath not the Father: (but) he that acknowledgeth the Son hath the Father also. Let that therefore abide in you, which ye have heard from the beginning. If that which ye have heard from the beginning shall remain in you, ye also shall continue in the Son, and in the Father. And this is the promise that he hath promised us, even eternal life. These things have I written unto you concerning them that seduce you. But the anointing which ye have received of him abideth in you, and ye need not that any man teach you: but as the same anointing teacheth you of all things, and is truth, and is no lie, and even as it hath taught you, ye shall abide in him. And now, little children, abide in him; that, when he shall appear, we may have confidence, and not be ashamed before him at his coming.",
      "score": 0.61,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Who is the liar but he who denies that Jesus is the Christ? This is the Antichrist, he who denies the Father and the Son. Whoever denies the Son doesn't have the Father. He who confesses the Son has the Father also. Therefore, as for you, let that remain in you which you heard from the beginning. If that which you heard from the beginning remains in you, you also will remain in the Son, and in the Father. This is the promise which he promised us, the eternal life. These things I have written to you concerning those who would lead you astray. As for you, the anointing which you received from him remains in you, and you don't need for anyone to teach you. But as his anointing teaches you concerning all things, and is true, and is no lie, and even as it taught you, you will remain in him. Now, little children, remain in him, that when he appears, we may have boldness and not be ashamed before him at his coming.",
+      "note": null,
+      "score": 0.69,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "O sing unto the LORD a new song; for he hath done marvellous things: his right hand, and his holy arm, hath gotten him the victory.\nThe LORD hath made known his salvation: his righteousness hath he openly shewed in the sight of the heathen.\nHe hath remembered his mercy and his truth toward the house of Israel: all the ends of the earth have seen the salvation of our God.\nMake a joyful noise unto the LORD, all the earth: make a loud noise, and rejoice, and sing praise.",
      "score": 0.67,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Sing to the LORD a new song, for he has done marvelous things! His right hand and his holy arm have worked salvation for him.\nThe LORD has made known his salvation. He has openly shown his righteousness in the sight of the nations.\nHe has remembered his loving kindness and his faithfulness toward the house of Israel. All the ends of the earth have seen the salvation of our God.\nMake a joyful noise to the LORD, all the earth! Burst out and sing for joy, yes, sing praises!",
+      "note": null,
+      "score": 0.73,
+      "shift": 0
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "And this is the record of John, when the Jews sent priests and Levites from Jerusalem to ask him, Who art thou? And he confessed, and denied not; but confessed, I am not the Christ. And they asked him, What then? Art thou Elias? And he saith, I am not. Art thou that prophet? And he answered, No. Then said they unto him, Who art thou? that we may give an answer to them that sent us. What sayest thou of thyself? He said, I am the voice of one crying in the wilderness, Make straight the way of the Lord, as said the prophet Esaias. And they which were sent were of the Pharisees. And they asked him, and said unto him, Why baptizest thou then, if thou be not that Christ, nor Elias, neither that prophet? John answered them, saying, I baptize with water: but there standeth one among you, whom ye know not; He it is, who coming after me is preferred before me, whose shoe's latchet I am not worthy to unloose. These things were done in Bethabara beyond Jordan, where John was baptizing.",
      "score": 0.62,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "This is John's testimony, when the Jews sent priests and Levites from Jerusalem to ask him, “Who are you?” He declared, and didn't deny, but he declared, “I am not the Christ.” They asked him, “What then? Are you Elijah?” He said, “I am not.” “Are you the prophet?” He answered, “No.” They said therefore to him, “Who are you? Give us an answer to take back to those who sent us. What do you say about yourself?” He said, “I am the voice of one crying in the wilderness, ‘Make straight the way of the Lord,' as Isaiah the prophet said.” The ones who had been sent were from the Pharisees. They asked him, “Why then do you baptize if you are not the Christ, nor Elijah, nor the prophet?” John answered them, “I baptize in water, but among you stands one whom you don't know. He is the one who comes after me, who is preferred before me, whose sandal strap I'm not worthy to loosen.” These things were done in Bethany beyond the Jordan, where John was baptizing.",
+      "note": null,
+      "score": 0.79,
+      "shift": 0
+     }
     }
    ]
   }

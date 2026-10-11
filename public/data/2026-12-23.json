@@ -12,7 +12,13 @@
      "text": "Behold, I will send my messenger, and he shall prepare the way before me: and the Lord, whom ye seek, shall suddenly come to his temple, even the messenger of the covenant, whom ye delight in: behold, he shall come, saith the LORD of hosts. But who may abide the day of his coming? and who shall stand when he appeareth? for he is like a refiner's fire, and like fullers' sope: And he shall sit as a refiner and purifier of silver: and he shall purify the sons of Levi, and purge them as gold and silver, that they may offer unto the LORD an offering in righteousness. Then shall the offering of Judah and Jerusalem be pleasant unto the LORD, as in the days of old, and as in former years.\n\nBehold, I will send you Elijah the prophet before the coming of the great and dreadful day of the LORD: And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse.",
      "score": 0.75,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "“Behold, I send my messenger, and he will prepare the way before me! The Lord, whom you seek, will suddenly come to his temple. Behold, the messenger of the covenant, whom you desire, is coming!” says the LORD of Armies. “But who can endure the day of his coming? And who will stand when he appears? For he is like a refiner's fire, and like launderers' soap; and he will sit as a refiner and purifier of silver, and he will purify the sons of Levi, and refine them as gold and silver; and they shall offer to the LORD offerings in righteousness. Then the offering of Judah and Jerusalem will be pleasant to the LORD as in the days of old and as in ancient years.\n\nBehold, I will send you Elijah the prophet before the great and terrible day of the LORD comes. He will turn the hearts of the fathers to the children and the hearts of the children to their fathers, lest I come and strike the earth with a curse.”",
+      "note": null,
+      "score": 0.83,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "Shew me thy ways, O LORD; teach me thy paths.\nLead me in thy truth, and teach me: for thou art the God of my salvation; on thee do I wait all the day.\n\nGood and upright is the LORD: therefore will he teach sinners in the way.\nThe meek will he guide in judgment: and the meek will he teach his way.\nAll the paths of the LORD are mercy and truth unto such as keep his covenant and his testimonies.\n\nThe secret of the LORD is with them that fear him; and he will shew them his covenant.",
      "score": 0.48,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Show me your ways, LORD. Teach me your paths.\nGuide me in your truth, and teach me, for you are the God of my salvation. I wait for you all day long.\n\nGood and upright is the LORD, therefore he will instruct sinners in the way.\nHe will guide the humble in justice. He will teach the humble his way.\nAll the paths of the LORD are loving kindness and truth to such as keep his covenant and his testimonies.\n\nThe friendship of the LORD is with those who fear him. He will show them his covenant.",
+      "note": null,
+      "score": 0.68,
+      "shift": 0
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "Now Elisabeth's full time came that she should be delivered; and she brought forth a son. And her neighbours and her cousins heard how the Lord had shewed great mercy upon her; and they rejoiced with her. And it came to pass, that on the eighth day they came to circumcise the child; and they called him Zacharias, after the name of his father. And his mother answered and said, Not so; but he shall be called John. And they said unto her, There is none of thy kindred that is called by this name. And they made signs to his father, how he would have him called. And he asked for a writing table, and wrote, saying, His name is John. And they marvelled all. And his mouth was opened immediately, and his tongue loosed, and he spake, and praised God. And fear came on all that dwelt round about them: and all these sayings were noised abroad throughout all the hill country of Judaea. And all they that heard them laid them up in their hearts, saying, What manner of child shall this be! And the hand of the Lord was with him.",
      "score": 0.56,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Now the time that Elizabeth should give birth was fulfilled, and she gave birth to a son. Her neighbors and her relatives heard that the Lord had magnified his mercy toward her, and they rejoiced with her. On the eighth day, they came to circumcise the child; and they would have called him Zacharias, after the name of his father. His mother answered, “Not so; but he will be called John.” They said to her, “There is no one among your relatives who is called by this name.” They made signs to his father, what he would have him called. He asked for a writing tablet, and wrote, “His name is John.” They all marveled. His mouth was opened immediately and his tongue freed, and he spoke, blessing God. Fear came on all who lived around them, and all these sayings were talked about throughout all the hill country of Judea. All who heard them laid them up in their heart, saying, “What then will this child be?” The hand of the Lord was with him.",
+      "note": null,
+      "score": 0.75,
+      "shift": 0
+     }
     }
    ]
   }

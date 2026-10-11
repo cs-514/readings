@@ -102,15 +102,27 @@ def similarity(a, b):
     A, B = toks(a), toks(b)
     return len(A & B) / len(A) if A else 0.0
 
+# ---------- WEB-CE ----------
+TRANS = "kjv"          # active translation for fetch_range: "kjv" | "web"
+WEB_BOOK = {"EST": "ESG", "DAN": "DAG"}   # WEB-CE files contain the Greek forms of Esther and Daniel
+_web = {}
+def web_chapter(bid, ch):
+    bid = WEB_BOOK.get(bid, bid)
+    if bid not in _web:
+        import webc; webc.ensure()
+        p = f"{ROOT}/cache/web/{bid}.json"
+        _web[bid] = json.load(open(p)) if os.path.exists(p) else {}
+    return {int(v): t for v, t in _web[bid].get(str(ch), {}).items()}
+
 def fetch_range(bid, c1, v1, c2, v2, shift):
     """verses (list of (c,v,text)) for range with verse shift applied to both ends."""
     res = []
     for c in range(c1, c2 + 1):
-        vs = kjv_chapter(bid, c)
+        vs = web_chapter(bid, c) if TRANS == "web" else kjv_chapter(bid, c)
         if not vs: continue
         lo = v1 + shift if c == c1 else 1
         hi = v2 + shift if c == c2 else max(vs)
         if hi > 900: hi = max(vs)
         for v in sorted(vs):
-            if lo <= v <= hi: res.append((c, v, vs[v]))
+            if lo <= v <= hi and (TRANS != "web" or vs[v].strip()): res.append((c, v, vs[v]))
     return res

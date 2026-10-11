@@ -12,7 +12,13 @@
      "text": "He that sacrificeth unto any god, save unto the LORD only, he shall be utterly destroyed. Thou shalt neither vex a stranger, nor oppress him: for ye were strangers in the land of Egypt. Ye shall not afflict any widow, or fatherless child. If thou afflict them in any wise, and they cry at all unto me, I will surely hear their cry; And my wrath shall wax hot, and I will kill you with the sword; and your wives shall be widows, and your children fatherless. If thou lend money to any of my people that is poor by thee, thou shalt not be to him as an usurer, neither shalt thou lay upon him usury. If thou at all take thy neighbour's raiment to pledge, thou shalt deliver it unto him by that the sun goeth down:",
      "score": 0.41,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "“You shall not wrong an alien or oppress him, for you were aliens in the land of Egypt. “You shall not take advantage of any widow or fatherless child. If you take advantage of them at all, and they cry at all to me, I will surely hear their cry; and my wrath will grow hot, and I will kill you with the sword; and your wives shall be widows, and your children fatherless. “If you lend money to any of my people with you who is poor, you shall not be to him as a creditor. You shall not charge him interest. If you take your neighbor's garment as collateral, you shall restore it to him before the sun goes down, for that is his only covering, it is his garment for his skin. What would he sleep in? It will happen, when he cries to me, that I will hear, for I am gracious.",
+      "note": "Verse numbering differs between the USCCB (NABRE) and the World English Bible (Catholic Edition); matched to the equivalent verses.",
+      "score": 0.54,
+      "shift": 1
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "I will love thee, O LORD, my strength.\nThe LORD is my rock, and my fortress, and my deliverer; my God, my strength, in whom I will trust; my buckler, and the horn of my salvation, and my high tower.\nI will call upon the LORD, who is worthy to be praised: so shall I be saved from mine enemies.\n\nThe LORD liveth; and blessed be my rock; and let the God of my salvation be exalted.\n\nGreat deliverance giveth he to his king; and sheweth mercy to his anointed, to David, and to his seed for evermore.",
      "score": 0.54,
      "shift": -1,
-     "note": "Verse numbering differs between the USCCB (NABRE) and the King James Version; matched to the equivalent KJV verses."
+     "note": "Verse numbering differs between the USCCB (NABRE) and the King James Version; matched to the equivalent KJV verses.",
+     "web": {
+      "text": "I love you, LORD, my strength.\nThe LORD is my rock, my fortress, and my deliverer; my God, my rock, in whom I take refuge; my shield, and the horn of my salvation, my high tower.\nI call on the LORD, who is worthy to be praised; and I am saved from my enemies.\n\nThe LORD lives! Blessed be my rock. Exalted be the God of my salvation,\n\nHe gives great deliverance to his king, and shows loving kindness to his anointed, to David and to his offspring, forever more.",
+      "note": "Verse numbering differs between the USCCB (NABRE) and the World English Bible (Catholic Edition); matched to the equivalent verses.",
+      "score": 0.73,
+      "shift": -1
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "For our gospel came not unto you in word only, but also in power, and in the Holy Ghost, and in much assurance; as ye know what manner of men we were among you for your sake. And ye became followers of us, and of the Lord, having received the word in much affliction, with joy of the Holy Ghost: So that ye were ensamples to all that believe in Macedonia and Achaia. For from you sounded out the word of the Lord not only in Macedonia and Achaia, but also in every place your faith to God-ward is spread abroad; so that we need not to speak any thing. For they themselves shew of us what manner of entering in we had unto you, and how ye turned to God from idols to serve the living and true God; And to wait for his Son from heaven, whom he raised from the dead, even Jesus, which delivered us from the wrath to come.",
      "score": 0.63,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "and that our Good News came to you not in word only, but also in power, and in the Holy Spirit and with much assurance. You know what kind of men we showed ourselves to be among you for your sake. You became imitators of us and of the Lord, having received the word in much affliction, with joy of the Holy Spirit, so that you became an example to all who believe in Macedonia and in Achaia. For from you the word of the Lord has been declared, not only in Macedonia and Achaia, but also in every place your faith toward God has gone out, so that we need not say anything. For they themselves report concerning us what kind of a reception we had from you, and how you turned to God from idols to serve a living and true God, and to wait for his Son from heaven, whom he raised from the dead: Jesus, who delivers us from the wrath to come.",
+      "note": "Half-verse (1:5c) could not be divided automatically, so the whole verse is shown.",
+      "score": 0.74,
+      "shift": 0
+     }
     }
    ]
   },
@@ -51,7 +69,13 @@
      "text": "But when the Pharisees had heard that he had put the Sadducees to silence, they were gathered together. Then one of them, which was a lawyer, asked him a question, tempting him, and saying, Master, which is the great commandment in the law? Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind. This is the first and great commandment. And the second is like unto it, Thou shalt love thy neighbour as thyself. On these two commandments hang all the law and the prophets.",
      "score": 0.69,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "But the Pharisees, when they heard that he had silenced the Sadducees, gathered themselves together. One of them, a lawyer, asked him a question, testing him. “Teacher, which is the greatest commandment in the law?” Jesus said to him, “‘You shall love the Lord your God with all your heart, with all your soul, and with all your mind.' This is the first and great commandment. A second likewise is this, ‘You shall love your neighbor as yourself.' The whole law and the prophets depend on these two commandments.”",
+      "note": null,
+      "score": 0.88,
+      "shift": 0
+     }
     }
    ]
   }

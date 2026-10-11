@@ -12,7 +12,13 @@
      "text": "And the voice which I heard from heaven spake unto me again, and said, Go and take the little book which is open in the hand of the angel which standeth upon the sea and upon the earth. And I went unto the angel, and said unto him, Give me the little book. And he said unto me, Take it, and eat it up; and it shall make thy belly bitter, but it shall be in thy mouth sweet as honey. And I took the little book out of the angel's hand, and ate it up; and it was in my mouth sweet as honey: and as soon as I had eaten it, my belly was bitter. And he said unto me, Thou must prophesy again before many peoples, and nations, and tongues, and kings.",
      "score": 0.61,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "The voice which I heard from heaven, again speaking with me, said, “Go, take the book which is open in the hand of the angel who stands on the sea and on the land.” I went to the angel, telling him to give me the little book. He said to me, “Take it and eat it. It will make your stomach bitter, but in your mouth it will be as sweet as honey.” I took the little book out of the angel's hand, and ate it. It was as sweet as honey in my mouth. When I had eaten it, my stomach was made bitter. They told me, “You must prophesy again over many peoples, nations, languages, and kings.”",
+      "note": null,
+      "score": 0.68,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "I have rejoiced in the way of thy testimonies, as much as in all riches.\n\nThy testimonies also are my delight and my counsellors.\n\nThe law of thy mouth is better unto me than thousands of gold and silver.\n\nHow sweet are thy words unto my taste! yea, sweeter than honey to my mouth!\n\nThy testimonies have I taken as an heritage for ever: for they are the rejoicing of my heart.\n\nI opened my mouth, and panted: for I longed for thy commandments.",
      "score": 0.52,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "I have rejoiced in the way of your testimonies, as much as in all riches.\n\nIndeed your statutes are my delight, and my counselors.\n\nThe law of your mouth is better to me than thousands of pieces of gold and silver.\n\nHow sweet are your promises to my taste, more than honey to my mouth!\n\nI have taken your testimonies as a heritage forever, for they are the joy of my heart.\n\nI opened my mouth wide and panted, for I longed for your commandments.",
+      "note": null,
+      "score": 0.68,
+      "shift": 0
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "And he went into the temple, and began to cast out them that sold therein, and them that bought; Saying unto them, It is written, My house is the house of prayer: but ye have made it a den of thieves. And he taught daily in the temple. But the chief priests and the scribes and the chief of the people sought to destroy him, And could not find what they might do: for all the people were very attentive to hear him.",
      "score": 0.41,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "He entered into the temple and began to drive out those who bought and sold in it, saying to them, “It is written, ‘My house is a house of prayer,' but you have made it a ‘den of robbers'!” He was teaching daily in the temple, but the chief priests, the scribes, and the leading men among the people sought to destroy him. They couldn't find what they might do, for all the people hung on to every word that he said.",
+      "note": null,
+      "score": 0.55,
+      "shift": 0
+     }
     }
    ]
   }

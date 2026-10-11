@@ -12,7 +12,13 @@
      "text": "For I the LORD thy God will hold thy right hand, saying unto thee, Fear not; I will help thee. Fear not, thou worm Jacob, and ye men of Israel; I will help thee, saith the LORD, and thy redeemer, the Holy One of Israel. Behold, I will make thee a new sharp threshing instrument having teeth: thou shalt thresh the mountains, and beat them small, and shalt make the hills as chaff. Thou shalt fan them, and the wind shall carry them away, and the whirlwind shall scatter them: and thou shalt rejoice in the LORD, and shalt glory in the Holy One of Israel. When the poor and needy seek water, and there is none, and their tongue faileth for thirst, I the LORD will hear them, I the God of Israel will not forsake them. I will open rivers in high places, and fountains in the midst of the valleys: I will make the wilderness a pool of water, and the dry land springs of water. I will plant in the wilderness the cedar, the shittah tree, and the myrtle, and the oil tree; I will set in the desert the fir tree, and the pine, and the box tree together: That they may see, and know, and consider, and understand together, that the hand of the LORD hath done this, and the Holy One of Israel hath created it.",
      "score": 0.62,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "For I, the LORD your God, will hold your right hand, saying to you, ‘Don't be afraid. I will help you.' Don't be afraid, you worm Jacob, and you men of Israel. I will help you,” says the LORD. “Your Redeemer is the Holy One of Israel. Behold, I have made you into a new sharp threshing instrument with teeth. You will thresh the mountains, and beat them small, and will make the hills like chaff. You will winnow them, and the wind will carry them away, and the whirlwind will scatter them. You will rejoice in the LORD. You will glory in the Holy One of Israel. The poor and needy seek water, and there is none. Their tongue fails for thirst. I, the LORD, will answer them. I, the God of Israel, will not forsake them. I will open rivers on the bare heights, and springs in the middle of the valleys. I will make the wilderness a pool of water, and the dry land springs of water. I will put cedar, acacia, myrtle, and oil trees in the wilderness. I will set cypress trees, pine, and box trees together in the desert; that they may see, know, consider, and understand together, that the LORD's hand has done this, and the Holy One of Israel has created it.",
+      "note": null,
+      "score": 0.7,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "I will extol thee, my God, O king; and I will bless thy name for ever and ever.\n\nThe LORD is good to all: and his tender mercies are over all his works.\nAll thy works shall praise thee, O LORD; and thy saints shall bless thee.\nThey shall speak of the glory of thy kingdom, and talk of thy power;\nTo make known to the sons of men his mighty acts, and the glorious majesty of his kingdom.\nThy kingdom is an everlasting kingdom, and thy dominion endureth throughout all generations.",
      "score": 0.59,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "I will exalt you, my God, the King. I will praise your name forever and ever.\n\nThe LORD is good to all. His tender mercies are over all his works.\nAll your works will give thanks to you, LORD. Your saints will extol you.\nThey will speak of the glory of your kingdom, and talk about your power,\nto make known to the sons of men his mighty acts, the glory of the majesty of his kingdom.\nYour kingdom is an everlasting kingdom. Your dominion endures throughout all generations. The LORD is faithful in all his words, and loving in all his deeds.",
+      "note": null,
+      "score": 0.66,
+      "shift": 0
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "Verily I say unto you, Among them that are born of women there hath not risen a greater than John the Baptist: notwithstanding he that is least in the kingdom of heaven is greater than he. And from the days of John the Baptist until now the kingdom of heaven suffereth violence, and the violent take it by force. For all the prophets and the law prophesied until John. And if ye will receive it, this is Elias, which was for to come. He that hath ears to hear, let him hear.",
      "score": 0.65,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Most certainly I tell you, among those who are born of women there has not arisen anyone greater than John the Baptizer; yet he who is least in the Kingdom of Heaven is greater than he. From the days of John the Baptizer until now, the Kingdom of Heaven suffers violence, and the violent take it by force. For all the prophets and the law prophesied until John. If you are willing to receive it, this is Elijah, who is to come. He who has ears to hear, let him hear.",
+      "note": null,
+      "score": 0.68,
+      "shift": 0
+     }
     }
    ]
   }

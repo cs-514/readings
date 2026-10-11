@@ -12,7 +12,13 @@
      "text": "And it came to pass, when the king sat in his house, and the LORD had given him rest round about from all his enemies; That the king said unto Nathan the prophet, See now, I dwell in an house of cedar, but the ark of God dwelleth within curtains. And Nathan said to the king, Go, do all that is in thine heart; for the LORD is with thee. And it came to pass that night, that the word of the LORD came unto Nathan, saying, Go and tell my servant David, Thus saith the LORD, Shalt thou build me an house for me to dwell in?\n\nNow therefore so shalt thou say unto my servant David, Thus saith the LORD of hosts, I took thee from the sheepcote, from following the sheep, to be ruler over my people, over Israel: And I was with thee whithersoever thou wentest, and have cut off all thine enemies out of thy sight, and have made thee a great name, like unto the name of the great men that are in the earth. Moreover I will appoint a place for my people Israel, and will plant them, that they may dwell in a place of their own, and move no more; neither shall the children of wickedness afflict them any more, as beforetime, And as since the time that I commanded judges to be over my people Israel, and have caused thee to rest from all thine enemies. Also the LORD telleth thee that he will make thee an house. And when thy days be fulfilled, and thou shalt sleep with thy fathers, I will set up thy seed after thee, which shall proceed out of thy bowels, and I will establish his kingdom.\n\nI will be his father, and he shall be my son. If he commit iniquity, I will chasten him with the rod of men, and with the stripes of the children of men:\n\nAnd thine house and thy kingdom shall be established for ever before thee: thy throne shall be established for ever.",
      "score": 0.5,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "When the king lived in his house, and the LORD had given him rest from all his enemies all around, the king said to Nathan the prophet, “See now, I dwell in a house of cedar, but God's ark dwells within curtains.” Nathan said to the king, “Go, do all that is in your heart, for the LORD is with you.” That same night, the LORD's word came to Nathan, saying, “Go and tell my servant David, ‘The LORD says, “Should you build me a house for me to dwell in?\n\n‘The LORD of Armies says, “I took you from the sheep pen, from following the sheep, to be prince over my people, over Israel. I have been with you wherever you went, and have cut off all your enemies from before you. I will make you a great name, like the name of the great ones who are on the earth. I will appoint a place for my people Israel, and will plant them, that they may dwell in their own place and be moved no more. The children of wickedness will not afflict them any more, as at the first, and as from the day that I commanded judges to be over my people Israel. I will cause you to rest from all your enemies. Moreover the LORD tells you that the LORD will make you a house. When your days are fulfilled and you sleep with your fathers, I will set up your offspring after you, who will proceed out of your body, and I will establish his kingdom.\n\nI will be his father,\n\nYour house and your kingdom will be made sure forever before you. Your throne will be established forever.”'”",
+      "note": "Half-verse (7:8b, 7:14a) is cut at a sentence or clause boundary chosen by comparison with the USCCB text; the lectionary’s division may differ slightly.",
+      "score": 0.51,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "I will sing of the mercies of the LORD for ever: with my mouth will I make known thy faithfulness to all generations.\nFor I have said, Mercy shall be built up for ever: thy faithfulness shalt thou establish in the very heavens.\nI have made a covenant with my chosen, I have sworn unto David my servant,\nThy seed will I establish for ever, and build up thy throne to all generations. Selah.\n\nHe shall cry unto me, Thou art my father, my God, and the rock of my salvation.\n\nMy mercy will I keep for him for evermore, and my covenant shall stand fast with him.",
      "score": 0.61,
      "shift": -1,
-     "note": "Verse numbering differs between the USCCB (NABRE) and the King James Version; matched to the equivalent KJV verses."
+     "note": "Verse numbering differs between the USCCB (NABRE) and the King James Version; matched to the equivalent KJV verses.",
+     "web": {
+      "text": "I will sing of the loving kindness of the LORD forever. With my mouth, I will make known your faithfulness to all generations.\nI indeed declare, “Love stands firm forever. You established the heavens. Your faithfulness is in them.”\n“I have made a covenant with my chosen one, I have sworn to David, my servant,\n‘I will establish your offspring forever, and build up your throne to all generations.'” Selah.\n\nHe will call to me, ‘You are my Father, my God, and the rock of my salvation!'\n\nI will keep my loving kindness for him forever more. My covenant will stand firm with him.",
+      "note": "Verse numbering differs between the USCCB (NABRE) and the World English Bible (Catholic Edition); matched to the equivalent verses.",
+      "score": 0.71,
+      "shift": -1
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "And his father Zacharias was filled with the Holy Ghost, and prophesied, saying, Blessed be the Lord God of Israel; for he hath visited and redeemed his people, And hath raised up an horn of salvation for us in the house of his servant David; As he spake by the mouth of his holy prophets, which have been since the world began: That we should be saved from our enemies, and from the hand of all that hate us; To perform the mercy promised to our fathers, and to remember his holy covenant; The oath which he sware to our father Abraham, That he would grant unto us, that we being delivered out of the hand of our enemies might serve him without fear, In holiness and righteousness before him, all the days of our life. And thou, child, shalt be called the prophet of the Highest: for thou shalt go before the face of the Lord to prepare his ways; To give knowledge of salvation unto his people by the remission of their sins, Through the tender mercy of our God; whereby the dayspring from on high hath visited us, To give light to them that sit in darkness and in the shadow of death, to guide our feet into the way of peace.",
      "score": 0.69,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "His father Zacharias was filled with the Holy Spirit, and prophesied, saying, “Blessed be the Lord, the God of Israel, for he has visited and redeemed his people; and has raised up a horn of salvation for us in the house of his servant David (as he spoke by the mouth of his holy prophets who have been from of old), salvation from our enemies and from the hand of all who hate us; to show mercy toward our fathers, to remember his holy covenant, the oath which he swore to Abraham our father, to grant to us that we, being delivered out of the hand of our enemies, should serve him without fear, in holiness and righteousness before him all the days of our life. And you, child, will be called a prophet of the Most High; for you will go before the face of the Lord to prepare his ways, to give knowledge of salvation to his people by the remission of their sins, because of the tender mercy of our God, by which the dawn from on high will visit us, to shine on those who sit in darkness and the shadow of death; to guide our feet into the way of peace.”",
+      "note": null,
+      "score": 0.75,
+      "shift": 0
+     }
     }
    ]
   }

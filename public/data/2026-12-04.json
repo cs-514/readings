@@ -12,7 +12,13 @@
      "text": "Is it not yet a very little while, and Lebanon shall be turned into a fruitful field, and the fruitful field shall be esteemed as a forest? And in that day shall the deaf hear the words of the book, and the eyes of the blind shall see out of obscurity, and out of darkness. The meek also shall increase their joy in the LORD, and the poor among men shall rejoice in the Holy One of Israel. For the terrible one is brought to nought, and the scorner is consumed, and all that watch for iniquity are cut off: That make a man an offender for a word, and lay a snare for him that reproveth in the gate, and turn aside the just for a thing of nought. Therefore thus saith the LORD, who redeemed Abraham, concerning the house of Jacob, Jacob shall not now be ashamed, neither shall his face now wax pale. But when he seeth his children, the work of mine hands, in the midst of him, they shall sanctify my name, and sanctify the Holy One of Jacob, and shall fear the God of Israel. They also that erred in spirit shall come to understanding, and they that murmured shall learn doctrine.",
      "score": 0.54,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Isn't it yet a very little while, and Lebanon will be turned into a fruitful field, and the fruitful field will be regarded as a forest? In that day, the deaf will hear the words of the book, and the eyes of the blind will see out of obscurity and out of darkness. The humble also will increase their joy in the LORD, and the poor among men will rejoice in the Holy One of Israel. For the ruthless is brought to nothing, and the scoffer ceases, and all those who are alert to do evil are cut off— who cause a person to be indicted by a word, and lay a snare for one who reproves in the gate, and who deprive the innocent of justice with false testimony. Therefore the LORD, who redeemed Abraham, says concerning the house of Jacob: “Jacob shall no longer be ashamed, neither shall his face grow pale. But when he sees his children, the work of my hands, in the middle of him, they will sanctify my name. Yes, they will sanctify the Holy One of Jacob, and will stand in awe of the God of Israel. They also who err in spirit will come to understanding, and those who grumble will receive instruction.”",
+      "note": null,
+      "score": 0.62,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life; of whom shall I be afraid?\n\nOne thing have I desired of the LORD, that will I seek after; that I may dwell in the house of the LORD all the days of my life, to behold the beauty of the LORD, and to enquire in his temple.\n\nI had fainted, unless I had believed to see the goodness of the LORD in the land of the living.\nWait on the LORD: be of good courage, and he shall strengthen thine heart: wait, I say, on the LORD.",
      "score": 0.74,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "The LORD is my light and my salvation. Whom shall I fear? The LORD is the strength of my life. Of whom shall I be afraid?\n\nOne thing I have asked of the LORD, that I will seek after: that I may dwell in the LORD's house all the days of my life, to see the LORD's beauty, and to inquire in his temple.\n\nI am still confident of this: I will see the goodness of the LORD in the land of the living.\nWait for the LORD. Be strong, and let your heart take courage. Yes, wait for the LORD.",
+      "note": null,
+      "score": 0.7,
+      "shift": 0
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "And when Jesus departed thence, two blind men followed him, crying, and saying, Thou Son of David, have mercy on us. And when he was come into the house, the blind men came to him: and Jesus saith unto them, Believe ye that I am able to do this? They said unto him, Yea, Lord. Then touched he their eyes, saying, According to your faith be it unto you. And their eyes were opened; and Jesus straitly charged them, saying, See that no man know it. But they, when they were departed, spread abroad his fame in all that country.",
      "score": 0.58,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "As Jesus passed by from there, two blind men followed him, calling out and saying, “Have mercy on us, son of David!” When he had come into the house, the blind men came to him. Jesus said to them, “Do you believe that I am able to do this?” They told him, “Yes, Lord.” Then he touched their eyes, saying, “According to your faith be it done to you.” Then their eyes were opened. Jesus strictly commanded them, saying, “See that no one knows about this.” But they went out and spread abroad his fame in all that land.",
+      "note": null,
+      "score": 0.69,
+      "shift": 0
+     }
     }
    ]
   }

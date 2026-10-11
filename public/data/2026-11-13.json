@@ -12,7 +12,13 @@
      "text": "I rejoiced greatly that I found of thy children walking in truth, as we have received a commandment from the Father. And now I beseech thee, lady, not as though I wrote a new commandment unto thee, but that which we had from the beginning, that we love one another. And this is love, that we walk after his commandments. This is the commandment, That, as ye have heard from the beginning, ye should walk in it. For many deceivers are entered into the world, who confess not that Jesus Christ is come in the flesh. This is a deceiver and an antichrist. Look to yourselves, that we lose not those things which we have wrought, but that we receive a full reward. Whosoever transgresseth, and abideth not in the doctrine of Christ, hath not God. He that abideth in the doctrine of Christ, he hath both the Father and the Son.",
      "score": 0.57,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "I rejoice greatly that I have found some of your children walking in truth, even as we have been commanded by the Father. Now I beg you, dear lady, not as though I wrote to you a new commandment, but that which we had from the beginning, that we love one another. This is love, that we should walk according to his commandments. This is the commandment, even as you heard from the beginning, that you should walk in it. For many deceivers have gone out into the world, those who don't confess that Jesus Christ came in the flesh. This is the deceiver and the Antichrist. Watch yourselves, that we don't lose the things which we have accomplished, but that we receive a full reward. Whoever transgresses and doesn't remain in the teaching of Christ doesn't have God. He who remains in the teaching has both the Father and the Son.",
+      "note": null,
+      "score": 0.7,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "Blessed are the undefiled in the way, who walk in the law of the LORD.\nBlessed are they that keep his testimonies, and that seek him with the whole heart.\n\nWith my whole heart have I sought thee: O let me not wander from thy commandments.\nThy word have I hid in mine heart, that I might not sin against thee.\n\nDeal bountifully with thy servant, that I may live, and keep thy word.\nOpen thou mine eyes, that I may behold wondrous things out of thy law.",
      "score": 0.52,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Blessed are those whose ways are blameless, who walk according to the LORD's law.\nBlessed are those who keep his statutes, who seek him with their whole heart.\n\nWith my whole heart I have sought you. Don't let me wander from your commandments.\nI have hidden your word in my heart, that I might not sin against you.\n\nDo good to your servant. I will live and I will obey your word.\nOpen my eyes, that I may see wondrous things out of your law.",
+      "note": null,
+      "score": 0.61,
+      "shift": 0
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "And as it was in the days of Noe, so shall it be also in the days of the Son of man. They did eat, they drank, they married wives, they were given in marriage, until the day that Noe entered into the ark, and the flood came, and destroyed them all. Likewise also as it was in the days of Lot; they did eat, they drank, they bought, they sold, they planted, they builded; But the same day that Lot went out of Sodom it rained fire and brimstone from heaven, and destroyed them all. Even thus shall it be in the day when the Son of man is revealed. In that day, he which shall be upon the housetop, and his stuff in the house, let him not come down to take it away: and he that is in the field, let him likewise not return back. Remember Lot's wife. Whosoever shall seek to save his life shall lose it; and whosoever shall lose his life shall preserve it. I tell you, in that night there shall be two men in one bed; the one shall be taken, and the other shall be left. Two women shall be grinding together; the one shall be taken, and the other left. Two men shall be in the field; the one shall be taken, and the other left. And they answered and said unto him, Where, Lord? And he said unto them, Wheresoever the body is, thither will the eagles be gathered together.",
      "score": 0.66,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "As it was in the days of Noah, even so it will also be in the days of the Son of Man. They ate, they drank, they married, and they were given in marriage until the day that Noah entered into the ship, and the flood came and destroyed them all. Likewise, even as it was in the days of Lot: they ate, they drank, they bought, they sold, they planted, they built; but in the day that Lot went out from Sodom, it rained fire and sulfur from the sky and destroyed them all. It will be the same way in the day that the Son of Man is revealed. In that day, he who will be on the housetop and his goods in the house, let him not go down to take them away. Let him who is in the field likewise not turn back. Remember Lot's wife! Whoever seeks to save his life loses it, but whoever loses his life preserves it. I tell you, in that night there will be two people in one bed. One will be taken and the other will be left. There will be two grinding grain together. One will be taken and the other will be left.”\n\nThey, answering, asked him, “Where, Lord?” He said to them, “Where the body is, there the vultures will also be gathered together.”",
+      "note": null,
+      "score": 0.66,
+      "shift": 0
+     }
     }
    ]
   }

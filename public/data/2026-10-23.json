@@ -12,7 +12,13 @@
      "text": "I therefore, the prisoner of the Lord, beseech you that ye walk worthy of the vocation wherewith ye are called, With all lowliness and meekness, with longsuffering, forbearing one another in love; Endeavouring to keep the unity of the Spirit in the bond of peace. There is one body, and one Spirit, even as ye are called in one hope of your calling; One Lord, one faith, one baptism, One God and Father of all, who is above all, and through all, and in you all.",
      "score": 0.57,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "I therefore, the prisoner in the Lord, beg you to walk worthily of the calling with which you were called, with all lowliness and humility, with patience, bearing with one another in love, being eager to keep the unity of the Spirit in the bond of peace. There is one body and one Spirit, even as you also were called in one hope of your calling, one Lord, one faith, one baptism, one God and Father of all, who is over all and through all and in us all.",
+      "note": null,
+      "score": 0.64,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "The earth is the LORD'S, and the fulness thereof; the world, and they that dwell therein.\nFor he hath founded it upon the seas, and established it upon the floods.\nWho shall ascend into the hill of the LORD? or who shall stand in his holy place?\nHe that hath clean hands, and a pure heart; who hath not lifted up his soul unto vanity, nor sworn deceitfully.\nHe shall receive the blessing from the LORD, and righteousness from the God of his salvation.\nThis is the generation of them that seek him, that seek thy face, O Jacob. Selah.",
      "score": 0.68,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "The earth is the LORD's, with its fullness; the world, and those who dwell in it.\nFor he has founded it on the seas, and established it on the floods.\nWho may ascend to the LORD's hill? Who may stand in his holy place?\nHe who has clean hands and a pure heart; who has not lifted up his soul to falsehood, and has not sworn deceitfully.\nHe shall receive a blessing from the LORD, righteousness from the God of his salvation.\nThis is the generation of those who seek Him, who seek your face—even Jacob. Selah.",
+      "note": null,
+      "score": 0.71,
+      "shift": 0
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "And he said also to the people, When ye see a cloud rise out of the west, straightway ye say, There cometh a shower; and so it is. And when ye see the south wind blow, ye say, There will be heat; and it cometh to pass. Ye hypocrites, ye can discern the face of the sky and of the earth; but how is it that ye do not discern this time? Yea, and why even of yourselves judge ye not what is right? When thou goest with thine adversary to the magistrate, as thou art in the way, give diligence that thou mayest be delivered from him; lest he hale thee to the judge, and the judge deliver thee to the officer, and the officer cast thee into prison. I tell thee, thou shalt not depart thence, till thou hast paid the very last mite.",
      "score": 0.37,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "He said to the multitudes also, “When you see a cloud rising from the west, immediately you say, ‘A shower is coming,' and so it happens. When a south wind blows, you say, ‘There will be a scorching heat,' and it happens. You hypocrites! You know how to interpret the appearance of the earth and the sky, but how is it that you don't interpret this time? “Why don't you judge for yourselves what is right? For when you are going with your adversary before the magistrate, try diligently on the way to be released from him, lest perhaps he drag you to the judge, and the judge deliver you to the officer, and the officer throw you into prison. I tell you, you will by no means get out of there until you have paid the very last penny. ”",
+      "note": null,
+      "score": 0.63,
+      "shift": 0
+     }
     }
    ]
   }

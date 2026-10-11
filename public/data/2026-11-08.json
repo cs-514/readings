@@ -12,7 +12,13 @@
      "text": "Wisdom is glorious, and never fadeth away: yea, she is easily seen of them that love her, and found of such as seek her. She preventeth them that desire her, in making herself first known unto them. Whoso seeketh her early shall have no great travail: for he shall find her sitting at his doors. To think therefore upon her is perfection of wisdom: and whoso watcheth for her shall quickly be without care. For she goeth about seeking such as are worthy of her, sheweth herself favourably unto them in the ways, and meeteth them in every thought.",
      "score": 0.45,
      "shift": 0,
-     "note": "Taken from the KJV 1611 Apocrypha."
+     "note": "Taken from the KJV 1611 Apocrypha.",
+     "web": {
+      "text": "Wisdom is radiant and doesn't fade away; and is easily seen by those who love her, and found by those who seek her. She anticipates those who desire her, making herself known. He who rises up early to seek her won't have difficulty, for he will find her sitting at his gates. For to think upon her is perfection of understanding, and he who watches for her will quickly be free from care; because she herself goes around, seeking those who are worthy of her, and in their paths she appears to them graciously, and in every purpose she meets them.",
+      "note": null,
+      "score": 0.5,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "O God, thou art my God; early will I seek thee: my soul thirsteth for thee, my flesh longeth for thee in a dry and thirsty land, where no water is;\nTo see thy power and thy glory, so as I have seen thee in the sanctuary.\nBecause thy lovingkindness is better than life, my lips shall praise thee.\nThus will I bless thee while I live: I will lift up my hands in thy name.\nMy soul shall be satisfied as with marrow and fatness; and my mouth shall praise thee with joyful lips:\nWhen I remember thee upon my bed, and meditate on thee in the night watches.\nBecause thou hast been my help, therefore in the shadow of thy wings will I rejoice.",
      "score": 0.58,
      "shift": -1,
-     "note": "Verse numbering differs between the USCCB (NABRE) and the King James Version; matched to the equivalent KJV verses."
+     "note": "Verse numbering differs between the USCCB (NABRE) and the King James Version; matched to the equivalent KJV verses.",
+     "web": {
+      "text": "God, you are my God. I will earnestly seek you. My soul thirsts for you. My flesh longs for you, in a dry and weary land, where there is no water.\nSo I have seen you in the sanctuary, watching your power and your glory.\nBecause your loving kindness is better than life, my lips shall praise you.\nSo I will bless you while I live. I will lift up my hands in your name.\nMy soul shall be satisfied as with the richest food. My mouth shall praise you with joyful lips,\nwhen I remember you on my bed, and think about you in the night watches.\nFor you have been my help. I will rejoice in the shadow of your wings.",
+      "note": "Verse numbering differs between the USCCB (NABRE) and the World English Bible (Catholic Edition); matched to the equivalent verses.",
+      "score": 0.58,
+      "shift": -1
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "But I would not have you to be ignorant, brethren, concerning them which are asleep, that ye sorrow not, even as others which have no hope. For if we believe that Jesus died and rose again, even so them also which sleep in Jesus will God bring with him. For this we say unto you by the word of the Lord, that we which are alive and remain unto the coming of the Lord shall not prevent them which are asleep. For the Lord himself shall descend from heaven with a shout, with the voice of the archangel, and with the trump of God: and the dead in Christ shall rise first: Then we which are alive and remain shall be caught up together with them in the clouds, to meet the Lord in the air: and so shall we ever be with the Lord. Wherefore comfort one another with these words.",
      "score": 0.51,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "But we don't want you to be ignorant, brothers, concerning those who have fallen asleep, so that you don't grieve like the rest, who have no hope. For if we believe that Jesus died and rose again, even so God will bring with him those who have fallen asleep in Jesus. For this we tell you by the word of the Lord, that we who are alive, who are left until the coming of the Lord, will in no way precede those who have fallen asleep. For the Lord himself will descend from heaven with a shout, with the voice of the archangel and with God's trumpet. The dead in Christ will rise first, then we who are alive, who are left, will be caught up together with them in the clouds to meet the Lord in the air. So we will be with the Lord forever. Therefore comfort one another with these words.",
+      "note": null,
+      "score": 0.77,
+      "shift": 0
+     }
     }
    ]
   },
@@ -51,7 +69,13 @@
      "text": "Then shall the kingdom of heaven be likened unto ten virgins, which took their lamps, and went forth to meet the bridegroom. And five of them were wise, and five were foolish. They that were foolish took their lamps, and took no oil with them: But the wise took oil in their vessels with their lamps. While the bridegroom tarried, they all slumbered and slept. And at midnight there was a cry made, Behold, the bridegroom cometh; go ye out to meet him. Then all those virgins arose, and trimmed their lamps. And the foolish said unto the wise, Give us of your oil; for our lamps are gone out. But the wise answered, saying, Not so; lest there be not enough for us and you: but go ye rather to them that sell, and buy for yourselves. And while they went to buy, the bridegroom came; and they that were ready went in with him to the marriage: and the door was shut. Afterward came also the other virgins, saying, Lord, Lord, open to us. But he answered and said, Verily I say unto you, I know you not. Watch therefore, for ye know neither the day nor the hour wherein the Son of man cometh.",
      "score": 0.49,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "“Then the Kingdom of Heaven will be like ten virgins who took their lamps and went out to meet the bridegroom. Five of them were foolish, and five were wise. Those who were foolish, when they took their lamps, took no oil with them, but the wise took oil in their vessels with their lamps. Now while the bridegroom delayed, they all slumbered and slept. But at midnight there was a cry, ‘Behold! The bridegroom is coming! Come out to meet him!' Then all those virgins arose, and trimmed their lamps. The foolish said to the wise, ‘Give us some of your oil, for our lamps are going out.' But the wise answered, saying, ‘What if there isn't enough for us and you? You go rather to those who sell, and buy for yourselves.' While they went away to buy, the bridegroom came, and those who were ready went in with him to the wedding feast, and the door was shut. Afterward the other virgins also came, saying, ‘Lord, Lord, open to us.' But he answered, ‘Most certainly I tell you, I don't know you.' Watch therefore, for you don't know the day nor the hour in which the Son of Man is coming.",
+      "note": null,
+      "score": 0.6,
+      "shift": 0
+     }
     }
    ]
   }

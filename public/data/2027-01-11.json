@@ -12,7 +12,13 @@
      "text": "God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets, Hath in these last days spoken unto us by his Son, whom he hath appointed heir of all things, by whom also he made the worlds; Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high; Being made so much better than the angels, as he hath by inheritance obtained a more excellent name than they. For unto which of the angels said he at any time, Thou art my Son, this day have I begotten thee? And again, I will be to him a Father, and he shall be to me a Son? And again, when he bringeth in the firstbegotten into the world, he saith, And let all the angels of God worship him.",
      "score": 0.48,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "God, having in the past spoken to the fathers through the prophets at many times and in various ways, has at the end of these days spoken to us by his Son, whom he appointed heir of all things, through whom also he made the worlds. His Son is the radiance of his glory, the very image of his substance, and upholding all things by the word of his power, who, when he had by himself purified us of our sins, sat down on the right hand of the Majesty on high, having become as much better than the angels as the more excellent name he has inherited is better than theirs. For to which of the angels did he say at any time, “You are my Son. Today I have become your father?” and again, “I will be to him a Father, and he will be to me a Son?” When he again brings in the firstborn into the world he says, “Let all the angels of God worship him.”",
+      "note": null,
+      "score": 0.56,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "The LORD reigneth; let the earth rejoice; let the multitude of isles be glad thereof.\nClouds and darkness are round about him: righteousness and judgment are the habitation of his throne.\n\nThe heavens declare his righteousness, and all the people see his glory.\nConfounded be all they that serve graven images, that boast themselves of idols: worship him, all ye gods.\n\nFor thou, LORD, art high above all the earth: thou art exalted far above all gods.",
      "score": 0.68,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "The LORD reigns! Let the earth rejoice! Let the multitude of islands be glad!\nRighteousness and justice are the foundation of his throne.\n\nThe heavens declare his righteousness. All the peoples have seen his glory.\nLet all them be shamed who serve engraved images, who boast in their idols. Worship him, all you gods!\n\nFor you, LORD, are most high above all the earth. You are exalted far above all gods.",
+      "note": "Half-verse (97:2b) is cut at a sentence or clause boundary chosen by comparison with the USCCB text; the lectionary’s division may differ slightly. Half-verse (97:7c) could not be divided automatically, so the whole verse is shown.",
+      "score": 0.73,
+      "shift": 0
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "Now after that John was put in prison, Jesus came into Galilee, preaching the gospel of the kingdom of God, And saying, The time is fulfilled, and the kingdom of God is at hand: repent ye, and believe the gospel. Now as he walked by the sea of Galilee, he saw Simon and Andrew his brother casting a net into the sea: for they were fishers. And Jesus said unto them, Come ye after me, and I will make you to become fishers of men. And straightway they forsook their nets, and followed him. And when he had gone a little farther thence, he saw James the son of Zebedee, and John his brother, who also were in the ship mending their nets. And straightway he called them: and they left their father Zebedee in the ship with the hired servants, and went after him.",
      "score": 0.81,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Now after John was taken into custody, Jesus came into Galilee, preaching the Good News of God's Kingdom, and saying, “The time is fulfilled, and God's Kingdom is at hand! Repent, and believe in the Good News.” Passing along by the sea of Galilee, he saw Simon and Andrew, the brother of Simon, casting a net into the sea, for they were fishermen. Jesus said to them, “Come after me, and I will make you into fishers for men.” Immediately they left their nets, and followed him. Going on a little further from there, he saw James the son of Zebedee, and John his brother, who were also in the boat mending the nets. Immediately he called them, and they left their father, Zebedee, in the boat with the hired servants, and went after him.",
+      "note": null,
+      "score": 0.84,
+      "shift": 0
+     }
     }
    ]
   }

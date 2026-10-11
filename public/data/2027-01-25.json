@@ -12,7 +12,13 @@
      "text": "I am verily a man which am a Jew, born in Tarsus, a city in Cilicia, yet brought up in this city at the feet of Gamaliel, and taught according to the perfect manner of the law of the fathers, and was zealous toward God, as ye all are this day. And I persecuted this way unto the death, binding and delivering into prisons both men and women. As also the high priest doth bear me witness, and all the estate of the elders: from whom also I received letters unto the brethren, and went to Damascus, to bring them which were there bound unto Jerusalem, for to be punished. And it came to pass, that, as I made my journey, and was come nigh unto Damascus about noon, suddenly there shone from heaven a great light round about me. And I fell unto the ground, and heard a voice saying unto me, Saul, Saul, why persecutest thou me? And I answered, Who art thou, Lord? And he said unto me, I am Jesus of Nazareth, whom thou persecutest. And they that were with me saw indeed the light, and were afraid; but they heard not the voice of him that spake to me. And I said, What shall I do, Lord? And the Lord said unto me, Arise, and go into Damascus; and there it shall be told thee of all things which are appointed for thee to do. And when I could not see for the glory of that light, being led by the hand of them that were with me, I came into Damascus. And one Ananias, a devout man according to the law, having a good report of all the Jews which dwelt there, Came unto me, and stood, and said unto me, Brother Saul, receive thy sight. And the same hour I looked up upon him. And he said, The God of our fathers hath chosen thee, that thou shouldest know his will, and see that Just One, and shouldest hear the voice of his mouth. For thou shalt be his witness unto all men of what thou hast seen and heard. And now why tarriest thou? arise, and be baptized, and wash away thy sins, calling on the name of the Lord.",
      "score": 0.35,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "“I am indeed a Jew, born in Tarsus of Cilicia, but brought up in this city at the feet of Gamaliel, instructed according to the strict tradition of the law of our fathers, being zealous for God, even as you all are today. I persecuted this Way to the death, binding and delivering into prisons both men and women, as also the high priest and all the council of the elders testify, from whom also I received letters to the brothers, and traveled to Damascus to bring them also who were there to Jerusalem in bonds to be punished. “As I made my journey and came close to Damascus, about noon suddenly a great light shone around me from the sky. I fell to the ground and heard a voice saying to me, ‘Saul, Saul, why are you persecuting me?' I answered, ‘Who are you, Lord?' He said to me, ‘I am Jesus of Nazareth, whom you persecute.' “Those who were with me indeed saw the light and were afraid, but they didn't understand the voice of him who spoke to me. I said, ‘What shall I do, Lord?' The Lord said to me, ‘Arise, and go into Damascus. There you will be told about all things which are appointed for you to do.' When I couldn't see for the glory of that light, being led by the hand of those who were with me, I came into Damascus. “One Ananias, a devout man according to the law, well reported of by all the Jews who lived in Damascus, came to me, and standing by me said to me, ‘Brother Saul, receive your sight!' In that very hour I looked up at him. He said, ‘The God of our fathers has appointed you to know his will, and to see the Righteous One, and to hear a voice from his mouth. For you will be a witness for him to all men of what you have seen and heard. Now why do you wait? Arise, be baptized, and wash away your sins, calling on the name of the Lord.'",
+      "note": null,
+      "score": 0.38,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "O praise the LORD, all ye nations: praise him, all ye people.\nFor his merciful kindness is great toward us: and the truth of the LORD endureth for ever. Praise ye the LORD.",
      "score": 0.64,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Praise the LORD, all you nations! Extol him, all you peoples!\nFor his loving kindness is great toward us. The LORD's faithfulness endures forever. Praise the LORD!",
+      "note": "Half-verse (117:1bc) could not be divided automatically, so the whole verse is shown.",
+      "score": 0.73,
+      "shift": 0
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "And he said unto them, Go ye into all the world, and preach the gospel to every creature. He that believeth and is baptized shall be saved; but he that believeth not shall be damned. And these signs shall follow them that believe; In my name shall they cast out devils; they shall speak with new tongues; They shall take up serpents; and if they drink any deadly thing, it shall not hurt them; they shall lay hands on the sick, and they shall recover.",
      "score": 0.55,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "He said to them, “Go into all the world and preach the Good News to the whole creation. He who believes and is baptized will be saved; but he who disbelieves will be condemned. These signs will accompany those who believe: in my name they will cast out demons; they will speak with new languages; they will take up serpents; and if they drink any deadly thing, it will in no way hurt them; they will lay hands on the sick, and they will recover.”",
+      "note": null,
+      "score": 0.61,
+      "shift": 0
+     }
     }
    ]
   }

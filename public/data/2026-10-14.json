@@ -12,7 +12,13 @@
      "text": "But if ye be led of the Spirit, ye are not under the law. Now the works of the flesh are manifest, which are these; Adultery, fornication, uncleanness, lasciviousness, Idolatry, witchcraft, hatred, variance, emulations, wrath, strife, seditions, heresies, Envyings, murders, drunkenness, revellings, and such like: of the which I tell you before, as I have also told you in time past, that they which do such things shall not inherit the kingdom of God. But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance: against such there is no law. And they that are Christ's have crucified the flesh with the affections and lusts. If we live in the Spirit, let us also walk in the Spirit.",
      "score": 0.34,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "But if you are led by the Spirit, you are not under the law. Now the deeds of the flesh are obvious, which are: adultery, sexual immorality, uncleanness, lustfulness, idolatry, sorcery, hatred, strife, jealousies, outbursts of anger, rivalries, divisions, heresies, envy, murders, drunkenness, orgies, and things like these; of which I forewarn you, even as I also forewarned you, that those who practice such things will not inherit God's Kingdom. But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faith, gentleness, and self-control. Against such things there is no law. Those who belong to Christ have crucified the flesh with its passions and lusts. If we live by the Spirit, let's also walk by the Spirit.",
+      "note": null,
+      "score": 0.53,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "Blessed is the man that walketh not in the counsel of the ungodly, nor standeth in the way of sinners, nor sitteth in the seat of the scornful.\nBut his delight is in the law of the LORD; and in his law doth he meditate day and night.\nAnd he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper.\nThe ungodly are not so: but are like the chaff which the wind driveth away.\n\nFor the LORD knoweth the way of the righteous: but the way of the ungodly shall perish.",
      "score": 0.54,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Blessed is the man who doesn't walk in the counsel of the wicked, nor stand on the path of sinners, nor sit in the seat of scoffers;\nbut his delight is in the LORD's law. On his law he meditates day and night.\nHe will be like a tree planted by the streams of water, that produces its fruit in its season, whose leaf also does not wither. Whatever he does shall prosper.\nThe wicked are not so, but are like the chaff which the wind drives away.\n\nFor the LORD knows the way of the righteous, but the way of the wicked shall perish.",
+      "note": null,
+      "score": 0.63,
+      "shift": 0
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "But woe unto you, Pharisees! for ye tithe mint and rue and all manner of herbs, and pass over judgment and the love of God: these ought ye to have done, and not to leave the other undone. Woe unto you, Pharisees! for ye love the uppermost seats in the synagogues, and greetings in the markets. Woe unto you, scribes and Pharisees, hypocrites! for ye are as graves which appear not, and the men that walk over them are not aware of them. Then answered one of the lawyers, and said unto him, Master, thus saying thou reproachest us also. And he said, Woe unto you also, ye lawyers! for ye lade men with burdens grievous to be borne, and ye yourselves touch not the burdens with one of your fingers.",
      "score": 0.47,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "But woe to you Pharisees! For you tithe mint and rue and every herb, but you bypass justice and God's love. You ought to have done these, and not to have left the other undone. Woe to you Pharisees! For you love the best seats in the synagogues and the greetings in the marketplaces. Woe to you, scribes and Pharisees, hypocrites! For you are like hidden graves, and the men who walk over them don't know it.” One of the lawyers answered him, “Teacher, in saying this you insult us also.” He said, “Woe to you lawyers also! For you load men with burdens that are difficult to carry, and you yourselves won't even lift one finger to help carry those burdens.",
+      "note": null,
+      "score": 0.61,
+      "shift": 0
+     }
     }
    ]
   }

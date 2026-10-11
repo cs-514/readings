@@ -12,7 +12,13 @@
      "text": "That they may know from the rising of the sun, and from the west, that there is none beside me. I am the LORD, and there is none else. I form the light, and create darkness: I make peace, and create evil: I the LORD do all these things. Drop down, ye heavens, from above, and let the skies pour down righteousness: let the earth open, and let them bring forth salvation, and let righteousness spring up together; I the LORD have created it.\n\nFor thus saith the LORD that created the heavens; God himself that formed the earth and made it; he hath established it, he created it not in vain, he formed it to be inhabited: I am the LORD; and there is none else.\n\nTell ye, and bring them near; yea, let them take counsel together: who hath declared this from ancient time? who hath told it from that time? have not I the LORD? and there is no God else beside me; a just God and a Saviour; there is none beside me. Look unto me, and be ye saved, all the ends of the earth: for I am God, and there is none else. I have sworn by myself, the word is gone out of my mouth in righteousness, and shall not return, That unto me every knee shall bow, every tongue shall swear. Surely, shall one say, in the LORD have I righteousness and strength: even to him shall men come; and all that are incensed against him shall be ashamed. In the LORD shall all the seed of Israel be justified, and shall glory.",
      "score": 0.48,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "that they may know from the rising of the sun, and from the west, that there is no one besides me. I am the LORD, and there is no one else. I form the light and create darkness. I make peace and create calamity. I am the LORD, who does all these things. Rain, you heavens, from above, and let the skies pour down righteousness. Let the earth open, that it may produce salvation, and let it cause righteousness to spring up with it. I, the LORD, have created it.\n\nFor the LORD who created the heavens, the God who formed the earth and made it, who established it and didn't create it a waste, who formed it to be inhabited says: “I am the LORD. There is no other.\n\nDeclare and present it. Yes, let them take counsel together. Who has shown this from ancient time? Who has declared it of old? Haven't I, the LORD? There is no other God besides me, a just God and a Savior. There is no one besides me. “Look to me, and be saved, all the ends of the earth; for I am God, and there is no other. I have sworn by myself. The word has gone out of my mouth in righteousness, and will not be revoked, that to me every knee shall bow, every tongue shall take an oath. They will say of me, ‘There is righteousness and strength only in the LORD.'” Even to him will men come. All those who raged against him will be disappointed. All the offspring of Israel will be justified in the LORD, and will rejoice!",
+      "note": "Half-verse (45:6c, 45:21c) could not be divided automatically, so the whole verse is shown.",
+      "score": 0.48,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "I will hear what God the LORD will speak: for he will speak peace unto his people, and to his saints: but let them not turn again to folly.\nSurely his salvation is nigh them that fear him; that glory may dwell in our land.\nMercy and truth are met together; righteousness and peace have kissed each other.\nTruth shall spring out of the earth; and righteousness shall look down from heaven.\nYea, the LORD shall give that which is good; and our land shall yield her increase.\nRighteousness shall go before him; and shall set us in the way of his steps.",
      "score": 0.68,
      "shift": -1,
-     "note": "Verse numbering differs between the USCCB (NABRE) and the King James Version; matched to the equivalent KJV verses."
+     "note": "Verse numbering differs between the USCCB (NABRE) and the King James Version; matched to the equivalent KJV verses.",
+     "web": {
+      "text": "I will hear what God, the LORD, will speak, for he will speak peace to his people, his saints; but let them not turn again to folly.\nSurely his salvation is near those who fear him, that glory may dwell in our land.\nMercy and truth meet together. Righteousness and peace have kissed each other.\nTruth springs out of the earth. Righteousness has looked down from heaven.\nYes, the LORD will give that which is good. Our land will yield its increase.\nRighteousness goes before him, and prepares the way for his steps.",
+      "note": "Verse numbering differs between the USCCB (NABRE) and the World English Bible (Catholic Edition); matched to the equivalent verses.",
+      "score": 0.74,
+      "shift": -1
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "And the disciples of John shewed him of all these things. And John calling unto him two of his disciples sent them to Jesus, saying, Art thou he that should come? or look we for another? When the men were come unto him, they said, John Baptist hath sent us unto thee, saying, Art thou he that should come? or look we for another? And in that same hour he cured many of their infirmities and plagues, and of evil spirits; and unto many that were blind he gave sight. Then Jesus answering said unto them, Go your way, and tell John what things ye have seen and heard; how that the blind see, the lame walk, the lepers are cleansed, the deaf hear, the dead are raised, to the poor the gospel is preached. And blessed is he, whosoever shall not be offended in me.",
      "score": 0.66,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "The disciples of John told him about all these things. John, calling to himself two of his disciples, sent them to Jesus, saying, “Are you the one who is coming, or should we look for another?” When the men had come to him, they said, “John the Baptizer has sent us to you, saying, ‘Are you he who comes, or should we look for another?'” In that hour he cured many of diseases and plagues and evil spirits; and to many who were blind he gave sight. Jesus answered them, “Go and tell John the things which you have seen and heard: that the blind receive their sight, the lame walk, the lepers are cleansed, the deaf hear, the dead are raised up, and the poor have good news preached to them. Blessed is he who finds no occasion for stumbling in me.”",
+      "note": "Half-verse (7:18b) could not be divided automatically, so the whole verse is shown.",
+      "score": 0.71,
+      "shift": 0
+     }
     }
    ]
   }

@@ -12,7 +12,13 @@
      "text": "Ye have not yet resisted unto blood, striving against sin. And ye have forgotten the exhortation which speaketh unto you as unto children, My son, despise not thou the chastening of the Lord, nor faint when thou art rebuked of him: For whom the Lord loveth he chasteneth, and scourgeth every son whom he receiveth. If ye endure chastening, God dealeth with you as with sons; for what son is he whom the father chasteneth not?\n\nNow no chastening for the present seemeth to be joyous, but grievous: nevertheless afterward it yieldeth the peaceable fruit of righteousness unto them which are exercised thereby. Wherefore lift up the hands which hang down, and the feeble knees; And make straight paths for your feet, lest that which is lame be turned out of the way; but let it rather be healed. Follow peace with all men, and holiness, without which no man shall see the Lord: Looking diligently lest any man fail of the grace of God; lest any root of bitterness springing up trouble you, and thereby many be defiled;",
      "score": 0.51,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "You have not yet resisted to blood, striving against sin. You have forgotten the exhortation which reasons with you as with children, “My son, don't take lightly the chastening of the Lord, nor faint when you are reproved by him; for whom the Lord loves, he disciplines, and chastises every son whom he receives.” It is for discipline that you endure. God deals with you as with children, for what son is there whom his father doesn't discipline?\n\nAll chastening seems for the present to be not joyous but grievous; yet afterward it yields the peaceful fruit of righteousness to those who have been trained by it. Therefore lift up the hands that hang down and the feeble knees, and make straight paths for your feet, so what is lame may not be dislocated, but rather be healed. Follow after peace with all men, and the sanctification without which no man will see the Lord, looking carefully lest there be any man who falls short of the grace of God, lest any root of bitterness springing up trouble you and many be defiled by it,",
+      "note": null,
+      "score": 0.55,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "Bless the LORD, O my soul: and all that is within me, bless his holy name.\nBless the LORD, O my soul, and forget not all his benefits:\n\nLike as a father pitieth his children, so the LORD pitieth them that fear him.\nFor he knoweth our frame; he remembereth that we are dust.\n\nBut the mercy of the LORD is from everlasting to everlasting upon them that fear him, and his righteousness unto children's children;\nTo such as keep his covenant, and to those that remember his commandments to do them.",
      "score": 0.65,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Praise the LORD, my soul! All that is within me, praise his holy name!\nPraise the LORD, my soul, and don't forget all his benefits,\n\nLike a father has compassion on his children, so the LORD has compassion on those who fear him.\nFor he knows how we are made. He remembers that we are dust.\n\nBut the LORD's loving kindness is from everlasting to everlasting with those who fear him, his righteousness to children's children,\nto those who keep his covenant,",
+      "note": "Half-verse (103:18a) is cut at a sentence or clause boundary chosen by comparison with the USCCB text; the lectionary’s division may differ slightly.",
+      "score": 0.7,
+      "shift": 0
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "And he went out from thence, and came into his own country; and his disciples follow him. And when the sabbath day was come, he began to teach in the synagogue: and many hearing him were astonished, saying, From whence hath this man these things? and what wisdom is this which is given unto him, that even such mighty works are wrought by his hands? Is not this the carpenter, the son of Mary, the brother of James, and Joses, and of Juda, and Simon? and are not his sisters here with us? And they were offended at him. But Jesus said unto them, A prophet is not without honour, but in his own country, and among his own kin, and in his own house. And he could there do no mighty work, save that he laid his hands upon a few sick folk, and healed them. And he marvelled because of their unbelief. And he went round about the villages, teaching.",
      "score": 0.56,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "He went out from there. He came into his own country, and his disciples followed him. When the Sabbath had come, he began to teach in the synagogue, and many hearing him were astonished, saying, “Where did this man get these things?” and, “What is the wisdom that is given to this man, that such mighty works come about by his hands? Isn't this the carpenter, the son of Mary and brother of James, Joses, Judah, and Simon? Aren't his sisters here with us?” So they were offended at him. Jesus said to them, “A prophet is not without honor, except in his own country, and among his own relatives, and in his own house.” He could do no mighty work there, except that he laid his hands on a few sick people and healed them. He marveled because of their unbelief. He went around the villages teaching.",
+      "note": null,
+      "score": 0.58,
+      "shift": 0
+     }
     }
    ]
   }

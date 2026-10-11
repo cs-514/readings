@@ -12,7 +12,13 @@
      "text": "For every high priest taken from among men is ordained for men in things pertaining to God, that he may offer both gifts and sacrifices for sins: Who can have compassion on the ignorant, and on them that are out of the way; for that he himself also is compassed with infirmity. And by reason hereof he ought, as for the people, so also for himself, to offer for sins. And no man taketh this honour unto himself, but he that is called of God, as was Aaron. So also Christ glorified not himself to be made an high priest; but he that said unto him, Thou art my Son, to day have I begotten thee. As he saith also in another place, Thou art a priest for ever after the order of Melchisedec. Who in the days of his flesh, when he had offered up prayers and supplications with strong crying and tears unto him that was able to save him from death, and was heard in that he feared; Though he were a Son, yet learned he obedience by the things which he suffered; And being made perfect, he became the author of eternal salvation unto all them that obey him; Called of God an high priest after the order of Melchisedec.",
      "score": 0.59,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "For every high priest, being taken from among men, is appointed for men in things pertaining to God, that he may offer both gifts and sacrifices for sins. The high priest can deal gently with those who are ignorant and going astray, because he himself is also surrounded with weakness. Because of this, he must offer sacrifices for sins for the people, as well as for himself. Nobody takes this honor on himself, but he is called by God, just like Aaron was. So also Christ didn't glorify himself to be made a high priest, but it was he who said to him, “You are my Son. Today I have become your father.” As he says also in another place, “You are a priest forever, after the order of Melchizedek.” He, in the days of his flesh, having offered up prayers and petitions with strong crying and tears to him who was able to save him from death, and having been heard for his godly fear, though he was a Son, yet learned obedience by the things which he suffered. Having been made perfect, he became to all of those who obey him the author of eternal salvation, named by God a high priest after the order of Melchizedek.",
+      "note": null,
+      "score": 0.69,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "The LORD said unto my Lord, Sit thou at my right hand, until I make thine enemies thy footstool.\nThe LORD shall send the rod of thy strength out of Zion: rule thou in the midst of thine enemies.\nThy people shall be willing in the day of thy power, in the beauties of holiness from the womb of the morning: thou hast the dew of thy youth.\nThe LORD hath sworn, and will not repent, Thou art a priest for ever after the order of Melchizedek.",
      "score": 0.52,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "The LORD says to my Lord, “Sit at my right hand, until I make your enemies your footstool for your feet.”\nThe LORD will send out the rod of your strength out of Zion. Rule among your enemies.\nYour people offer themselves willingly in the day of your power, in holy array. Out of the womb of the morning, you have the dew of your youth.\nThe LORD has sworn, and will not change his mind: “You are a priest forever in the order of Melchizedek.”",
+      "note": null,
+      "score": 0.52,
+      "shift": 0
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "And the disciples of John and of the Pharisees used to fast: and they come and say unto him, Why do the disciples of John and of the Pharisees fast, but thy disciples fast not? And Jesus said unto them, Can the children of the bridechamber fast, while the bridegroom is with them? as long as they have the bridegroom with them, they cannot fast. But the days will come, when the bridegroom shall be taken away from them, and then shall they fast in those days. No man also seweth a piece of new cloth on an old garment: else the new piece that filled it up taketh away from the old, and the rent is made worse. And no man putteth new wine into old bottles: else the new wine doth burst the bottles, and the wine is spilled, and the bottles will be marred: but new wine must be put into new bottles.",
      "score": 0.41,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "John's disciples and the Pharisees were fasting, and they came and asked him, “Why do John's disciples and the disciples of the Pharisees fast, but your disciples don't fast?” Jesus said to them, “Can the groomsmen fast while the bridegroom is with them? As long as they have the bridegroom with them, they can't fast. But the days will come when the bridegroom will be taken away from them, and then they will fast in that day. No one sews a piece of unshrunk cloth on an old garment, or else the patch shrinks and the new tears away from the old, and a worse hole is made. No one puts new wine into old wineskins; or else the new wine will burst the skins, and the wine pours out, and the skins will be destroyed; but they put new wine into fresh wineskins.”",
+      "note": null,
+      "score": 0.56,
+      "shift": 0
+     }
     }
    ]
   }

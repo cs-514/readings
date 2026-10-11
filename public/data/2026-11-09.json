@@ -12,7 +12,13 @@
      "text": "Afterward he brought me again unto the door of the house; and, behold, waters issued out from under the threshold of the house eastward: for the forefront of the house stood toward the east, and the waters came down from under from the right side of the house, at the south side of the altar. Then brought he me out of the way of the gate northward, and led me about the way without unto the utter gate by the way that looketh eastward; and, behold, there ran out waters on the right side.\n\nThen said he unto me, These waters issue out toward the east country, and go down into the desert, and go into the sea: which being brought forth into the sea, the waters shall be healed. And it shall come to pass, that every thing that liveth, which moveth, whithersoever the rivers shall come, shall live: and there shall be a very great multitude of fish, because these waters shall come thither: for they shall be healed; and every thing shall live whither the river cometh.\n\nAnd by the river upon the bank thereof, on this side and on that side, shall grow all trees for meat, whose leaf shall not fade, neither shall the fruit thereof be consumed: it shall bring forth new fruit according to his months, because their waters they issued out of the sanctuary: and the fruit thereof shall be for meat, and the leaf thereof for medicine.",
      "score": 0.4,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "He brought me back to the door of the temple; and behold, waters flowed out from under the threshold of the temple eastward, for the front of the temple faced toward the east. The waters came down from underneath, from the right side of the temple, on the south of the altar. Then he brought me out by the way of the gate northward, and led me around by the way outside to the outer gate, by the way of the gate that looks toward the east. Behold, waters ran out on the right side.\n\nThen he said to me, “These waters flow out toward the eastern region and will go down into the Arabah. Then they will go toward the sea and flow into the sea which will be made to flow out; and the waters will be healed. It will happen that every living creature which swarms, in every place where the rivers come, will live. Then there will be a very great multitude of fish; for these waters have come there, and the waters of the sea will be healed, and everything will live wherever the river comes.\n\nBy the river banks, on both sides, will grow every tree for food, whose leaf won't wither, neither will its fruit fail. It will produce new fruit every month, because its waters issue out of the sanctuary. Its fruit will be for food, and its leaf for healing.”",
+      "note": null,
+      "score": 0.62,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "God is our refuge and strength, a very present help in trouble.\nTherefore will not we fear, though the earth be removed, and though the mountains be carried into the midst of the sea;\n\nThere is a river, the streams whereof shall make glad the city of God, the holy place of the tabernacles of the most High.\nGod is in the midst of her; she shall not be moved: God shall help her, and that right early.\n\nThe LORD of hosts is with us; the God of Jacob is our refuge. Selah.\nCome, behold the works of the LORD, what desolations he hath made in the earth.",
      "score": 0.56,
      "shift": -1,
-     "note": "Verse numbering differs between the USCCB (NABRE) and the King James Version; matched to the equivalent KJV verses."
+     "note": "Verse numbering differs between the USCCB (NABRE) and the King James Version; matched to the equivalent KJV verses.",
+     "web": {
+      "text": "God is our refuge and strength, a very present help in trouble.\nTherefore we won't be afraid, though the earth changes, though the mountains are shaken into the heart of the seas;\n\nThere is a river, the streams of which make the city of God glad, the holy place of the tents of the Most High.\nGod is within her. She shall not be moved. God will help her at dawn.\n\nThe LORD of Armies is with us. The God of Jacob is our refuge. Selah.\nCome, see the LORD's works, what desolations he has made on the earth.",
+      "note": "Verse numbering differs between the USCCB (NABRE) and the World English Bible (Catholic Edition); matched to the equivalent verses.",
+      "score": 0.5,
+      "shift": -1
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "For we are labourers together with God: ye are God's husbandry, ye are God's building. According to the grace of God which is given unto me, as a wise masterbuilder, I have laid the foundation, and another buildeth thereon. But let every man take heed how he buildeth thereupon. For other foundation can no man lay than that is laid, which is Jesus Christ.\n\nKnow ye not that ye are the temple of God, and that the Spirit of God dwelleth in you? If any man defile the temple of God, him shall God destroy; for the temple of God is holy, which temple ye are.",
      "score": 0.61,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "For we are God's fellow workers. You are God's farming, God's building. According to the grace of God which was given to me, as a wise master builder I laid a foundation, and another builds on it. But let each man be careful how he builds on it. For no one can lay any other foundation than that which has been laid, which is Jesus Christ.\n\nDon't you know that you are God's temple and that God's Spirit lives in you? If anyone destroys God's temple, God will destroy him; for God's temple is holy, which you are.",
+      "note": "Half-verse (3:9c) could not be divided automatically, so the whole verse is shown.",
+      "score": 0.75,
+      "shift": 0
+     }
     }
    ]
   },
@@ -51,7 +69,13 @@
      "text": "And the Jews' passover was at hand, and Jesus went up to Jerusalem, And found in the temple those that sold oxen and sheep and doves, and the changers of money sitting: And when he had made a scourge of small cords, he drove them all out of the temple, and the sheep, and the oxen; and poured out the changers' money, and overthrew the tables; And said unto them that sold doves, Take these things hence; make not my Father's house an house of merchandise. And his disciples remembered that it was written, The zeal of thine house hath eaten me up. Then answered the Jews and said unto him, What sign shewest thou unto us, seeing that thou doest these things? Jesus answered and said unto them, Destroy this temple, and in three days I will raise it up. Then said the Jews, Forty and six years was this temple in building, and wilt thou rear it up in three days? But he spake of the temple of his body. When therefore he was risen from the dead, his disciples remembered that he had said this unto them; and they believed the scripture, and the word which Jesus had said.",
      "score": 0.63,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "The Passover of the Jews was at hand, and Jesus went up to Jerusalem. He found in the temple those who sold oxen, sheep, and doves, and the changers of money sitting. He made a whip of cords and drove all out of the temple, both the sheep and the oxen; and he poured out the changers' money and overthrew their tables. To those who sold the doves, he said, “Take these things out of here! Don't make my Father's house a marketplace!” His disciples remembered that it was written, “Zeal for your house will eat me up.” The Jews therefore answered him, “What sign do you show us, seeing that you do these things?” Jesus answered them, “Destroy this temple, and in three days I will raise it up.” The Jews therefore said, “It took forty-six years to build this temple! Will you raise it up in three days?” But he spoke of the temple of his body. When therefore he was raised from the dead, his disciples remembered that he said this, and they believed the Scripture and the word which Jesus had said.",
+      "note": null,
+      "score": 0.69,
+      "shift": 0
+     }
     }
    ]
   }

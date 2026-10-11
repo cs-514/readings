@@ -12,7 +12,13 @@
      "text": "For the people shall dwell in Zion at Jerusalem: thou shalt weep no more: he will be very gracious unto thee at the voice of thy cry; when he shall hear it, he will answer thee. And though the Lord give you the bread of adversity, and the water of affliction, yet shall not thy teachers be removed into a corner any more, but thine eyes shall see thy teachers: And thine ears shall hear a word behind thee, saying, This is the way, walk ye in it, when ye turn to the right hand, and when ye turn to the left.\n\nThen shall he give the rain of thy seed, that thou shalt sow the ground withal; and bread of the increase of the earth, and it shall be fat and plenteous: in that day shall thy cattle feed in large pastures. The oxen likewise and the young asses that ear the ground shall eat clean provender, which hath been winnowed with the shovel and with the fan. And there shall be upon every high mountain, and upon every high hill, rivers and streams of waters in the day of the great slaughter, when the towers fall. Moreover the light of the moon shall be as the light of the sun, and the light of the sun shall be sevenfold, as the light of seven days, in the day that the LORD bindeth up the breach of his people, and healeth the stroke of their wound.",
      "score": 0.58,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "For the people will dwell in Zion at Jerusalem. You will weep no more. He will surely be gracious to you at the voice of your cry. When he hears you, he will answer you. Though the Lord may give you the bread of adversity and the water of affliction, yet your teachers won't be hidden any more, but your eyes will see your teachers; and when you turn to the right hand, and when you turn to the left, your ears will hear a voice behind you, saying, “This is the way. Walk in it.”\n\nHe will give the rain for your seed, with which you will sow the ground; and bread of the increase of the ground will be rich and plentiful. In that day, your livestock will feed in large pastures. The oxen likewise and the young donkeys that till the ground will eat savory feed, which has been winnowed with the shovel and with the fork. There will be brooks and streams of water on every lofty mountain and on every high hill in the day of the great slaughter, when the towers fall. Moreover the light of the moon will be like the light of the sun, and the light of the sun will be seven times brighter, like the light of seven days, in the day that the LORD binds up the fracture of his people, and heals the wound they were struck with.",
+      "note": null,
+      "score": 0.63,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "Praise ye the LORD: for it is good to sing praises unto our God; for it is pleasant; and praise is comely.\nThe LORD doth build up Jerusalem: he gathereth together the outcasts of Israel.\nHe healeth the broken in heart, and bindeth up their wounds.\nHe telleth the number of the stars; he calleth them all by their names.\nGreat is our Lord, and of great power: his understanding is infinite.\nThe LORD lifteth up the meek: he casteth the wicked down to the ground.",
      "score": 0.65,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Praise the LORD, for it is good to sing praises to our God; for it is pleasant and fitting to praise him.\nThe LORD builds up Jerusalem. He gathers together the outcasts of Israel.\nHe heals the broken in heart, and binds up their wounds.\nHe counts the number of the stars. He calls them all by their names.\nGreat is our Lord, and mighty in power. His understanding is infinite.\nThe LORD upholds the humble. He brings the wicked down to the ground.",
+      "note": null,
+      "score": 0.65,
+      "shift": 0
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "And Jesus went about all the cities and villages, teaching in their synagogues, and preaching the gospel of the kingdom, and healing every sickness and every disease among the people. But when he saw the multitudes, he was moved with compassion on them, because they fainted, and were scattered abroad, as sheep having no shepherd. Then saith he unto his disciples, The harvest truly is plenteous, but the labourers are few; Pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest.\n\nAnd when he had called unto him his twelve disciples, he gave them power against unclean spirits, to cast them out, and to heal all manner of sickness and all manner of disease.\n\nThese twelve Jesus sent forth, and commanded them, saying, Go not into the way of the Gentiles, and into any city of the Samaritans enter ye not: But go rather to the lost sheep of the house of Israel. And as ye go, preach, saying, The kingdom of heaven is at hand. Heal the sick, cleanse the lepers, raise the dead, cast out devils: freely ye have received, freely give.",
      "score": 0.54,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Jesus went about all the cities and the villages, teaching in their synagogues and preaching the Good News of the Kingdom, and healing every disease and every sickness among the people. But when he saw the multitudes, he was moved with compassion for them because they were harassed and scattered, like sheep without a shepherd. Then he said to his disciples, “The harvest indeed is plentiful, but the laborers are few. Pray therefore that the Lord of the harvest will send out laborers into his harvest.”\n\nHe called to himself his twelve disciples, and gave them authority over unclean spirits, to cast them out, and to heal every disease and every sickness.\n\nJesus sent these twelve out and commanded them, Rather, go to the lost sheep of the house of Israel. As you go, preach, saying, ‘The Kingdom of Heaven is at hand!' Heal the sick, cleanse the lepers, and cast out demons. Freely you received, so freely give.",
+      "note": "Half-verse (10:5a) is cut at a sentence or clause boundary chosen by comparison with the USCCB text; the lectionary’s division may differ slightly.",
+      "score": 0.58,
+      "shift": 0
+     }
     }
    ]
   }

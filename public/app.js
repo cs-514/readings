@@ -7,18 +7,21 @@
   function valid(s) { return /^\d{4}-\d{2}-\d{2}$/.test(s || ''); }
   function qDate() { var m = /[?&]date=(\d{4}-\d{2}-\d{2})/.exec(location.search); return m ? m[1] : null; }
   function toast(m) { toastEl.textContent = m; toastEl.classList.add('show'); clearTimeout(toast.t); toast.t = setTimeout(function () { toastEl.classList.remove('show'); }, 1800); }
-  function pageLink(date) { return location.origin + location.pathname.replace(/index\.html$/, '') + '?date=' + date; }
+  function curTr() { return window.drTr ? window.drTr.get() : 'kjv'; }
+  function pageLink(date) { return location.origin + location.pathname.replace(/index\.html$/, '') + '?date=' + date + (curTr() === 'web' ? '&tr=web' : ''); }
 
   function plainText(d) {
     var dt = new Date(d.date + 'T12:00:00');
     var nice = dt.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
     var L = { 'Reading 1': 'First Reading', 'Reading 2': 'Second Reading', 'Responsorial Psalm': 'Psalm' };
-    var out = [d.title, nice, 'Mass readings, King James Version', ''];
+    var web = curTr() === 'web';
+    var out = [d.title, nice, web ? 'Mass readings, World English Bible, Catholic Edition' : 'Mass readings, King James Version', ''];
     d.readings.forEach(function (r) {
       var lab = L[r.label] || r.label;
       r.passages.forEach(function (p) {
         out.push(lab + ': ' + p.ref);
-        out.push(p.text ? p.text.replace(/\n\n/g, '\n\n') : p.note);
+        var src = web ? (p.web || { text: null, note: 'The World English Bible (Catholic Edition) text is not available for this passage.' }) : p;
+        out.push(src.text ? src.text : src.note);
         out.push('');
       });
     });
@@ -45,7 +48,7 @@
   function load(date, push) {
     if (!valid(date)) date = todayIso();
     current = date; pick.value = date;
-    if (push) history.pushState(null, '', '?date=' + date);
+    if (push) history.pushState(null, '', '?date=' + date + (curTr() === 'web' ? '&tr=web' : ''));
     view.innerHTML = '<p>Loading\u2026</p>';
     fetch('d/' + date + '/index.html').then(function (r) {
       if (!r.ok) throw new Error('missing');

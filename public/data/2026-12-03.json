@@ -12,7 +12,13 @@
      "text": "In that day shall this song be sung in the land of Judah; We have a strong city; salvation will God appoint for walls and bulwarks. Open ye the gates, that the righteous nation which keepeth the truth may enter in. Thou wilt keep him in perfect peace, whose mind is stayed on thee: because he trusteth in thee. Trust ye in the LORD for ever: for in the LORD JEHOVAH is everlasting strength: For he bringeth down them that dwell on high; the lofty city, he layeth it low; he layeth it low, even to the ground; he bringeth it even to the dust. The foot shall tread it down, even the feet of the poor, and the steps of the needy.",
      "score": 0.54,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "In that day, this song will be sung in the land of Judah: “We have a strong city. God appoints salvation for walls and bulwarks. Open the gates, that the righteous nation may enter: the one which keeps faith. You will keep whoever's mind is steadfast in perfect peace, because he trusts in you. Trust in the LORD forever; for in the LORD, the LORD, is an everlasting Rock. For he has brought down those who dwell on high, the lofty city. He lays it low. He lays it low even to the ground. He brings it even to the dust. The foot shall tread it down, even the feet of the poor and the steps of the needy.”",
+      "note": null,
+      "score": 0.62,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "O give thanks unto the LORD; for he is good: because his mercy endureth for ever.\n\nIt is better to trust in the LORD than to put confidence in man.\nIt is better to trust in the LORD than to put confidence in princes.\n\nOpen to me the gates of righteousness: I will go into them, and I will praise the LORD:\nThis gate of the LORD, into which the righteous shall enter.\nI will praise thee: for thou hast heard me, and art become my salvation.\n\nSave now, I beseech thee, O LORD: O LORD, I beseech thee, send now prosperity.\nBlessed be he that cometh in the name of the LORD: we have blessed you out of the house of the LORD.\nGod is the LORD, which hath shewed us light: bind the sacrifice with cords, even unto the horns of the altar.",
      "score": 0.62,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Give thanks to the LORD, for he is good, for his loving kindness endures forever.\n\nIt is better to take refuge in the LORD, than to put confidence in man.\nIt is better to take refuge in the LORD, than to put confidence in princes.\n\nOpen to me the gates of righteousness. I will enter into them. I will give thanks to the LORD.\nThis is the gate of the LORD; the righteous will enter into it.\nI will give thanks to you, for you have answered me, and have become my salvation.\n\nSave us now, we beg you, LORD! LORD, we beg you, send prosperity now.\nBlessed is he who comes in the LORD's name! We have blessed you out of the LORD's house.\nThe LORD is God, and he has given us light.",
+      "note": "Half-verse (118:27a) is cut at a sentence or clause boundary chosen by comparison with the USCCB text; the lectionary’s division may differ slightly.",
+      "score": 0.76,
+      "shift": 0
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "Not every one that saith unto me, Lord, Lord, shall enter into the kingdom of heaven; but he that doeth the will of my Father which is in heaven.\n\nTherefore whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock: And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell not: for it was founded upon a rock. And every one that heareth these sayings of mine, and doeth them not, shall be likened unto a foolish man, which built his house upon the sand: And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell: and great was the fall of it.",
      "score": 0.52,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "“Not everyone who says to me, ‘Lord, Lord,' will enter into the Kingdom of Heaven, but he who does the will of my Father who is in heaven.\n\n“Everyone therefore who hears these words of mine and does them, I will liken him to a wise man who built his house on the rock. The rain came down, the floods came, and the winds blew and beat on that house; and it didn't fall, for it was founded on the rock. Everyone who hears these words of mine and doesn't do them will be like a foolish man who built his house on the sand. The rain came down, the floods came, and the winds blew and beat on that house; and it fell—and its fall was great.”",
+      "note": null,
+      "score": 0.67,
+      "shift": 0
+     }
     }
    ]
   }

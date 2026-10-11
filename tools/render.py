@@ -54,16 +54,24 @@ def article(d):
     nice = f"{dt:%A, %B} {dt.day}, {dt.year}"
     h = [f'<article lang="en" id="reading">', "<header>", f"<h1>{esc(d['title'])}</h1>",
          f'<p class="date"><time datetime="{d["date"]}">{nice}</time></p>',
-         '<p class="sub">Mass readings (USCCB lectionary), King James Version</p>', "</header>"]
+         '<p class="sub"><span class="tr-kjv">Mass readings (USCCB lectionary), King James Version</span><span class="tr-web">Mass readings (USCCB lectionary), World English Bible, Catholic Edition</span></p>', "</header>"]
     for r in d["readings"]:
         lab = LABELS.get(r["label"], r["label"])
         h.append(f"<section><h2>{esc(lab)}</h2>")
         psalm = lab == "Psalm"
         for p in r["passages"]:
             h.append(f'<p class="cite">{esc(p["ref"])}</p>')
+            h.append('<div class="tr-kjv">')
             if p["text"]: h.append(paras(p["text"], psalm))
             else: h.append(f'<p class="missing">{esc(p["note"])}</p>')
             if p["text"] and p.get("note"): h.append(f'<p class="note">{esc(p["note"])}</p>')
+            h.append("</div>")
+            w = p.get("web") or {"text": None, "note": "The World English Bible (Catholic Edition) text is not available for this passage."}
+            h.append('<div class="tr-web">')
+            if w.get("text"): h.append(paras(w["text"], psalm))
+            else: h.append(f'<p class="missing">{esc(w.get("note") or "")}</p>')
+            if w.get("text") and w.get("note"): h.append(f'<p class="note">{esc(w["note"])}</p>')
+            h.append("</div>")
         h.append("</section>")
     m = d.get("excerpt")
     h.append("<section><h2>Meditation</h2>")
@@ -75,7 +83,8 @@ def article(d):
     else:
         h.append('<p class="missing">No excerpt has been chosen for this day yet.</p>')
     h.append("</section>")
-    src = f'<p class="src">Citations: <a href="{d["source"]}">USCCB daily readings</a>. Scripture text: King James Version (public domain) from bible-api.com; deuterocanonical books from the 1611 KJV Apocrypha.'
+    src = f'<p class="src">Citations: <a href="{d["source"]}">USCCB daily readings</a>. <span class="tr-kjv">Scripture text: King James Version (public domain) from bible-api.com; deuterocanonical books from the 1611 KJV Apocrypha.</span>'
+    src += ' <span class="tr-web">Scripture text: World English Bible, Catholic Edition, from <a href="https://ebible.org/find/details.php?id=engwebc">eBible.org</a>. Public domain (not copyrighted); \u201cWorld English Bible\u201d is a trademark of eBible.org. The wording is unaltered; only verse numbers and notes are omitted.</span>'
     h.append(src + "</p></article>")
     return "\n".join(h)
 
@@ -86,9 +95,10 @@ PAGE = """<!doctype html>
 <meta name="description" content="Mass readings for {date} in the King James Version, with an excerpt showing how the Old and New Testaments illuminate each other.">
 <meta name="theme-color" content="#2b1b3d">
 <link rel="stylesheet" href="../../style.css">
+<script src="../../tr.js"></script>
 {data}</head><body><div class="wrap">
 {article}
-<p class="src"><a href="../../?date={date}">Open in the app</a></p>
+<p class="src"><a href="../../?date={date}" data-app>Open in the app</a></p>
 </div></body></html>
 """
 

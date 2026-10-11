@@ -12,7 +12,13 @@
      "text": "Having therefore, brethren, boldness to enter into the holiest by the blood of Jesus, By a new and living way, which he hath consecrated for us, through the veil, that is to say, his flesh; And having an high priest over the house of God; Let us draw near with a true heart in full assurance of faith, having our hearts sprinkled from an evil conscience, and our bodies washed with pure water. Let us hold fast the profession of our faith without wavering; (for he is faithful that promised;) And let us consider one another to provoke unto love and to good works: Not forsaking the assembling of ourselves together, as the manner of some is; but exhorting one another: and so much the more, as ye see the day approaching.",
      "score": 0.53,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Having therefore, brothers, boldness to enter into the holy place by the blood of Jesus, by the way which he dedicated for us, a new and living way, through the veil, that is to say, his flesh, and having a great priest over God's house, let's draw near with a true heart in fullness of faith, having our hearts sprinkled from an evil conscience and having our body washed with pure water, let's hold fast the confession of our hope without wavering; for he who promised is faithful. Let's consider how to provoke one another to love and good works, not forsaking our own assembling together, as the custom of some is, but exhorting one another, and so much the more as you see the Day approaching.",
+      "note": null,
+      "score": 0.6,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "The earth is the LORD'S, and the fulness thereof; the world, and they that dwell therein.\nFor he hath founded it upon the seas, and established it upon the floods.\nWho shall ascend into the hill of the LORD? or who shall stand in his holy place?\nHe that hath clean hands, and a pure heart; who hath not lifted up his soul unto vanity, nor sworn deceitfully.\nHe shall receive the blessing from the LORD, and righteousness from the God of his salvation.\nThis is the generation of them that seek him, that seek thy face, O Jacob. Selah.",
      "score": 0.68,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "The earth is the LORD's, with its fullness; the world, and those who dwell in it.\nFor he has founded it on the seas, and established it on the floods.\nWho may ascend to the LORD's hill? Who may stand in his holy place?\nHe who has clean hands and a pure heart; who has not lifted up his soul to falsehood, and has not sworn deceitfully.\nHe shall receive a blessing from the LORD, righteousness from the God of his salvation.\nThis is the generation of those who seek Him, who seek your face—even Jacob. Selah.",
+      "note": null,
+      "score": 0.71,
+      "shift": 0
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "And he said unto them, Is a candle brought to be put under a bushel, or under a bed? and not to be set on a candlestick? For there is nothing hid, which shall not be manifested; neither was any thing kept secret, but that it should come abroad. If any man have ears to hear, let him hear. And he said unto them, Take heed what ye hear: with what measure ye mete, it shall be measured to you: and unto you that hear shall more be given. For he that hath, to him shall be given: and he that hath not, from him shall be taken even that which he hath.",
      "score": 0.45,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "He said to them, “Is a lamp brought to be put under a basket or under a bed? Isn't it put on a stand? For there is nothing hidden except that it should be made known, neither was anything made secret but that it should come to light. If any man has ears to hear, let him hear.” He said to them, “Take heed what you hear. With whatever measure you measure, it will be measured to you; and more will be given to you who hear. For whoever has, to him more will be given; and he who doesn't have, even that which he has will be taken away from him.”",
+      "note": null,
+      "score": 0.65,
+      "shift": 0
+     }
     }
    ]
   }

@@ -12,7 +12,13 @@
      "text": "Cry aloud, spare not, lift up thy voice like a trumpet, and shew my people their transgression, and the house of Jacob their sins. Yet they seek me daily, and delight to know my ways, as a nation that did righteousness, and forsook not the ordinance of their God: they ask of me the ordinances of justice; they take delight in approaching to God. Wherefore have we fasted, say they, and thou seest not? wherefore have we afflicted our soul, and thou takest no knowledge? Behold, in the day of your fast ye find pleasure, and exact all your labours. Behold, ye fast for strife and debate, and to smite with the fist of wickedness: ye shall not fast as ye do this day, to make your voice to be heard on high. Is it such a fast that I have chosen? a day for a man to afflict his soul? is it to bow down his head as a bulrush, and to spread sackcloth and ashes under him? wilt thou call this a fast, and an acceptable day to the LORD? Is not this the fast that I have chosen? to loose the bands of wickedness, to undo the heavy burdens, and to let the oppressed go free, and that ye break every yoke? Is it not to deal thy bread to the hungry, and that thou bring the poor that are cast out to thy house? when thou seest the naked, that thou cover him; and that thou hide not thyself from thine own flesh? Then shall thy light break forth as the morning, and thine health shall spring forth speedily: and thy righteousness shall go before thee; the glory of the LORD shall be thy rereward. Then shalt thou call, and the LORD shall answer; thou shalt cry, and he shall say, Here I am. If thou take away from the midst of thee the yoke, the putting forth of the finger, and speaking vanity;",
      "score": 0.41,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "“Cry aloud! Don't spare! Lift up your voice like a trumpet! Declare to my people their disobedience, and to the house of Jacob their sins. Yet they seek me daily, and delight to know my ways. As a nation that did righteousness, and didn't forsake the ordinance of their God, they ask of me righteous judgments. They delight to draw near to God. ‘Why have we fasted,' they say, ‘and you don't see? Why have we afflicted our soul, and you don't notice?' “Behold, in the day of your fast you find pleasure, and oppress all your laborers. Behold, you fast for strife and contention, and to strike with the fist of wickedness. You don't fast today so as to make your voice to be heard on high. Is this the fast that I have chosen? A day for a man to humble his soul? Is it to bow down his head like a reed, and to spread sackcloth and ashes under himself? Will you call this a fast, and an acceptable day to the LORD? “Isn't this the fast that I have chosen: to release the bonds of wickedness, to undo the straps of the yoke, to let the oppressed go free, and that you break every yoke? Isn't it to distribute your bread to the hungry, and that you bring the poor who are cast out to your house? When you see the naked, that you cover him; and that you not hide yourself from your own flesh? Then your light will break out as the morning, and your healing will appear quickly; then your righteousness shall go before you, and the LORD's glory will be your rear guard. Then you will call, and the LORD will answer. You will cry for help, and he will say, ‘Here I am.' “If you take away from among you the yoke,",
+      "note": "Half-verse (58:9a) is cut at a sentence or clause boundary chosen by comparison with the USCCB text; the lectionary’s division may differ slightly.",
+      "score": 0.52,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "Have mercy upon me, O God, according to thy lovingkindness: according unto the multitude of thy tender mercies blot out my transgressions.\nWash me throughly from mine iniquity, and cleanse me from my sin.\nFor I acknowledge my transgressions: and my sin is ever before me.\nAgainst thee, thee only, have I sinned, and done this evil in thy sight: that thou mightest be justified when thou speakest, and be clear when thou judgest.\n\nFor thou desirest not sacrifice; else would I give it: thou delightest not in burnt offering.\nThe sacrifices of God are a broken spirit: a broken and a contrite heart, O God, thou wilt not despise.",
      "score": 0.59,
      "shift": -2,
-     "note": "Verse numbering differs between the USCCB (NABRE) and the King James Version; matched to the equivalent KJV verses."
+     "note": "Verse numbering differs between the USCCB (NABRE) and the King James Version; matched to the equivalent KJV verses.",
+     "web": {
+      "text": "Have mercy on me, God, according to your loving kindness. According to the multitude of your tender mercies, blot out my transgressions.\nWash me thoroughly from my iniquity. Cleanse me from my sin.\nFor I know my transgressions. My sin is constantly before me.\nAgainst you, and you only, I have sinned, and done that which is evil in your sight, so you may be proved right when you speak, and justified when you judge.\n\nFor you don't delight in sacrifice, or else I would give it. You have no pleasure in burnt offering.\nThe sacrifices of God are a broken spirit. O God, you will not despise a broken and contrite heart.",
+      "note": "Verse numbering differs between the USCCB (NABRE) and the World English Bible (Catholic Edition); matched to the equivalent verses.",
+      "score": 0.59,
+      "shift": -2
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "Then came to him the disciples of John, saying, Why do we and the Pharisees fast oft, but thy disciples fast not? And Jesus said unto them, Can the children of the bridechamber mourn, as long as the bridegroom is with them? but the days will come, when the bridegroom shall be taken from them, and then shall they fast.",
      "score": 0.65,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Then John's disciples came to him, saying, “Why do we and the Pharisees fast often, but your disciples don't fast?” Jesus said to them, “Can the friends of the bridegroom mourn as long as the bridegroom is with them? But the days will come when the bridegroom will be taken away from them, and then they will fast.",
+      "note": null,
+      "score": 0.71,
+      "shift": 0
+     }
     }
    ]
   }

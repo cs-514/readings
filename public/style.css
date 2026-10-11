@@ -30,3 +30,12 @@ blockquote footer{font-style:normal;font-size:.9rem;color:var(--muted);font-fami
 
 .lead{color:var(--muted)}
 #reading blockquote footer{font-family:-apple-system,system-ui,sans-serif;font-size:.9rem;color:var(--muted);margin-top:.5rem}#reading blockquote footer a{color:var(--accent)}
+
+/* translation toggle */
+.tr-web{display:none}
+html[data-tr=web] .tr-kjv{display:none}
+html[data-tr=web] div.tr-web,html[data-tr=web] p.tr-web{display:block}
+html[data-tr=web] span.tr-web{display:inline}
+.trtoggle{display:inline-flex;margin:.2rem 0 .6rem;border:1px solid var(--line);border-radius:999px;overflow:hidden;font:600 .9rem/1 -apple-system,system-ui,sans-serif}
+.trtoggle button{font:inherit;padding:.55rem 1rem;min-height:40px;border:0;background:var(--card);color:var(--fg);cursor:pointer}
+.trtoggle button[aria-pressed=true]{background:var(--accent);color:var(--bg)}

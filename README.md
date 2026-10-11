@@ -7,3 +7,5 @@ Verse alignment: NABRE vs KJV numbering is resolved by trying shifts (0,-1,-2,-3
 Daily excerpt: `content/DATE.json` holds a verbatim excerpt (<=200 words) illustrating CCC 129 (OT/NT typology), verified by `tools/render.py` against `sources/*.txt`. See `MEDITATION_PROMPT.md` for the brief and selection procedure; `tools/fetch_sources.py` and `tools/index.py` build/search the local source index.
 
 Omissions in an excerpt are marked with a spaced ellipsis `. . .` (no brackets); the verifier checks each segment between ellipses verbatim against `sources/`.
+
+Translations: KJV (default, bible-api.com) and World English Bible, Catholic Edition (eBible.org, public domain). `tools/webc.py` converts the eBible USFM zip into `cache/web/*.json` (committed, so the Action needs no download). `tools/build.py` matches each USCCB citation in both translations (shared shift/special-case/word-overlap logic; half-verses a/b split at clause boundaries; unmatched passages get a note instead of text) and stores the WEB text under `passages[].web`. `public/tr.js` provides the KJV | WEB-CE toggle (localStorage `dr-tr`, `?tr=web`).

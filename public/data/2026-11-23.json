@@ -12,7 +12,13 @@
      "text": "And I looked, and, lo, a Lamb stood on the mount Sion, and with him an hundred forty and four thousand, having his Father's name written in their foreheads. And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps: And they sung as it were a new song before the throne, and before the four beasts, and the elders: and no man could learn that song but the hundred and forty and four thousand, which were redeemed from the earth. These are they which were not defiled with women; for they are virgins. These are they which follow the Lamb whithersoever he goeth. These were redeemed from among men, being the firstfruits unto God and to the Lamb. And in their mouth was found no guile: for they are without fault before the throne of God.",
      "score": 0.46,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "I saw, and behold, the Lamb standing on Mount Zion, and with him a number, one hundred forty-four thousand, having his name and the name of his Father written on their foreheads. I heard a sound from heaven like the sound of many waters and like the sound of a great thunder. The sound which I heard was like that of harpists playing on their harps. They sing a new song before the throne and before the four living creatures and the elders. No one could learn the song except the one hundred forty-four thousand, those who had been redeemed out of the earth. These are those who follow the Lamb wherever he goes. These were redeemed by Jesus from among men, the first fruits to God and to the Lamb. In their mouth was found no lie, for they are blameless.",
+      "note": "Half-verse (14:4b) is cut at a sentence or clause boundary chosen by comparison with the USCCB text; the lectionary’s division may differ slightly.",
+      "score": 0.72,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "The earth is the LORD'S, and the fulness thereof; the world, and they that dwell therein.\nFor he hath founded it upon the seas, and established it upon the floods.\nWho shall ascend into the hill of the LORD? or who shall stand in his holy place?\nHe that hath clean hands, and a pure heart; who hath not lifted up his soul unto vanity, nor sworn deceitfully.\nHe shall receive the blessing from the LORD, and righteousness from the God of his salvation.\nThis is the generation of them that seek him, that seek thy face, O Jacob. Selah.",
      "score": 0.68,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "The earth is the LORD's, with its fullness; the world, and those who dwell in it.\nFor he has founded it on the seas, and established it on the floods.\nWho may ascend to the LORD's hill? Who may stand in his holy place?\nHe who has clean hands and a pure heart; who has not lifted up his soul to falsehood, and has not sworn deceitfully.\nHe shall receive a blessing from the LORD, righteousness from the God of his salvation.\nThis is the generation of those who seek Him, who seek your face—even Jacob. Selah.",
+      "note": "Half-verse (24:1bc) could not be divided automatically, so the whole verse is shown.",
+      "score": 0.71,
+      "shift": 0
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "And he looked up, and saw the rich men casting their gifts into the treasury. And he saw also a certain poor widow casting in thither two mites. And he said, Of a truth I say unto you, that this poor widow hath cast in more than they all: For all these have of their abundance cast in unto the offerings of God: but she of her penury hath cast in all the living that she had.",
      "score": 0.24,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "He looked up and saw the rich people who were putting their gifts into the treasury. He saw a certain poor widow casting in two small brass coins. He said, “Truly I tell you, this poor widow put in more than all of them, for all these put in gifts for God from their abundance, but she, out of her poverty, put in all that she had to live on.”",
+      "note": null,
+      "score": 0.48,
+      "shift": 0
+     }
     }
    ]
   }

@@ -12,7 +12,13 @@
      "text": "Behold my servant, whom I uphold; mine elect, in whom my soul delighteth; I have put my spirit upon him: he shall bring forth judgment to the Gentiles. He shall not cry, nor lift up, nor cause his voice to be heard in the street. A bruised reed shall he not break, and the smoking flax shall he not quench: he shall bring forth judgment unto truth. He shall not fail nor be discouraged, till he have set judgment in the earth: and the isles shall wait for his law.\n\nI the LORD have called thee in righteousness, and will hold thine hand, and will keep thee, and give thee for a covenant of the people, for a light of the Gentiles; To open the blind eyes, to bring out the prisoners from the prison, and them that sit in darkness out of the prison house.",
      "score": 0.24,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "“Behold, my servant, whom I uphold, my chosen, in whom my soul delights: I have put my Spirit on him. He will bring justice to the nations. He will not shout, nor raise his voice, nor cause it to be heard in the street. He won't break a bruised reed. He won't quench a dimly burning wick. He will faithfully bring justice. He will not fail nor be discouraged, until he has set justice on the earth, and the islands wait for his law.”\n\n“I, the LORD, have called you in righteousness. I will hold your hand. I will keep you, and make you a covenant for the people, as a light for the nations, to open the blind eyes, to bring the prisoners out of the dungeon, and those who sit in darkness out of the prison.",
+      "note": null,
+      "score": 0.28,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "Give unto the LORD, O ye mighty, give unto the LORD glory and strength.\nGive unto the LORD the glory due unto his name; worship the LORD in the beauty of holiness.\nThe voice of the LORD is upon the waters: the God of glory thundereth: the LORD is upon many waters.\nThe voice of the LORD is powerful; the voice of the LORD is full of majesty.\n\nThe voice of the LORD maketh the hinds to calve, and discovereth the forests: and in his temple doth every one speak of his glory.\nThe LORD sitteth upon the flood; yea, the LORD sitteth King for ever.",
      "score": 0.23,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Ascribe to the LORD, you sons of the mighty, ascribe to the LORD glory and strength.\nAscribe to the LORD the glory due to his name. Worship the LORD in holy array.\nThe LORD's voice is on the waters. The God of glory thunders, even the LORD on many waters.\nThe LORD's voice is powerful. The LORD's voice is full of majesty.\n\nThe LORD's voice makes the deer calve, and strips the forests bare. In his temple everything says, “Glory!”\nThe LORD sat enthroned at the Flood. Yes, the LORD sits as King forever.",
+      "note": null,
+      "score": 0.31,
+      "shift": 0
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "Then Peter opened his mouth, and said, Of a truth I perceive that God is no respecter of persons: But in every nation he that feareth him, and worketh righteousness, is accepted with him. The word which God sent unto the children of Israel, preaching peace by Jesus Christ: (he is Lord of all:) That word, I say, ye know, which was published throughout all Judaea, and began from Galilee, after the baptism which John preached; How God anointed Jesus of Nazareth with the Holy Ghost and with power: who went about doing good, and healing all that were oppressed of the devil; for God was with him.",
      "score": 0.37,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Peter opened his mouth and said, “Truly I perceive that God doesn't show favoritism; but in every nation he who fears him and works righteousness is acceptable to him. The word which he sent to the children of Israel, preaching good news of peace by Jesus Christ—he is Lord of all— you yourselves know what happened, which was proclaimed throughout all Judea, beginning from Galilee, after the baptism which John preached; how God anointed Jesus of Nazareth with the Holy Spirit and with power, who went about doing good and healing all who were oppressed by the devil, for God was with him.",
+      "note": null,
+      "score": 0.44,
+      "shift": 0
+     }
     }
    ]
   },
@@ -51,7 +69,13 @@
      "text": "And preached, saying, There cometh one mightier than I after me, the latchet of whose shoes I am not worthy to stoop down and unloose. I indeed have baptized you with water: but he shall baptize you with the Holy Ghost. And it came to pass in those days, that Jesus came from Nazareth of Galilee, and was baptized of John in Jordan. And straightway coming up out of the water, he saw the heavens opened, and the Spirit like a dove descending upon him: And there came a voice from heaven, saying, Thou art my beloved Son, in whom I am well pleased.",
      "score": 0.76,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "He preached, saying, “After me comes he who is mightier than I, the strap of whose sandals I am not worthy to stoop down and loosen. I baptized you in water, but he will baptize you in the Holy Spirit.” In those days, Jesus came from Nazareth of Galilee, and was baptized by John in the Jordan. Immediately coming up from the water, he saw the heavens parting and the Spirit descending on him like a dove. A voice came out of the sky, “You are my beloved Son, in whom I am well pleased.”",
+      "note": null,
+      "score": 0.79,
+      "shift": 0
+     }
     }
    ]
   }

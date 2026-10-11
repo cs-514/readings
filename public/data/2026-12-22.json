@@ -12,7 +12,13 @@
      "text": "And when she had weaned him, she took him up with her, with three bullocks, and one ephah of flour, and a bottle of wine, and brought him unto the house of the LORD in Shiloh: and the child was young. And they slew a bullock, and brought the child to Eli. And she said, Oh my lord, as thy soul liveth, my lord, I am the woman that stood by thee here, praying unto the LORD. For this child I prayed; and the LORD hath given me my petition which I asked of him: Therefore also I have lent him to the LORD; as long as he liveth he shall be lent to the LORD. And he worshipped the LORD there.",
      "score": 0.38,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "When she had weaned him, she took him up with her, with three bulls, and one ephah of meal, and a container of wine, and brought him to the LORD's house in Shiloh. The child was young. They killed the bull, and brought the child to Eli. She said, “Oh, my lord, as your soul lives, my lord, I am the woman who stood by you here, praying to the LORD. I prayed for this child, and the LORD has given me my petition which I asked of him. Therefore I have also given him to the LORD. As long as he lives he is given to the LORD.” He worshiped the LORD there.",
+      "note": null,
+      "score": 0.41,
+      "shift": 0
+     }
     }
    ]
   },
@@ -25,7 +31,13 @@
      "text": "And Hannah prayed, and said, My heart rejoiceth in the LORD, mine horn is exalted in the LORD: my mouth is enlarged over mine enemies; because I rejoice in thy salvation.\n\nThe bows of the mighty men are broken, and they that stumbled are girded with strength. They that were full have hired out themselves for bread; and they that were hungry ceased: so that the barren hath born seven; and she that hath many children is waxed feeble. The LORD killeth, and maketh alive: he bringeth down to the grave, and bringeth up. The LORD maketh poor, and maketh rich: he bringeth low, and lifteth up. He raiseth up the poor out of the dust, and lifteth up the beggar from the dunghill, to set them among princes, and to make them inherit the throne of glory: for the pillars of the earth are the LORD'S, and he hath set the world upon them.",
      "score": 0.48,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Hannah prayed, and said, “My heart exults in the LORD! My horn is exalted in the LORD. My mouth is enlarged over my enemies, because I rejoice in your salvation.\n\n“The bows of the mighty men are broken. Those who stumbled are armed with strength. Those who were full have hired themselves out for bread. Those who were hungry are satisfied. Yes, the barren has borne seven. She who has many children languishes. “The LORD kills and makes alive. He brings down to Sheol and brings up. The LORD makes poor and makes rich. He brings low, he also lifts up. He raises up the poor out of the dust. He lifts up the needy from the dunghill to make them sit with princes and inherit the throne of glory. For the pillars of the earth are the LORD's. He has set the world on them.",
+      "note": null,
+      "score": 0.52,
+      "shift": 0
+     }
     }
    ]
   },
@@ -38,7 +50,13 @@
      "text": "And Mary said, My soul doth magnify the Lord, And my spirit hath rejoiced in God my Saviour. For he hath regarded the low estate of his handmaiden: for, behold, from henceforth all generations shall call me blessed. For he that is mighty hath done to me great things; and holy is his name. And his mercy is on them that fear him from generation to generation. He hath shewed strength with his arm; he hath scattered the proud in the imagination of their hearts. He hath put down the mighty from their seats, and exalted them of low degree. He hath filled the hungry with good things; and the rich he hath sent empty away. He hath holpen his servant Israel, in remembrance of his mercy; As he spake to our fathers, to Abraham, and to his seed for ever. And Mary abode with her about three months, and returned to her own house.",
      "score": 0.62,
      "shift": 0,
-     "note": null
+     "note": null,
+     "web": {
+      "text": "Mary said, “My soul magnifies the Lord. My spirit has rejoiced in God my Savior, for he has looked at the humble state of his servant. For behold, from now on, all generations will call me blessed. For he who is mighty has done great things for me. Holy is his name. His mercy is for generations and generations on those who fear him. He has shown strength with his arm. He has scattered the proud in the imagination of their hearts. He has put down princes from their thrones, and has exalted the lowly. He has filled the hungry with good things. He has sent the rich away empty. He has given help to Israel, his servant, that he might remember mercy, as he spoke to our fathers, to Abraham and his offspring forever.” Mary stayed with her about three months, and then returned to her house.",
+      "note": null,
+      "score": 0.73,
+      "shift": 0
+     }
     }
    ]
   }
