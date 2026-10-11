@@ -69,3 +69,85 @@ for sid, (path, title) in NEWMAN.items():
 
 BEN = {"ang_20111106": ("https://www.vatican.va/content/benedict-xvi/en/angelus/2011/documents/hf_ben-xvi_ang_20111106.html", "Benedict XVI, Angelus, 6 November 2011")}
 for sid, (u, title) in BEN.items(): web("benedict_" + sid, title, u)
+
+# ---- batch 2: more Catholic Encyclopedia, Augustine Tractates on John (vol 7) and Expositions on the Psalms (vol 8),
+# Imitation of Christ (Gutenberg #1653), all of Newman's Parochial and Plain Sermons, Benedict XVI Angelus/homilies
+from concurrent.futures import ThreadPoolExecutor
+CE2 = {"14515b": "Teresa of Avila, Saint", "07644a": "Ignatius of Antioch, Saint", "13796b": "Simon the Apostle, Saint", "08542b": "Jude, Epistle of Saint",
+       "03619a": "Charles Borromeo, Saint", "09154b": "Leo I (the Great), Pope", "09732b": "Martin of Tours, Saint", "08503b": "Josaphat Kuncevyc, Saint",
+       "05389a": "Elizabeth of Hungary, Saint", "12400a": "Presentation of the Blessed Virgin Mary, Feast of the", "09014b": "Lateran, Saint John",
+       "08420b": "Isaac Jogues, Saint", "02751b": "Brebeuf, Jean de", "01315b": "All Souls' Day", "01315a": "All Saints' Day", "12575a": "Purgatory",
+       "14554c": "Thanksgiving before and after Meals", "14555a": "Thanksgiving Day", "04673a": "Dedication", "11789b": "Pharisees", "12789a": "Resurrection of Jesus Christ",
+       "12792a": "Resurrection, General", "01594b": "Revelation, Book of", "02371a": "Beatitudes, The Eight", "08646a": "Kingdom of God", "01328f": "Alms and Almsgiving",
+       "15666a": "Wisdom, Book of", "08755a": "Lamb, Paschal", "07170a": "Heaven", "11460a": "Parables", "12553d": "Publican", "09096a": "Lazarus", "12345b": "Prayer",
+       "15617c": "Widow", "14495a": "Temple", "14499a": "Temple of Jerusalem", "13287b": "Sabbath", "07207a": "Hell", "07610a": "Hypocrisy", "11703a": "Persecution",
+       "09736b": "Martyr", "01559a": "Antichrist", "10307a": "Millennium and Millenarianism", "08550a": "Judgment, Particular", "10198d": "Mercy, Corporal and Spiritual Works of",
+       "05752c": "Faith", "03592a": "Charity and Charities", "12324a": "Poverty", "15571a": "Wealth, Use of", "07543b": "Humility", "12405a": "Pride", "07465b": "Hope",
+       "06689a": "Grace", "12677d": "Redemption", "05485a": "Ephesians, Epistle to the", "12008a": "Philippians, Epistle to the", "08344a": "Jerusalem (Before A.D. 71)",
+       "03744a": "Church, The", "12406a": "Priest", "02581b": "Bishop", "04171a": "Saints, Communion of", "09420a": "Luke, Gospel of Saint", "10057a": "Matthew, Gospel of Saint",
+       "14746b": "Titus", "11797b": "Philemon", "08435a": "John, Epistles of", "12505b": "Proverbs, Book of", "05737b": "Ezekiel", "12533a": "Psalms", "10711a": "Nathan",
+       "05549a": "Esther", "13323a": "Sadducees", "07687a": "Immortality", "02364a": "Beatific Vision", "08070a": "Intercession", "03637d": "Chastity", "09580b": "Mammon",
+       "04664a": "Decalogue", "04153a": "Ten Commandments, The", "06628a": "Gog and Magog", "05584a": "Eucharist, as a Sacrament", "05590a": "Eucharist, Early Symbols of the",
+       "14335a": "Sunday", "05528b": "Eschatology", "10596a": "Moses", "10156b": "Melchisedech", "09356a": "Prayer, Lord's", "04653a": "Prayers for the Dead",
+       "15464b": "Virgin Mary, The", "13649a": "Seal", "02369a": "Beatitudes, Mount of", "08755b": "Lamb (in Early Christian Symbolism)", "06689x": "Grace, Actual",
+       "09707a": "Marriage, Sacrament of", "05054c": "Divorce (in Moral Theology)"}
+def ce_one(a):
+    cid, name = a
+    try: web(f"ce_{cid}", f"Catholic Encyclopedia, {name}", f"https://www.newadvent.org/cathen/{cid}.htm")
+    except Exception as e: print("FAIL", cid, e)
+with ThreadPoolExecutor(6) as ex: list(ex.map(ce_one, CE2.items()))
+
+def na_one(a):
+    pfx, base, sid = a
+    if os.path.exists(f"{S}/{pfx}_{sid}.txt") and not FORCE: return
+    try:
+        h = get(f"https://www.newadvent.org/fathers/{sid}.htm"); m = re.search(r"<title>([^<]*)</title>", h)
+        write(f"{pfx}_{sid}", f"Augustine, {m.group(1).strip() if m else sid}", f"https://www.newadvent.org/fathers/{sid}.htm", html_text(h))
+    except Exception as e: print("FAIL", sid, e)
+jobs = []
+for pfx, idxid in (("augjn", "1701"), ("augps", "1801")):
+    idx = get(f"https://www.newadvent.org/fathers/{idxid}.htm")
+    jobs += [(pfx, idxid, s) for s in sorted(set(re.findall(rf'fathers/({idxid}\d{{3}})\.htm', idx)))]
+with ThreadPoolExecutor(6) as ex: list(ex.map(na_one, jobs))
+
+if FORCE or not os.path.exists(f"{S}/imitation.txt"):
+    t = get("https://www.gutenberg.org/cache/epub/1653/pg1653.txt")
+    if "*** START" in t: t = t.split("***", 2)[2] if False else t[t.index("*** START"):]
+    if "*** END" in t: t = t[:t.index("*** END")]
+    write("imitation", "Thomas a Kempis, The Imitation of Christ (tr. W. Benham, Project Gutenberg #1653)", "https://www.gutenberg.org/ebooks/1653", t)
+
+def nm_one(a):
+    sid, path, title = a
+    try: web("newman_" + sid, f"John Henry Newman, {title} ({sid.upper().replace('_', '-')})", f"https://www.newmanreader.org/works/{path}.html")
+    except Exception as e: print("FAIL", sid, e)
+nj = []
+for v in range(1, 9):
+    try: ix = get(f"https://www.newmanreader.org/works/parochial/volume{v}/index.html")
+    except Exception as e: print("FAIL vol", v, e); continue
+    for m in re.finditer(r'href="(sermon(\d+)\.html)"[^>]*>(.*?)</a>', ix, re.S):
+        tt = re.sub(r"<[^>]+>|\s+", " ", m.group(3)).strip()
+        nj.append((f"pps{v}_{m.group(2)}", f"parochial/volume{v}/sermon{m.group(2)}", tt))
+with ThreadPoolExecutor(5) as ex: list(ex.map(nm_one, nj))
+
+# ---- Benedict XVI: Angelus, general audiences and homilies dated October-November (2005-2012) plus audiences on saints/Fathers
+BV = "https://www.vatican.va/content/benedict-xvi/en"
+def bn_one(a):
+    kind, y, path = a
+    sid = "benedict_" + path.split("hf_ben-xvi_")[1][:-5].replace("-", "_")
+    if os.path.exists(f"{S}/{sid}.txt") and not FORCE: return
+    try:
+        h = get(f"{BV}/{kind}/{y}/documents/{path}"); m = re.search(r"<title>([^<]*)</title>", h)
+        t = html_text(h)
+        write(sid, "Benedict XVI, " + (m.group(1).strip() if m else sid), f"{BV}/{kind}/{y}/documents/{path}", t)
+    except Exception as e: print("FAIL", path, e)
+bj = []
+for kind in ("angelus", "audiences", "homilies"):
+    for y in range(2005, 2013):
+        try: ix = get(f"{BV}/{kind}/{y}.index.html")
+        except Exception as e: print("FAIL idx", kind, y); continue
+        for p in sorted(set(re.findall(rf'{kind}/{y}/documents/(hf_ben-xvi_[a-z]+_{y}(?:10|11)\d\d[^"]*\.html)', ix))): bj.append((kind, y, p))
+        if kind == "audiences":
+            for p in sorted(set(re.findall(rf'audiences/{y}/documents/(hf_ben-xvi_aud_{y}\d{{4}}[^"]*\.html)', ix))):
+                if (kind, y, p) not in bj: bj.append((kind, y, p))
+print(len(bj), "benedict docs")
+with ThreadPoolExecutor(5) as ex: list(ex.map(bn_one, bj))
