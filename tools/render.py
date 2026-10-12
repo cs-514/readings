@@ -93,7 +93,10 @@ PAGE = """<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{title} \u2013 Mass readings, {date}</title>
 <meta name="description" content="Mass readings for {date} in the King James Version, with an excerpt showing how the Old and New Testaments illuminate each other.">
-<meta name="theme-color" content="#2b1b3d">
+<meta name="theme-color" content="#000000">
+<link rel="icon" type="image/png" sizes="32x32" href="../../icons/favicon-32.png?v=2">
+<link rel="icon" type="image/png" sizes="16x16" href="../../icons/favicon-16.png?v=2">
+<link rel="apple-touch-icon" href="../../icons/apple-touch-icon.png?v=2">
 <link rel="stylesheet" href="../../style.css">
 <script src="../../tr.js"></script>
 {data}</head><body><div class="wrap">
