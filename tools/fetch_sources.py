@@ -151,3 +151,67 @@ for kind in ("angelus", "audiences", "homilies"):
                 if (kind, y, p) not in bj: bj.append((kind, y, p))
 print(len(bj), "benedict docs")
 with ThreadPoolExecutor(5) as ex: list(ex.map(bn_one, bj))
+
+# ---- St Thomas Aquinas (isidore.co/aquinas; newadvent.org/summa)
+# Catena Aurea, tr. under J.H. Newman (Parker, Oxford 1841-45; public domain): one file per Gospel chapter, aq_ca_{mt,mk,lk,jn}_N.
+# Scripture commentaries (isidore.co English pages; modern translations, e.g. Larcher, freely published there): aq_ss_{book}[_N].
+# Summa Theologiae (Fathers of the English Dominican Province, 1920; public domain, newadvent.org): aq_st_{part}_qN.
+ISI = "https://isidore.co/aquinas/english/"
+def get_cp(url):
+    d = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=300).read()
+    try: return d.decode("utf-8")
+    except UnicodeDecodeError: return d.decode("cp1252", "replace")
+CA = {"lk": ("CALuke", "Luke"), "jn": ("CAJohn", "John")}
+def ca_one(k):
+    page, book = CA[k]
+    if os.path.exists(f"{S}/aq_ca_{k}_1.txt") and not FORCE: return
+    try: h = get_cp(ISI + page + ".htm")
+    except Exception as e: print("FAIL", page, e); return
+    parts = re.split(r'<a name="?(\d+)"?[^>]*>', h)
+    for i in range(1, len(parts), 2):
+        n = int(parts[i])
+        if n == 0: continue
+        write(f"aq_ca_{k}_{n}", f"St Thomas Aquinas, Catena Aurea on {book} {n} (tr. J.H. Newman et al., 1841-45)", f"{ISI}{page}.htm#{n}", html_text(parts[i + 1]))
+SSB = ["SSJohn", "SS1Cor", "SS2Cor", "SSGalatians", "SSEph", "SSPhilippians", "SSColossians", "SS1Thes", "SSPhilemon", "SSHebrews", "SSJob", "SSLamentations"]
+def ss_one(page):
+    key = page.replace("SS", "").replace("Chapters", "").lower()
+    if any(f.startswith(f"aq_ss_{key}") for f in os.listdir(S)) and not FORCE: return
+    try: h = get_cp(ISI + page + ".htm")
+    except Exception as e: print("FAIL", page, e); return
+    subs = sorted(set(re.findall(r'href="([A-Za-z0-9]+?(\d+)\.htm)(?:#[^"]*)?"', h)), key=lambda x: int(x[1]))
+    name = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", (re.search(r"<title>(.*?)</title>", h, re.S) or [None, page])[1]))).strip()
+    if subs:
+        for f, n in subs:
+            try: write(f"aq_ss_{key}_{n}", f"St Thomas Aquinas, {name}, ch. {n}", ISI + f, html_text(get_cp(ISI + f)))
+            except Exception as e: print("FAIL", f, e)
+    else: write(f"aq_ss_{key}", f"St Thomas Aquinas, {name}", ISI + page + ".htm", html_text(h))
+ST = {"1": range(1, 120), "2": range(1, 115), "3": range(1, 190), "4": range(1, 91)}   # newadvent ids: 1 = I, 2 = I-II, 3 = II-II, 4 = III
+STN = {"1": "I", "2": "I-II", "3": "II-II", "4": "III"}
+STC = {"1": "1", "2": "1_2", "3": "2_2", "4": "3"}
+def st_one(a):
+    p, q = a; sid = f"aq_st_{STC[p]}_q{q}"
+    if os.path.exists(f"{S}/{sid}.txt") and not FORCE: return
+    u = f"https://www.newadvent.org/summa/{p}{q:03d}.htm"
+    try: write(sid, f"St Thomas Aquinas, Summa Theologiae {STN[p]} q.{q}", u, html_text(get(u)))
+    except Exception as e: print("FAIL", u, e)
+
+# isidore.co's Matthew and Mark pages have lost their quotation marks (U+FFFD in the server copy), so those two
+# Gospels come from CCEL's plain-text edition of the same 1841-45 translation instead (catena1 = Matthew, catena2 = Mark).
+CCEL_CA = {"mt": ("catena1", "Matthew"), "mk": ("catena2", "Mark")}
+def ccel_ca(k):
+    vol, book = CCEL_CA[k]
+    if os.path.exists(f"{S}/aq_ca_{k}_1.txt") and "isidore" not in open(f"{S}/aq_ca_{k}_1.txt").read(300) and not FORCE: return
+    t = get(f"https://www.ccel.org/ccel/a/aquinas/{vol}/cache/{vol}.txt")
+    t = t[:t.rindex("\nReferences")] if "\nReferences" in t else t
+    if k == "mt":   # CCEL omits the "Chapter 11" heading
+        t = t.replace("\n   1. And it came to pass, when Jesus had made an end of commanding", "\nChapter 11\n\n   1. And it came to pass, when Jesus had made an end of commanding", 1)
+        t = "Chapter 1\n" + t[t.index("   Ver. 1. The book of the generation"):]
+    parts = re.split(r"\nChapter (\d+)[^\n]*\n", "\n" + t)
+    for i in range(1, len(parts), 2):
+        n = int(parts[i])
+        write(f"aq_ca_{k}_{n}", f"St Thomas Aquinas, Catena Aurea on {book} {n} (tr. J.H. Newman et al., 1841-45; CCEL)", f"https://www.ccel.org/ccel/aquinas/{vol}", parts[i + 1].strip())
+for k in CCEL_CA:
+    try: ccel_ca(k)
+    except Exception as e: print("FAIL ccel", k, e)
+with ThreadPoolExecutor(4) as ex: list(ex.map(ca_one, CA)); list(ex.map(ss_one, SSB))
+with ThreadPoolExecutor(6) as ex: list(ex.map(st_one, [(p, q) for p, r in ST.items() for q in r]))
