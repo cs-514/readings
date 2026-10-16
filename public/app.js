@@ -46,6 +46,7 @@
   }
 
   function load(date, push) {
+    if (window.speechSynthesis && typeof stopReading === 'function' && reading) stopReading();
     if (!valid(date)) date = todayIso();
     current = date; pick.value = date;
     if (push) history.pushState(null, '', '?date=' + date + (curTr() === 'web' ? '&tr=web' : ''));
@@ -81,5 +82,49 @@
   };
   document.getElementById('copylink').onclick = function () { copy(pageLink(current), 'Link copied'); };
   load(qDate() || todayIso(), false);
+
+  // Read aloud (built-in device voices)
+  var synth = window.speechSynthesis, rBtn = document.getElementById('readaloud'), pBtn = document.getElementById('readpause'), reading = false;
+  if (!synth) rBtn.hidden = true;
+  function bestVoice() {
+    var v = (synth.getVoices() || []).filter(function (x) { return /^en(-|_)/i.test(x.lang); });
+    function score(x) { var n = x.name; return (/premium/i.test(n) ? 40 : /enhanced/i.test(n) ? 30 : 0) + (/en.US/i.test(x.lang) ? 5 : 0) + (/samantha|ava|zoe|evan|nathan|allison|tom/i.test(n) ? 3 : 0) - (/eloquence|novelty|bad news|bells|bubbles|cellos|jester|organ|trinoids|whisper|zarvox|albert|bahh|boing|fred|junior|ralph|kathy|grandma|grandpa|rocko|shelley|reed|sandy|flo|eddy/i.test(n) ? 50 : 0); }
+    return v.sort(function (a, b) { return score(b) - score(a); })[0] || null;
+  }
+  function split(t) {
+    t = t.replace(/https?:\S+/g, '').replace(/\u2014 /g, '').replace(/\. \. \./g, ',');
+    var out = [];
+    t.split(/\n+/).forEach(function (para) {
+      para = para.trim(); if (!para) return;
+      var buf = '';
+      (para.match(/[^.!?;:]+[.!?;:]*["\u201d\u2019]*\s*/g) || [para]).forEach(function (s) {
+        if (buf && (buf + s).length > 220) { out.push(buf.trim()); buf = ''; }
+        buf += s;
+      });
+      if (buf.trim()) out.push(buf.trim());
+    });
+    return out;
+  }
+  function stopReading() { reading = false; synth.cancel(); rBtn.textContent = '\u25b6 Read this page'; pBtn.hidden = true; pBtn.textContent = 'Pause'; }
+  rBtn.onclick = function () {
+    if (reading) { stopReading(); return; }
+    var d = dataCache[current]; if (!d) { toast('Nothing to read for this date'); return; }
+    synth.cancel();
+    var parts = split(plainText(d)), voice = bestVoice(), i = 0;
+    reading = true; rBtn.textContent = '\u25a0 Stop reading'; pBtn.hidden = false;
+    function next() {
+      if (!reading || i >= parts.length) { stopReading(); return; }
+      var u = new SpeechSynthesisUtterance(parts[i++]);
+      if (voice) { u.voice = voice; u.lang = voice.lang; } else u.lang = 'en-US';
+      u.rate = 0.95; u.onend = next; u.onerror = function (e) { if (e.error !== 'interrupted' && e.error !== 'canceled') next(); };
+      synth.speak(u);
+    }
+    next();
+  };
+  pBtn.onclick = function () {
+    if (synth.paused) { synth.resume(); pBtn.textContent = 'Pause'; } else { synth.pause(); pBtn.textContent = 'Resume'; }
+  };
+  if (synth) { synth.getVoices(); synth.onvoiceschanged = function () {}; }
+  window.addEventListener('pagehide', function () { if (reading) stopReading(); });
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(function () {});
 })();
