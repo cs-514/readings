@@ -24,6 +24,17 @@ def check():
         if "<h2>Meditation</h2>" not in h: errs.append(f"{d}: missing the 'Meditation' heading")
         if SUB not in h: errs.append(f"{d}: subheading must read '{SUB}'")
         if re.search(r"LORD['\u2019]S", h): errs.append(f"{d}: 'LORD's' must use a lowercase s")
+        vis = re.sub(r"<script.*?</script>|<style.*?</style>|<[^>]+>", " ", h, flags=re.S)
+        vis = vis.replace("&quot;", '"').replace("&#x27;", "'").replace("&#39;", "'")
+        sq = re.findall(r".{0,25}['\"].{0,25}", vis)
+        if sq: errs.append(f"{d}: straight quotes in page text (use curly quotes): {sq[0]!r}")
+        dd = json.load(open(os.path.join(ROOT, "public", "data", d + ".json")))
+        def walk(o, k=None):
+            if isinstance(o, dict): [walk(v, kk) for kk, v in o.items()]
+            elif isinstance(o, list): [walk(v, k) for v in o]
+            elif isinstance(o, str) and k not in ("date", "source", "url", "label", "id") and not o.startswith("http") and re.search(r"['\"]", o):
+                errs.append(f"{d}: straight quote in {k}: {o[:50]!r}")
+        walk(dd)
         if re.search(r"text of the", h, re.I): errs.append(f"{d}: contains the phrase 'text of the' (removed at user's request)")
     if errs: raise SystemExit("EDITORIAL RULE CHECK FAILED:\n  " + "\n  ".join(errs))
     print("editorial rules: all checks passed")

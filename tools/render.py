@@ -107,6 +107,14 @@ PAGE = """<!doctype html>
 </div></body></html>
 """
 
+NOT_TEXT = {"date", "source", "url", "label", "id"}
+def curl(o, k=None):
+    """Curly quotes on every displayed string (user rule); identifiers and URLs are left alone."""
+    if isinstance(o, dict): return {kk: curl(v, kk) for kk, v in o.items()}
+    if isinstance(o, list): return [curl(v, k) for v in o]
+    if isinstance(o, str) and k not in NOT_TEXT and not o.startswith("http"): return smart(o)
+    return o
+
 def main():
     import rules
     os.makedirs(f"{ROOT}/public/d", exist_ok=True)
@@ -124,6 +132,7 @@ def main():
             d["excerpt"] = {"lead_in": lead, "text": ex["text"], "attribution": ex["attribution"], "source": ex["source"],
                             "url": ex.get("url") or re.search(r"URL: (\S+)", head).group(1)}
             print(date, "excerpt words:", words, "+ lead-in", lw, "- verified verbatim in", ex["source"])
+        d = curl(d)
         json.dump(d, open(f, "w"), indent=1, ensure_ascii=False)
         os.makedirs(f"{ROOT}/public/d/{date}", exist_ok=True)
         art = article(d)

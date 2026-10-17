@@ -40,4 +40,4 @@ Public-domain texts (Augustine NPNF, Newman, Catholic Encyclopedia, Imitation of
 
 ## Editorial rules are enforced in code
 
-`tools/rules.py` runs at the end of every build and aborts it if any of the user's standing rules are broken: Meditation is excerpt plus lead-in only, sources must be on the approved list, omissions use a plain spaced ". . ." (never brackets or "…"), the "Meditation" heading and the KJV subheading must be present, "LORD's" takes a lowercase s, and the phrase "text of the" is not used. When the user corrects something, add a check there, not just a note here.
+`tools/rules.py` runs at the end of every build and aborts it if any of the user's standing rules are broken: Meditation is excerpt plus lead-in only, sources must be on the approved list, omissions use a plain spaced ". . ." (never brackets or "…"), the "Meditation" heading and the KJV subheading must be present, "LORD's" takes a lowercase s, and the phrase "text of the" is not used, and every quote and apostrophe in displayed text is curly (smart), never straight. When the user corrects something, add a check there, not just a note here.

@@ -9,7 +9,7 @@
    "passages": [
     {
      "ref": "Revelation 14:1-3, 4b-5",
-     "text": "And I looked, and, lo, a Lamb stood on the mount Sion, and with him an hundred forty and four thousand, having his Father's name written in their foreheads. And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps: And they sung as it were a new song before the throne, and before the four beasts, and the elders: and no man could learn that song but the hundred and forty and four thousand, which were redeemed from the earth. These are they which were not defiled with women; for they are virgins. These are they which follow the Lamb whithersoever he goeth. These were redeemed from among men, being the firstfruits unto God and to the Lamb. And in their mouth was found no guile: for they are without fault before the throne of God.",
+     "text": "And I looked, and, lo, a Lamb stood on the mount Sion, and with him an hundred forty and four thousand, having his Father’s name written in their foreheads. And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps: And they sung as it were a new song before the throne, and before the four beasts, and the elders: and no man could learn that song but the hundred and forty and four thousand, which were redeemed from the earth. These are they which were not defiled with women; for they are virgins. These are they which follow the Lamb whithersoever he goeth. These were redeemed from among men, being the firstfruits unto God and to the Lamb. And in their mouth was found no guile: for they are without fault before the throne of God.",
      "score": 0.46,
      "shift": 0,
      "note": null,
@@ -28,12 +28,12 @@
    "passages": [
     {
      "ref": "Psalm 24:1bc-2, 3-4ab, 5-6",
-     "text": "The earth is the LORD's, and the fulness thereof; the world, and they that dwell therein.\nFor he hath founded it upon the seas, and established it upon the floods.\nWho shall ascend into the hill of the LORD? or who shall stand in his holy place?\nHe that hath clean hands, and a pure heart; who hath not lifted up his soul unto vanity, nor sworn deceitfully.\nHe shall receive the blessing from the LORD, and righteousness from the God of his salvation.\nThis is the generation of them that seek him, that seek thy face, O Jacob. Selah.",
+     "text": "The earth is the LORD’s, and the fulness thereof; the world, and they that dwell therein.\nFor he hath founded it upon the seas, and established it upon the floods.\nWho shall ascend into the hill of the LORD? or who shall stand in his holy place?\nHe that hath clean hands, and a pure heart; who hath not lifted up his soul unto vanity, nor sworn deceitfully.\nHe shall receive the blessing from the LORD, and righteousness from the God of his salvation.\nThis is the generation of them that seek him, that seek thy face, O Jacob. Selah.",
      "score": 0.68,
      "shift": 0,
      "note": null,
      "web": {
-      "text": "The earth is the LORD's, with its fullness; the world, and those who dwell in it.\nFor he has founded it on the seas, and established it on the floods.\nWho may ascend to the LORD's hill? Who may stand in his holy place?\nHe who has clean hands and a pure heart; who has not lifted up his soul to falsehood, and has not sworn deceitfully.\nHe shall receive a blessing from the LORD, righteousness from the God of his salvation.\nThis is the generation of those who seek Him, who seek your face—even Jacob. Selah.",
+      "text": "The earth is the LORD’s, with its fullness; the world, and those who dwell in it.\nFor he has founded it on the seas, and established it on the floods.\nWho may ascend to the LORD’s hill? Who may stand in his holy place?\nHe who has clean hands and a pure heart; who has not lifted up his soul to falsehood, and has not sworn deceitfully.\nHe shall receive a blessing from the LORD, righteousness from the God of his salvation.\nThis is the generation of those who seek Him, who seek your face—even Jacob. Selah.",
       "note": "Half-verse (24:1bc) could not be divided automatically, so the whole verse is shown.",
       "score": 0.71,
       "shift": 0

@@ -127,3 +127,16 @@ def fetch_range(bid, c1, v1, c2, v2, shift):
         for v in sorted(vs):
             if lo <= v <= hi and (TRANS != "web" or vs[v].strip()): res.append((c, v, vs[v]))
     return res
+
+def smart(t):
+    """Typographic (curly) quotes and apostrophes. User rule: no straight quotes anywhere on the readings page."""
+    if not t or ("'" not in t and '"' not in t): return t
+    t = re.sub(r"(?<=\w)'(?=\w)", "\u2019", t)                                    # don't, LORD's
+    t = re.sub(r"'(?=(tis|twas|twere|em|cause|\d\d)\b)", "\u2019", t, flags=re.I)  # 'tis, '90s
+    out = []; OPEN_AFTER = set(" \t\n\r([{\u2014\u2013/\u201c\u2018\u00a0")
+    for i, ch in enumerate(t):
+        if ch in "'\"":
+            opening = not out or out[-1] in OPEN_AFTER
+            ch = ("\u2018" if opening else "\u2019") if ch == "'" else ("\u201c" if opening else "\u201d")
+        out.append(ch)
+    return "".join(out)
