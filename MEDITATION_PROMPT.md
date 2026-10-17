@@ -37,3 +37,7 @@ Texts live in `sources/*.txt` (committed). Add more with `tools/fetch_sources.py
 
 ## Copyright
 Public-domain texts (Augustine NPNF, Newman, Catholic Encyclopedia, Imitation of Christ, Roman Catechism, Aquinas's Catena Aurea and Summa in the old translations) and Vatican-published texts (CCC, Benedict XVI on vatican.va) are fine. For Tolkien, Lewis and Ratzinger books, and the modern translations of Aquinas's commentaries (Larcher, Lamb, etc., freely published on isidore.co but not public domain), keep to a few sentences and only if actually retrieved.
+
+## Editorial rules are enforced in code
+
+`tools/rules.py` runs at the end of every build and aborts it if any of the user's standing rules are broken: Meditation is excerpt plus lead-in only, sources must be on the approved list, omissions use a plain spaced ". . ." (never brackets or "…"), the "Meditation" heading and the KJV subheading must be present, "LORD's" takes a lowercase s, and the phrase "text of the" is not used. When the user corrects something, add a check there, not just a note here.

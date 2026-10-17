@@ -15,7 +15,7 @@ def norm(t, fn=True):
     return t.lower().strip()
 
 MAX_EXCERPT_WORDS = 200; MAX_LEAD_WORDS = 25; MAX_TOTAL_WORDS = 230
-OMIT_RE = re.compile(r"\s+\. \. \.(?=\s|$)|\s*\[\u2026\]\s*")   # ". . ." (preferred, preceded by a space) or legacy "[\u2026]"
+OMIT_RE = re.compile(r"\s+\. \. \.(?=\s|$)")   # omissions are marked only with a plain spaced ". . ." (user rule)
 def source_text(sid):
     p = f"{ROOT}/sources/{sid}.txt"
     if not os.path.exists(p): raise SystemExit(f"unknown source '{sid}' (no sources/{sid}.txt; run tools/fetch_sources.py)")
@@ -108,6 +108,7 @@ PAGE = """<!doctype html>
 """
 
 def main():
+    import rules
     os.makedirs(f"{ROOT}/public/d", exist_ok=True)
     dates = []
     for f in sorted(glob.glob(f"{ROOT}/public/data/????-??-??.json")):
@@ -133,4 +134,5 @@ def main():
         dates.append(date)
     json.dump({"dates": dates, "generated": datetime.datetime.now(datetime.timezone.utc).isoformat() + "Z"}, open(f"{ROOT}/public/data/index.json", "w"))
     print(len(dates), "days rendered")
+    rules.check()
 main()
