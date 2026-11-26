@@ -16,7 +16,9 @@
     var L = { 'Reading 1': 'First Reading', 'Reading 2': 'Second Reading', 'Responsorial Psalm': 'Psalm' };
     var web = curTr() === 'web';
     var out = [d.title, nice, web ? 'Mass readings, World English Bible, Catholic Edition' : 'Mass readings, King James Version', ''];
+    var opt = null;
     d.readings.forEach(function (r) {
+      if (r.option && r.option !== opt) { opt = r.option; out.push('\u2014 ' + opt + ' \u2014'); out.push(''); }
       var lab = L[r.label] || r.label;
       r.passages.forEach(function (p) {
         out.push(lab + ': ' + p.ref);

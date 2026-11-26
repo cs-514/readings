@@ -11,21 +11,56 @@ def http(url, tries=4):
     raise err
 
 # ---------- USCCB ----------
-def usccb(date):
-    p = f"{ROOT}/cache/usccb/{date}.html"
-    if not os.path.exists(p):
-        d = datetime.date.fromisoformat(date)
-        open(p, "w").write(http(f"https://bible.usccb.org/bible/readings/{d:%m%d%y}.cfm"))
-    h = open(p).read()
-    title = html.unescape(re.search(r'og:title" content="([^"]+?)(?: \| USCCB)?"', h).group(1)).strip()
+LABEL_FIX = {"reading i": "Reading 1", "reading ii": "Reading 2", "first reading": "Reading 1", "second reading": "Reading 2"}
+
+def _usccb_page(path, url):
+    if not os.path.exists(path): open(path, "w").write(http(url))
+    return open(path).read()
+
+def _sections(h):
     secs = []
     for m in re.finditer(r'<h3 class="name">(.*?)</h3>\s*<div class="address">(.*?)</div>\s*</div>\s*<div class="content-body">(.*?)</div>', h, re.S):
         label = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", m.group(1))).strip()
-        refs = [re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", a))).strip() for a in re.findall(r"<a [^>]*>(.*?)</a>", m.group(2), re.S)]
+        label = LABEL_FIX.get(label.lower(), label)
+        refs = [re.sub(r":\s+", ":", re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", a)))).strip().rstrip(".").strip() for a in re.findall(r"<a [^>]*>(.*?)</a>", m.group(2), re.S)]
         body = m.group(3)
         body = re.sub(r"<br\s*/?>", "\n", body); body = re.sub(r"</p>", "\n\n", body)
         body = html.unescape(re.sub(r"<[^>]+>", "", body))
         secs.append({"label": label, "refs": refs, "usccb_text": re.sub(r"\n{3,}", "\n\n", body).strip()})
+    if secs: return secs
+    # Newer USCCB markup (seen from Nov 2026): <header class="content-header"><h3 class="name">LABEL</h3><p class="address">REFS</p></header>
+    # followed by the text paragraphs, up to the next header or the end of the block.
+    for m in re.finditer(r'<header class="content-header">\s*<h3 class="name">(.*?)</h3>\s*(?:<(?:p|div) class="address">(.*?)</(?:p|div)>)?\s*</header>(.*?)(?=<header class="content-header">|</div>)', h, re.S):
+        label = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", m.group(1))).strip()
+        label = LABEL_FIX.get(label.lower(), label)
+        refs = [re.sub(r":\s+", ":", re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", a)))).strip().rstrip(".").strip() for a in re.findall(r"<a [^>]*>(.*?)</a>", m.group(2) or "", re.S)]
+        body = m.group(3)
+        body = re.sub(r"<br\s*/?>", "\n", body); body = re.sub(r"</p>", "\n\n", body)
+        body = html.unescape(re.sub(r"<[^>]+>", "", body)).replace("\xa0", " ")
+        secs.append({"label": label, "refs": refs, "usccb_text": re.sub(r"\n{3,}", "\n\n", body).strip()})
+    return secs
+
+def _title(h):
+    return html.unescape(re.search(r'og:title" content="([^"]+?)(?: \| USCCB)?"', h).group(1)).strip()
+
+def usccb(date):
+    """Returns (title, sections). Some days (Thanksgiving, Christmas, optional US memorials, etc.) have no readings on the
+    main MMDDYY.cfm page, only a list of links to option pages ("Readings for the ..."). In that case every option page is
+    fetched (cached as cache/usccb/DATE~SLUG.html) and each section is tagged with "option" (the option's name)."""
+    d = datetime.date.fromisoformat(date)
+    h = _usccb_page(f"{ROOT}/cache/usccb/{date}.html", f"https://bible.usccb.org/bible/readings/{d:%m%d%y}.cfm")
+    title = _title(h)
+    secs = _sections(h)
+    if not secs:
+        m = re.search(r'<ul class="nested">(.*?)</ul>', h, re.S)
+        for url, text in (re.findall(r'<a href="([^"]+)"[^>]*>(.*?)</a>', m.group(1), re.S) if m else []):
+            url = html.unescape(url)
+            if url.startswith("/"): url = "https://bible.usccb.org" + url
+            slug = re.sub(r"[^A-Za-z0-9]+", "-", url.rsplit("/", 1)[-1].replace(".cfm", "")).strip("-")
+            oh = _usccb_page(f"{ROOT}/cache/usccb/{date}~{slug}.html", url)
+            name = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", text))).strip()
+            if not name or name.startswith("["): name = _title(oh)
+            for s in _sections(oh): s["option"] = name; s["option_url"] = url; secs.append(s)
     return title, secs
 
 # ---------- reference parsing ----------

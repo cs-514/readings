@@ -21,6 +21,17 @@ App URL forms: `/?date=YYYY-MM-DD`, `/?tr=web`.
 readings with no Meditation until `content/` files are added. The daily workflow now prints a warning listing the missing days
 (`tools/coverage.py`).
 
+## USCCB page formats (read this if a day shows no readings)
+- Most days: readings are on `https://bible.usccb.org/bible/readings/MMDDYY.cfm`.
+- **Multi-option days** (Thanksgiving, Christmas, some US-only memorials): the main page only lists links ("Readings for the ...").
+  `tools/lib.py` follows each link, caches it as `cache/usccb/DATE~SLUG.html`, and tags each reading with `option` / `option_url`;
+  the page shows a heading per option (e.g. "Thursday of the Thirty-fourth Week in Ordinary Time", then "Thanksgiving Day").
+- USCCB changed its HTML in Nov 2026 (`<header class="content-header">` instead of `<div class="address">`). `tools/lib.py` parses both.
+- If a day still parses with zero readings, `tools/build.py` prints a `::warning title=No readings parsed::` annotation in the
+  Actions run, and the page shows a link to USCCB instead of a blank page. Fetched USCCB pages are cached in `cache/usccb/`;
+  delete a day's file there to force a re-fetch.
+- Build dates are computed in US Eastern time (the runner clock is UTC), starting one day back.
+
 ## Daily automation (already running)
 `.github/workflows/daily.yml` (workflow name `daily-build`):
 - Triggers: cron `15 4 * * *` (04:15 UTC ≈ 11:15 PM ET; GitHub often starts it later), every push to `main`, and manual `workflow_dispatch`.

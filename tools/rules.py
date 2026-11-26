@@ -32,7 +32,7 @@ def check():
         def walk(o, k=None):
             if isinstance(o, dict): [walk(v, kk) for kk, v in o.items()]
             elif isinstance(o, list): [walk(v, k) for v in o]
-            elif isinstance(o, str) and k not in ("date", "source", "url", "label", "id") and not o.startswith("http") and re.search(r"['\"]", o):
+            elif isinstance(o, str) and k not in ("date", "source", "url", "label", "id", "option_url") and not o.startswith("http") and re.search(r"['\"]", o):
                 errs.append(f"{d}: straight quote in {k}: {o[:50]!r}")
         walk(dd)
         if re.search(r"text of the", h, re.I): errs.append(f"{d}: contains the phrase 'text of the' (removed at user's request)")

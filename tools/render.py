@@ -55,7 +55,13 @@ def article(d):
     h = [f'<article lang="en" id="reading">', "<header>", f"<h1>{esc(d['title'])}</h1>",
          f'<p class="date"><time datetime="{d["date"]}">{nice}</time></p>',
          '<p class="sub"><span class="tr-kjv">Mass readings (USCCB lectionary), King James Version</span><span class="tr-web">Mass readings (USCCB lectionary), World English Bible, Catholic Edition</span></p>', "</header>"]
+    if not d["readings"]:
+        h.append(f'<section><p class="missing">The readings for this day could not be loaded automatically. See the <a href="{d["source"]}">USCCB daily readings</a>.</p></section>')
+    opt = None
     for r in d["readings"]:
+        if r.get("option") and r["option"] != opt:
+            opt = r["option"]
+            h.append(f'<p class="option"><a href="{esc(r.get("option_url") or d["source"])}">{esc(opt)}</a></p>')
         lab = LABELS.get(r["label"], r["label"])
         h.append(f"<section><h2>{esc(lab)}</h2>")
         psalm = lab == "Psalm"
@@ -107,7 +113,7 @@ PAGE = """<!doctype html>
 </div></body></html>
 """
 
-NOT_TEXT = {"date", "source", "url", "label", "id"}
+NOT_TEXT = {"date", "source", "url", "label", "id", "option_url"}
 def curl(o, k=None):
     """Curly quotes on every displayed string (user rule); identifiers and URLs are left alone."""
     if isinstance(o, dict): return {kk: curl(v, kk) for kk, v in o.items()}

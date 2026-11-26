@@ -4,7 +4,7 @@
  "source": "https://bible.usccb.org/bible/readings/010327.cfm",
  "readings": [
   {
-   "label": "Reading I",
+   "label": "Reading 1",
    "ref": "Isaiah 60:1-6",
    "passages": [
     {
@@ -24,10 +24,10 @@
   },
   {
    "label": "Responsorial Psalm",
-   "ref": "Psalm 72:1-2, 7-8, 10-11, 12-13.",
+   "ref": "Psalm 72:1-2, 7-8, 10-11, 12-13",
    "passages": [
     {
-     "ref": "Psalm 72:1-2, 7-8, 10-11, 12-13.",
+     "ref": "Psalm 72:1-2, 7-8, 10-11, 12-13",
      "text": "Give the king thy judgments, O God, and thy righteousness unto the king’s son.\nHe shall judge thy people with righteousness, and thy poor with judgment.\n\nIn his days shall the righteous flourish; and abundance of peace so long as the moon endureth.\nHe shall have dominion also from sea to sea, and from the river unto the ends of the earth.\n\nThe kings of Tarshish and of the isles shall bring presents: the kings of Sheba and Seba shall offer gifts.\nYea, all kings shall fall down before him: all nations shall serve him.\nFor he shall deliver the needy when he crieth; the poor also, and him that hath no helper.\nHe shall spare the poor and needy, and shall save the souls of the needy.",
      "score": 0.5,
      "shift": 0,
@@ -42,7 +42,7 @@
    ]
   },
   {
-   "label": "Reading II",
+   "label": "Reading 2",
    "ref": "Ephesians 3:2-3a, 5-6",
    "passages": [
     {

@@ -174,6 +174,7 @@ def build_day(date):
         refs = s["refs"]
         if not refs: continue
         item = {"label": s["label"], "ref": "; ".join(refs), "passages": []}
+        if s.get("option"): item["option"] = s["option"]; item["option_url"] = s["option_url"]
         for r in refs:
             lib.TRANS = "kjv"; p = build_ref(r, s["usccb_text"])
             lib.TRANS = "web"
@@ -188,10 +189,14 @@ def build_day(date):
 if __name__ == "__main__":
     a = sys.argv[1:]
     if a and a[0] == "--days":
-        t = datetime.date.today(); dates = [(t + datetime.timedelta(i)).isoformat() for i in range(int(a[1]))]
+        # Dates are US Eastern (the runner clock is UTC); start one day back so "today" is always rebuilt.
+        from zoneinfo import ZoneInfo
+        t = datetime.datetime.now(ZoneInfo("America/New_York")).date() - datetime.timedelta(1); dates = [(t + datetime.timedelta(i)).isoformat() for i in range(int(a[1]))]
     else: dates = a
     for d in dates:
         try: o = build_day(d)
         except Exception as e: print(d, "FAILED", repr(e)); continue
+        if not o["readings"]:
+            print(f"::warning title=No readings parsed::{d}: no readings found on the USCCB page ({o['source']}); the page format may have changed")
         json.dump(o, open(f"{ROOT}/public/data/{d}.json", "w"), indent=1, ensure_ascii=False)
         print(d, o["title"][:50], [(r["label"][:8], r["ref"], [(p.get("score"), p.get("shift"), p["text"] is None) for p in r["passages"]]) for r in o["readings"]])
