@@ -8,6 +8,9 @@ jobs:
       - uses: actions/checkout@v4
       - run: mkdir -p cache/usccb cache/kjv cache/na public/data public/d
       - run: python3 tools/build.py --days 45 && python3 tools/render.py
+      - name: Meditation coverage (warning only)
+        run: python3 tools/coverage.py --gh
+        continue-on-error: true
       - uses: actions/upload-pages-artifact@v3
         with: {path: public}
   deploy:
